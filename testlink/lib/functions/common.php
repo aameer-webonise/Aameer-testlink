@@ -1099,7 +1099,20 @@ function downloadXLSFile($testsuiteData,$testcase,$tcversions,$steps,$fileName){
 				$innerSize=count($testcase[$j]['name']);
 				$objPHPExcel->setActiveSheetIndex(0)->setCellValue('A'.$col, $testsuiteData[$j]['name']);
 				for($i=0;$i<$innerSize;$i++){
-					$execution_type=$tcversions[$testcase[$j]['id'][$i]]['execution_type']==1?'Manual':'Automated';
+					//$execution_type=$tcversions[$testcase[$j]['id'][$i]]['execution_type']==1?'Manual':'Automated';
+					if($tcversions[$testcase[$j]['id'][$i]]['execution_type']==1)
+					{
+						$execution_type='Manual';
+					}
+					else{
+						if($tcversions[$testcase[$j]['id'][$i]]['execution_type']==2)
+						{
+							$execution_type='Automated';
+						}
+						else{
+							$execution_type='Automatable';
+						}
+					}
 					$testCaseID=$testcase[$j]['id'][$i];
 					//echo 'ID='.$testCaseID.' name='.$testcase[$j]['name'][$i];
 					//print_r('|'.$testcase[$j]['name'][$i]);

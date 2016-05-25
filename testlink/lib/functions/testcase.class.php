@@ -45,7 +45,7 @@ class testcase extends tlObjectWithAttachments
   const NOXMLHEADER=true;    
   const EXECUTION_TYPE_MANUAL = 1;
   const EXECUTION_TYPE_AUTO = 2;
-
+  const EXECUTION_TYPE_AUTOMABLE=3;
         
     
   /** @var database handler */
@@ -117,7 +117,9 @@ class testcase extends tlObjectWithAttachments
   static function getExecutionTypes()
   {
     $stdSet = array(self::EXECUTION_TYPE_MANUAL => lang_get('manual'),
-                    self::EXECUTION_TYPE_AUTO => lang_get('automated'));
+                    self::EXECUTION_TYPE_AUTO => lang_get('automated'),
+					self::EXECUTION_TYPE_AUTOMABLE => 'Automatable'
+					);
    
     if( !is_null($customSet = config_get('custom_execution_types')) )
     {

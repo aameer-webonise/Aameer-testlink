@@ -724,7 +724,19 @@ for($idx = FIRST_DATA_ROW,$i=0; $idx <= $xls_row_qty; $idx++,$i++)
 		$testcases[$i]['precondition']=$precondition;
 		
 		$execution_type = $objXLS->getSheet(0)->getCell('D'.$idx)->getValue();
-		$testcases[$i]['execution_type']=strcmp($execution_type,'Manual')?'2':'1';
+		//$testcases[$i]['execution_type']=strcmp($execution_type,'Manual')?'2':'1';
+		if(strcmp($execution_type,'Manual')==0)
+		{
+			$testcases[$i]['execution_type']=1;
+		}
+		else{
+			if(strcmp($execution_type,'Automated')==0){
+				$testcases[$i]['execution_type']=2;
+			}
+			else{
+				$testcases[$i]['execution_type']=3;
+			}
+		}
 		
 		$testcases[$i]['steps']=array();
 		$j=0;
