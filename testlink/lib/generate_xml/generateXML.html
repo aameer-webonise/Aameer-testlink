@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="/testlink/third_party/jquery/jquery-2.0.3.min.js"></script>
+<script>
+$(document).ready(function(){
+	var fieldCounter=1;
+	var keyNamePrefix='key';
+	var valueNamePrefix='value';
+    $(".btnAdd").click(function(){
+        fieldCounter++;
+     //   $('.wrapper').append('<div><input type="text" name="key'+fieldCounter+'"/><input type="text" name="value'+fieldCounter+'"/><a href="#" class="remove_field">Remove</a></div>');
+        $('.wrapper').append('<div id="'+fieldCounter+'"><input type="text" name="'+keyNamePrefix+fieldCounter+'"/><input type="text" name="'+valueNamePrefix+fieldCounter+'"/><a href="#" class="remove_field">Remove</a></div>');
+    });
+    
+    $('.wrapper').on("click",".remove_field",function(){
+    	var id=parseInt($(this).parent('div').attr('id'));
+    	$(this).parent('div').remove();
+    	
+    	var i=id+1;
+    	for(;i<=fieldCounter;id++,i++){
+    		$('#'+i).attr('id',id);
+    		$('input[name=key'+i+']').attr('name',keyNamePrefix+id);
+    		$('input[name=value'+i+']').attr('name',valueNamePrefix+id);
+    	}
+    	fieldCounter--;
+    });
+    
+    $('.wrapperFrom').submit(function() {
+  		document.cookie ="count = "+fieldCounter;
+  		return true;
+	});
+});
+</script>
+</head>
+<body>
+<form action='GenerateXML.php' method="post" class="wrapperFrom">
+	<input type='button' class='btnAdd' value="Add">
+	<input type='submit' class='btnSubmit' value="Submit">
+	<input type="hidden" name="counter">
+	<div class='wrapper'>
+		<div><input type="text" name='key1' id='1'><input type="text" name='value1'></div>
+	</div>
+</form>
+</body>
+</html>

@@ -1,0 +1,10 @@
+[<<][573adb27d59ed409878815][DEFAULT][/testlink/lib/cfields/cfieldsView.php][16/May/17 08:49:43][16/May/17 08:49:43][took 0.03441 secs]
+[>>][573adb27df5c5531053170][DEFAULT][/testlink/lib/cfields/cfieldsView.php][16/May/17 08:49:43]
+[<<][573adb2993305666300455][DEFAULT][/testlink/lib/cfields/cfieldsEdit.php][16/May/17 08:49:45][16/May/17 08:49:45][took 0.034823 secs]
+[>>][573adb299bc13011601799][DEFAULT][/testlink/lib/cfields/cfieldsEdit.php][16/May/17 08:49:45]
+[<<][573adb5ae204a325561906][DEFAULT][/testlink/lib/cfields/cfieldsEdit.php][16/May/17 08:50:34][16/May/17 08:50:34][took 0.035292 secs]
+[>>][573adb5aeab11813416869][DEFAULT][/testlink/lib/cfields/cfieldsEdit.php][16/May/17 08:50:34]
+	[16/May/17 08:50:35][AUDIT][t7mfc7kfl99l4oqobg4v95idc4][GUI]
+		Custom field 'Automation name' was created
+	[16/May/17 08:50:35][AUDIT][t7mfc7kfl99l4oqobg4v95idc4][GUI]
+		Custom field 'Automation name' was assigned to Test Project 'Burnett & Bradley'

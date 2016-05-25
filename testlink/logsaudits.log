@@ -1,0 +1,2814 @@
+	[16/Jan/12 08:31:09][AUDIT][glv67fl4fses45i9p0eg8q4453][GUI]
+		Login for 'admin' from '::1' succeeded
+	[16/Jan/12 08:31:36][AUDIT][glv67fl4fses45i9p0eg8q4453][GUI]
+		Test Project 'Demo' was created
+	[16/Jan/12 08:33:10][AUDIT][1838oapnoqrshj63gchk1ibbg1][GUI]
+		Login for 'admin' from '10.0.0.100' succeeded
+	[16/Jan/12 08:37:25][AUDIT][45roap1gnertcmhnil747qsbk5][GUI]
+		Login for 'admin' from '10.0.1.163' succeeded
+	[16/Jan/14 08:37:02][AUDIT][glv67fl4fses45i9p0eg8q4453][GUI]
+		Test Project 'Demo' - Test Plan 'Demo Plan' was created
+	[16/Jan/14 08:37:02][AUDIT][glv67fl4fses45i9p0eg8q4453][GUI]
+		User 'admin' was assigned the role 'admin' to the Test Plan 'Demo Plan'
+	[16/Jan/14 08:39:57][AUDIT][glv67fl4fses45i9p0eg8q4453][GUI]
+		Test Project 'Demo' - Test Plan 'Demo Plan' was saved
+	[16/Jan/14 08:40:13][AUDIT][glv67fl4fses45i9p0eg8q4453][GUI]
+		Test Project 'Demo' - Test Plan 'Demo Plan' - Build 'Demo Build' was created
+	[16/Jan/15 14:23:54][AUDIT][e5g5t930pjsmbm08tiskfjv0u4][GUI]
+		Test Project 'Test Project' was created
+	[16/Jan/15 14:24:52][AUDIT][e5g5t930pjsmbm08tiskfjv0u4][GUI]
+		Test Project 'Test Project' was saved
+	[16/Jan/18 05:32:10][AUDIT][4m6l3snu747q963af8fgs2glh3][GUI]
+		Login for 'admin' from '10.0.0.240' succeeded
+	[16/Jan/18 05:33:24][AUDIT][4m6l3snu747q963af8fgs2glh3][GUI]
+		Logout of 'admin'
+	[16/Jan/18 06:14:50][AUDIT][<nosession>][GUI]
+		User 'rajat.sharma@weboniselab.com' created by self-sign up
+	[16/Jan/18 06:15:02][AUDIT][1d1rh60upumf0ocvu2g8vepdo3][GUI]
+		Login for 'rajat.sharma@weboniselab.com' from '10.0.1.45' succeeded
+	[16/Jan/18 06:21:43][AUDIT][4m6l3snu747q963af8fgs2glh3][GUI]
+		Login for 'admin' from '10.0.0.240' succeeded
+	[16/Jan/18 06:47:31][AUDIT][<nosession>][GUI]
+		User 'Atul Sasikumar' created by self-sign up
+	[16/Jan/18 06:49:50][AUDIT][s1rbpjlc909d707fpt9ib0bi72][GUI]
+		Login for 'admin' from '10.0.2.74' succeeded
+	[16/Jan/18 06:58:04][AUDIT][s1rbpjlc909d707fpt9ib0bi72][GUI]
+		Test Project 'Test Project 1' was created
+	[16/Jan/18 07:01:56][AUDIT][s1rbpjlc909d707fpt9ib0bi72][GUI]
+		Test Project 'Test Project 1' - Test Plan 'Test Project 1' was created
+	[16/Jan/18 07:05:39][AUDIT][s1rbpjlc909d707fpt9ib0bi72][GUI]
+		Test Project 'Test Project 1' - Test Plan 'Test Project 1' - Build 'Login' was created
+	[16/Jan/18 07:06:11][AUDIT][s1rbpjlc909d707fpt9ib0bi72][GUI]
+		Test Project 'Test Project 1' - Test Plan 'Test Project 1' - Build 'Login' was saved
+	[16/Jan/18 07:07:13][AUDIT][s1rbpjlc909d707fpt9ib0bi72][GUI]
+		Test Plan 'Test Project 1' - Milestone 'Milestone TP 1' was created
+	[16/Jan/18 07:10:54][AUDIT][s1rbpjlc909d707fpt9ib0bi72][GUI]
+		Test Project 'Test Project 1' - Requirement specification 'Login Requirement' was created
+	[16/Jan/18 07:33:17][AUDIT][s1rbpjlc909d707fpt9ib0bi72][GUI]
+		Test Case 'Demo-1 : Demo Case' version 1 was added to Test Plan Demo Plan
+	[16/Jan/18 07:33:17][AUDIT][s1rbpjlc909d707fpt9ib0bi72][GUI]
+		Test Case 'Demo-2 : test case 2' version 1 was added to Test Plan Demo Plan
+	[16/Jan/18 10:50:59][AUDIT][rptbb146a6k66sjhtdn432jdh5][GUI]
+		Login for 'admin' from '10.0.0.176' succeeded
+	[16/Jan/19 07:20:03][AUDIT][4m6l3snu747q963af8fgs2glh3][GUI]
+		Login for 'admin' from '10.0.0.240' succeeded
+	[16/Jan/19 07:22:57][AUDIT][4m6l3snu747q963af8fgs2glh3][GUI]
+		User 'priyanka' was assigned the role 'senior tester' to the Test Project 'Test Project'
+	[16/Jan/19 07:22:57][AUDIT][4m6l3snu747q963af8fgs2glh3][GUI]
+		User 'rajat.sharma@weboniselab.com' was assigned the role 'tester' to the Test Project 'Test Project'
+	[16/Jan/19 07:37:52][AUDIT][glv67fl4fses45i9p0eg8q4453][GUI]
+		Login for 'admin' from '::1' succeeded
+	[16/Jan/19 08:51:39][AUDIT][kf6fhapo6m7p4p1mtv25tfl9q3][GUI]
+		Login for 'admin' from '10.0.1.138' succeeded
+	[16/Jan/19 08:53:08][AUDIT][kf6fhapo6m7p4p1mtv25tfl9q3][GUI]
+		Logout of 'admin'
+	[16/Jan/19 08:53:15][AUDIT][kf6fhapo6m7p4p1mtv25tfl9q3][GUI]
+		Login for 'admin' from '10.0.1.138' succeeded
+	[16/Jan/19 09:01:50][AUDIT][kf6fhapo6m7p4p1mtv25tfl9q3][GUI]
+		Logout of 'admin'
+	[16/Jan/19 11:46:54][AUDIT][kf6fhapo6m7p4p1mtv25tfl9q3][GUI]
+		Login for 'admin' from '10.0.1.138' succeeded
+	[16/Jan/19 11:57:06][AUDIT][9q6s0r75h8m16slkc9q9mu7r17][GUI]
+		Login for 'admin' from '10.0.0.202' succeeded
+	[16/Jan/19 12:02:37][AUDIT][kf6fhapo6m7p4p1mtv25tfl9q3][GUI]
+		Logout of 'admin'
+	[16/Jan/19 12:03:00][AUDIT][kf6fhapo6m7p4p1mtv25tfl9q3][GUI]
+		Login for 'admin' from '10.0.1.138' succeeded
+	[16/Jan/19 12:08:49][AUDIT][4m6l3snu747q963af8fgs2glh3][GUI]
+		Role 'senior tester' was saved
+	[16/Jan/19 12:10:29][AUDIT][4m6l3snu747q963af8fgs2glh3][GUI]
+		Role 'senior tester' was saved
+	[16/Jan/19 12:10:48][AUDIT][4m6l3snu747q963af8fgs2glh3][GUI]
+		Role 'leader' was saved
+	[16/Jan/19 12:11:19][AUDIT][4m6l3snu747q963af8fgs2glh3][GUI]
+		User 'priyanka' was assigned the role 'senior tester' to the Test Plan 'Demo Plan'
+	[16/Jan/19 12:52:20][AUDIT][9q6s0r75h8m16slkc9q9mu7r17][GUI]
+		Logout of 'admin'
+	[16/Jan/19 12:52:27][AUDIT][<nosession>][GUI]
+		Login for 'priyanka' from '10.0.0.202' failed
+	[16/Jan/19 12:52:34][AUDIT][<nosession>][GUI]
+		Login for 'priyanka' from '10.0.0.202' failed
+	[16/Jan/19 12:52:42][AUDIT][9q6s0r75h8m16slkc9q9mu7r17][GUI]
+		Login for 'priyanka' from '10.0.0.202' succeeded
+	[16/Jan/19 12:54:12][AUDIT][4m6l3snu747q963af8fgs2glh3][GUI]
+		Logout of 'admin'
+	[16/Jan/19 12:54:19][AUDIT][4m6l3snu747q963af8fgs2glh3][GUI]
+		Login for 'priyanka' from '10.0.0.240' succeeded
+	[16/Jan/19 12:55:17][AUDIT][4m6l3snu747q963af8fgs2glh3][GUI]
+		Logout of 'priyanka'
+	[16/Jan/19 12:55:21][AUDIT][4m6l3snu747q963af8fgs2glh3][GUI]
+		Login for 'admin' from '10.0.0.240' succeeded
+	[16/Jan/19 12:56:34][AUDIT][4m6l3snu747q963af8fgs2glh3][GUI]
+		User 'priyanka' was saved
+	[16/Jan/19 12:57:35][AUDIT][4m6l3snu747q963af8fgs2glh3][GUI]
+		Logout of 'admin'
+	[16/Jan/19 12:57:43][AUDIT][4m6l3snu747q963af8fgs2glh3][GUI]
+		Login for 'priyanka' from '10.0.0.240' succeeded
+	[16/Jan/19 12:58:08][AUDIT][4m6l3snu747q963af8fgs2glh3][GUI]
+		Logout of 'priyanka'
+	[16/Jan/20 05:40:05][AUDIT][4m6l3snu747q963af8fgs2glh3][GUI]
+		Login for 'admin' from '10.0.0.240' succeeded
+	[16/Jan/20 05:40:10][AUDIT][4m6l3snu747q963af8fgs2glh3][GUI]
+		Logout of 'admin'
+	[16/Jan/20 05:50:36][AUDIT][4m6l3snu747q963af8fgs2glh3][GUI]
+		Login for 'admin' from '10.0.0.240' succeeded
+	[16/Jan/20 10:36:27][AUDIT][irjrl0j3klgkof8ucjdodn1ie5][GUI]
+		Login for 'admin' from '10.0.2.201' succeeded
+	[16/Jan/20 10:45:23][AUDIT][3qeu41932vcfn5nfcmu7dvg6b4][GUI]
+		Login for 'admin' from '10.0.1.142' succeeded
+	[16/Jan/20 10:59:21][AUDIT][kl0q5bb20tk2053otjni6po5c2][GUI]
+		Login for 'admin' from '10.0.1.138' succeeded
+	[16/Jan/20 11:15:49][AUDIT][4m6l3snu747q963af8fgs2glh3][GUI]
+		Test Project 'Demo' - Test Plan 'Test plan 1' - Build 'TEST BUILD' was created
+	[16/Jan/20 11:22:16][AUDIT][4m6l3snu747q963af8fgs2glh3][GUI]
+		Logout of 'admin'
+	[16/Jan/20 11:23:03][AUDIT][4m6l3snu747q963af8fgs2glh3][GUI]
+		Login for 'priyanka' from '10.0.0.240' succeeded
+	[16/Jan/20 11:23:22][AUDIT][4m6l3snu747q963af8fgs2glh3][GUI]
+		Logout of 'priyanka'
+	[16/Jan/20 11:23:28][AUDIT][4m6l3snu747q963af8fgs2glh3][GUI]
+		Login for 'admin' from '10.0.0.240' succeeded
+	[16/Jan/20 11:40:37][AUDIT][fe19cop2sr5s9stee7c4c5nqc3][GUI]
+		Login for 'admin' from '10.0.3.247' succeeded
+	[16/Jan/20 11:42:23][AUDIT][fe19cop2sr5s9stee7c4c5nqc3][GUI]
+		User 'Harshali' was created
+	[16/Jan/20 11:43:00][AUDIT][fe19cop2sr5s9stee7c4c5nqc3][GUI]
+		User 'Harshali' was saved
+	[16/Jan/20 11:43:20][AUDIT][fe19cop2sr5s9stee7c4c5nqc3][GUI]
+		Logout of 'admin'
+	[16/Jan/20 11:43:29][AUDIT][fe19cop2sr5s9stee7c4c5nqc3][GUI]
+		Login for 'harshali' from '10.0.3.247' succeeded
+	[16/Jan/20 11:44:43][AUDIT][fe19cop2sr5s9stee7c4c5nqc3][GUI]
+		Logout of 'Harshali'
+	[16/Jan/20 11:44:48][AUDIT][fe19cop2sr5s9stee7c4c5nqc3][GUI]
+		Login for 'admin' from '10.0.3.247' succeeded
+	[16/Jan/20 11:53:50][AUDIT][fe19cop2sr5s9stee7c4c5nqc3][GUI]
+		Logout of 'admin'
+	[16/Jan/20 11:59:07][AUDIT][kl0q5bb20tk2053otjni6po5c2][GUI]
+		User 'pratik' was created
+	[16/Jan/20 12:01:58][AUDIT][kl0q5bb20tk2053otjni6po5c2][GUI]
+		Logout of 'admin'
+	[16/Jan/20 12:02:34][AUDIT][kl0q5bb20tk2053otjni6po5c2][GUI]
+		Login for 'pratik' from '10.0.1.138' succeeded
+	[16/Jan/20 12:06:12][AUDIT][kl0q5bb20tk2053otjni6po5c2][GUI]
+		Test Project 'Demolition' was created
+	[16/Jan/20 12:06:53][AUDIT][kl0q5bb20tk2053otjni6po5c2][GUI]
+		Test Project 'Demolition' was saved
+	[16/Jan/20 12:10:31][AUDIT][kl0q5bb20tk2053otjni6po5c2][GUI]
+		Test Project 'Demolition' was saved
+	[16/Jan/20 12:12:06][AUDIT][po21fpqsc962cpj9du4ajlsus6][GUI]
+		Login for 'admin' from '10.0.0.198' succeeded
+	[16/Jan/20 12:15:33][AUDIT][po21fpqsc962cpj9du4ajlsus6][GUI]
+		User 'Deepika' was created
+	[16/Jan/20 12:17:43][AUDIT][2glc9gptoim482p6k8adqpsb75][GUI]
+		Login for 'admin' from '10.0.0.235' succeeded
+	[16/Jan/20 12:20:30][AUDIT][2glc9gptoim482p6k8adqpsb75][GUI]
+		User 'ameyk' was created
+	[16/Jan/20 12:20:53][AUDIT][2glc9gptoim482p6k8adqpsb75][GUI]
+		Logout of 'admin'
+	[16/Jan/20 12:21:03][AUDIT][2glc9gptoim482p6k8adqpsb75][GUI]
+		Login for 'ameyk' from '10.0.0.235' succeeded
+	[16/Jan/20 12:21:21][AUDIT][po21fpqsc962cpj9du4ajlsus6][GUI]
+		Test Project 'USAF' was created
+	[16/Jan/20 12:23:50][AUDIT][2glc9gptoim482p6k8adqpsb75][GUI]
+		Logout of 'ameyk'
+	[16/Jan/20 12:24:02][AUDIT][fe19cop2sr5s9stee7c4c5nqc3][GUI]
+		Login for 'harshali' from '10.0.3.247' succeeded
+	[16/Jan/20 12:24:09][AUDIT][fe19cop2sr5s9stee7c4c5nqc3][GUI]
+		Logout of 'Harshali'
+	[16/Jan/20 12:24:30][AUDIT][fe19cop2sr5s9stee7c4c5nqc3][GUI]
+		Login for 'admin' from '10.0.3.247' succeeded
+	[16/Jan/20 12:25:24][AUDIT][fe19cop2sr5s9stee7c4c5nqc3][GUI]
+		Logout of 'admin'
+	[16/Jan/20 12:29:22][AUDIT][2eequh9iblrtnjam2j5b7ga0b0][GUI]
+		Login for 'rajat.sharma@weboniselab.com' from '10.0.1.45' succeeded
+	[16/Jan/20 12:30:53][AUDIT][2eequh9iblrtnjam2j5b7ga0b0][GUI]
+		Logout of 'rajat.sharma@weboniselab.com'
+	[16/Jan/20 12:31:04][AUDIT][2eequh9iblrtnjam2j5b7ga0b0][GUI]
+		Login for 'rajat.sharma@weboniselab.com' from '10.0.1.45' succeeded
+	[16/Jan/20 12:37:56][AUDIT][igm999gseb5tvlnq1djbsd8k13][GUI]
+		Login for 'admin' from '10.0.2.134' succeeded
+	[16/Jan/20 12:41:39][AUDIT][kl0q5bb20tk2053otjni6po5c2][GUI]
+		Logout of 'pratik'
+	[16/Jan/20 12:41:45][AUDIT][kl0q5bb20tk2053otjni6po5c2][GUI]
+		Login for 'admin' from '10.0.1.138' succeeded
+	[16/Jan/20 12:43:51][AUDIT][kl0q5bb20tk2053otjni6po5c2][GUI]
+		Logout of 'admin'
+	[16/Jan/20 12:51:55][AUDIT][kl0q5bb20tk2053otjni6po5c2][GUI]
+		Login for 'admin' from '10.0.1.138' succeeded
+	[16/Jan/20 12:53:35][AUDIT][kl0q5bb20tk2053otjni6po5c2][GUI]
+		Logout of 'admin'
+	[16/Jan/20 12:54:02][AUDIT][2eequh9iblrtnjam2j5b7ga0b0][GUI]
+		Logout of 'rajat.sharma@weboniselab.com'
+	[16/Jan/20 12:54:39][AUDIT][igm999gseb5tvlnq1djbsd8k13][GUI]
+		Logout of 'admin'
+	[16/Jan/20 13:06:21][AUDIT][irjrl0j3klgkof8ucjdodn1ie5][GUI]
+		User 'tanushree' was created
+	[16/Jan/20 13:15:14][AUDIT][3qeu41932vcfn5nfcmu7dvg6b4][GUI]
+		Test Project 'LMC' was created
+	[16/Jan/20 13:17:12][AUDIT][3qeu41932vcfn5nfcmu7dvg6b4][GUI]
+		User 'Reshma' was created
+	[16/Jan/20 13:18:00][AUDIT][3qeu41932vcfn5nfcmu7dvg6b4][GUI]
+		Test Project 'USAB' was created
+	[16/Jan/20 13:22:04][AUDIT][irjrl0j3klgkof8ucjdodn1ie5][GUI]
+		Test Project 'CF Classic folios' was created
+	[16/Jan/20 13:24:11][AUDIT][irjrl0j3klgkof8ucjdodn1ie5][GUI]
+		User 'Deepika' was assigned the role 'guest' to the Test Project 'CF Classic folios'
+	[16/Jan/20 13:24:11][AUDIT][irjrl0j3klgkof8ucjdodn1ie5][GUI]
+		User 'Harshali' was assigned the role 'guest' to the Test Project 'CF Classic folios'
+	[16/Jan/20 13:24:11][AUDIT][irjrl0j3klgkof8ucjdodn1ie5][GUI]
+		User 'pratik' was assigned the role 'guest' to the Test Project 'CF Classic folios'
+	[16/Jan/20 13:24:11][AUDIT][irjrl0j3klgkof8ucjdodn1ie5][GUI]
+		User 'priyanka' was assigned the role 'guest' to the Test Project 'CF Classic folios'
+	[16/Jan/20 13:24:11][AUDIT][irjrl0j3klgkof8ucjdodn1ie5][GUI]
+		User 'rajat.sharma@weboniselab.com' was assigned the role 'guest' to the Test Project 'CF Classic folios'
+	[16/Jan/20 13:24:56][AUDIT][irjrl0j3klgkof8ucjdodn1ie5][GUI]
+		User 'ameyk' was assigned the role 'senior tester' to the Test Project 'CF Classic folios'
+	[16/Jan/20 13:24:56][AUDIT][irjrl0j3klgkof8ucjdodn1ie5][GUI]
+		User 'Deepika' was assigned the role 'guest' to the Test Project 'CF Classic folios'
+	[16/Jan/20 13:24:56][AUDIT][irjrl0j3klgkof8ucjdodn1ie5][GUI]
+		User 'Harshali' was assigned the role 'guest' to the Test Project 'CF Classic folios'
+	[16/Jan/20 13:24:56][AUDIT][irjrl0j3klgkof8ucjdodn1ie5][GUI]
+		User 'pratik' was assigned the role 'guest' to the Test Project 'CF Classic folios'
+	[16/Jan/20 13:24:56][AUDIT][irjrl0j3klgkof8ucjdodn1ie5][GUI]
+		User 'priyanka' was assigned the role 'guest' to the Test Project 'CF Classic folios'
+	[16/Jan/20 13:24:56][AUDIT][irjrl0j3klgkof8ucjdodn1ie5][GUI]
+		User 'rajat.sharma@weboniselab.com' was assigned the role 'guest' to the Test Project 'CF Classic folios'
+	[16/Jan/20 13:24:56][AUDIT][irjrl0j3klgkof8ucjdodn1ie5][GUI]
+		User 'Reshma' was assigned the role 'senior tester' to the Test Project 'CF Classic folios'
+	[16/Jan/20 13:24:56][AUDIT][irjrl0j3klgkof8ucjdodn1ie5][GUI]
+		User 'tanushree' was assigned the role 'senior tester' to the Test Project 'CF Classic folios'
+	[16/Jan/20 13:26:09][AUDIT][irjrl0j3klgkof8ucjdodn1ie5][GUI]
+		Logout of 'admin'
+	[16/Jan/20 13:26:18][AUDIT][irjrl0j3klgkof8ucjdodn1ie5][GUI]
+		Login for 'tanushree' from '10.0.2.201' succeeded
+	[16/Jan/20 13:26:56][AUDIT][kl0q5bb20tk2053otjni6po5c2][GUI]
+		Login for 'admin' from '10.0.1.138' succeeded
+	[16/Jan/20 13:27:21][AUDIT][kl0q5bb20tk2053otjni6po5c2][GUI]
+		Logout of 'admin'
+	[16/Jan/20 13:49:41][AUDIT][<nosession>][GUI]
+		Login for 'ADMIN' from '10.0.0.202' failed
+	[16/Jan/20 13:50:04][AUDIT][o7ldr0u2m0sf8u00f3v0vesco7][GUI]
+		Login for 'admin' from '10.0.0.202' succeeded
+	[16/Jan/20 13:52:40][AUDIT][o7ldr0u2m0sf8u00f3v0vesco7][GUI]
+		Test Project 'See n Pick' was created
+	[16/Jan/20 14:01:02][AUDIT][igm999gseb5tvlnq1djbsd8k13][GUI]
+		Login for 'admin' from '10.0.2.134' succeeded
+	[16/Jan/20 14:01:04][AUDIT][o7ldr0u2m0sf8u00f3v0vesco7][GUI]
+		User 'ameyk' was assigned the role 'guest' to the Test Project 'See n Pick'
+	[16/Jan/20 14:01:04][AUDIT][o7ldr0u2m0sf8u00f3v0vesco7][GUI]
+		User 'Deepika' was assigned the role '<no rights>' to the Test Project 'See n Pick'
+	[16/Jan/20 14:01:04][AUDIT][o7ldr0u2m0sf8u00f3v0vesco7][GUI]
+		User 'Harshali' was assigned the role '<no rights>' to the Test Project 'See n Pick'
+	[16/Jan/20 14:01:04][AUDIT][o7ldr0u2m0sf8u00f3v0vesco7][GUI]
+		User 'pratik' was assigned the role '<no rights>' to the Test Project 'See n Pick'
+	[16/Jan/20 14:01:05][AUDIT][o7ldr0u2m0sf8u00f3v0vesco7][GUI]
+		User 'priyanka' was assigned the role 'senior tester' to the Test Project 'See n Pick'
+	[16/Jan/20 14:01:05][AUDIT][o7ldr0u2m0sf8u00f3v0vesco7][GUI]
+		User 'rajat.sharma@weboniselab.com' was assigned the role 'guest' to the Test Project 'See n Pick'
+	[16/Jan/20 14:01:05][AUDIT][o7ldr0u2m0sf8u00f3v0vesco7][GUI]
+		User 'Reshma' was assigned the role 'guest' to the Test Project 'See n Pick'
+	[16/Jan/20 14:01:05][AUDIT][o7ldr0u2m0sf8u00f3v0vesco7][GUI]
+		User 'tanushree' was assigned the role 'guest' to the Test Project 'See n Pick'
+	[16/Jan/20 14:01:58][AUDIT][igm999gseb5tvlnq1djbsd8k13][GUI]
+		User 'abhishek' was created
+	[16/Jan/20 14:02:38][AUDIT][igm999gseb5tvlnq1djbsd8k13][GUI]
+		Test Project 'SERV'd' was created
+	[16/Jan/20 14:03:27][AUDIT][igm999gseb5tvlnq1djbsd8k13][GUI]
+		User 'ameyk' was assigned the role '<no rights>' to the Test Project 'SERV'd'
+	[16/Jan/20 14:03:28][AUDIT][igm999gseb5tvlnq1djbsd8k13][GUI]
+		User 'Deepika' was assigned the role '<no rights>' to the Test Project 'SERV'd'
+	[16/Jan/20 14:03:28][AUDIT][igm999gseb5tvlnq1djbsd8k13][GUI]
+		User 'Harshali' was assigned the role '<no rights>' to the Test Project 'SERV'd'
+	[16/Jan/20 14:03:28][AUDIT][igm999gseb5tvlnq1djbsd8k13][GUI]
+		User 'pratik' was assigned the role '<no rights>' to the Test Project 'SERV'd'
+	[16/Jan/20 14:03:28][AUDIT][igm999gseb5tvlnq1djbsd8k13][GUI]
+		User 'priyanka' was assigned the role '<no rights>' to the Test Project 'SERV'd'
+	[16/Jan/20 14:03:28][AUDIT][igm999gseb5tvlnq1djbsd8k13][GUI]
+		User 'rajat.sharma@weboniselab.com' was assigned the role '<no rights>' to the Test Project 'SERV'd'
+	[16/Jan/20 14:03:28][AUDIT][igm999gseb5tvlnq1djbsd8k13][GUI]
+		User 'Reshma' was assigned the role '<no rights>' to the Test Project 'SERV'd'
+	[16/Jan/20 14:03:28][AUDIT][igm999gseb5tvlnq1djbsd8k13][GUI]
+		User 'tanushree' was assigned the role '<no rights>' to the Test Project 'SERV'd'
+	[16/Jan/20 14:03:37][AUDIT][igm999gseb5tvlnq1djbsd8k13][GUI]
+		Logout of 'admin'
+	[16/Jan/20 14:03:49][AUDIT][igm999gseb5tvlnq1djbsd8k13][GUI]
+		Login for 'abhishek' from '10.0.2.134' succeeded
+	[16/Jan/20 14:04:05][AUDIT][igm999gseb5tvlnq1djbsd8k13][GUI]
+		Logout of 'abhishek'
+	[16/Jan/20 14:09:05][AUDIT][kl0q5bb20tk2053otjni6po5c2][GUI]
+		Login for 'admin' from '10.0.1.138' succeeded
+	[16/Jan/20 14:09:25][AUDIT][kl0q5bb20tk2053otjni6po5c2][GUI]
+		Logout of 'admin'
+	[16/Jan/21 06:11:41][AUDIT][5880ek75teu7kd93k15k3o9a45][GUI]
+		Login for 'admin' from '10.0.1.138' succeeded
+	[16/Jan/21 06:11:49][AUDIT][5880ek75teu7kd93k15k3o9a45][GUI]
+		Logout of 'admin'
+	[16/Jan/21 08:59:07][AUDIT][0at7v9066lof2lrb4nl0b2ie22][GUI]
+		Login for 'rajat.sharma@weboniselab.com' from '10.0.1.45' succeeded
+	[16/Jan/21 09:00:10][AUDIT][0at7v9066lof2lrb4nl0b2ie22][GUI]
+		Logout of 'rajat.sharma@weboniselab.com'
+	[16/Jan/21 09:08:30][AUDIT][s0thpc36a329afc5d9jhb3bo20][GUI]
+		Login for 'admin' from '10.0.1.138' succeeded
+	[16/Jan/21 09:08:39][AUDIT][s0thpc36a329afc5d9jhb3bo20][GUI]
+		Logout of 'admin'
+	[16/Jan/21 11:53:35][AUDIT][s0thpc36a329afc5d9jhb3bo20][GUI]
+		Login for 'admin' from '10.0.1.138' succeeded
+	[16/Jan/21 11:53:45][AUDIT][s0thpc36a329afc5d9jhb3bo20][GUI]
+		Logout of 'admin'
+	[16/Jan/21 13:04:38][AUDIT][s0thpc36a329afc5d9jhb3bo20][GUI]
+		Login for 'admin' from '10.0.1.138' succeeded
+	[16/Jan/21 13:09:43][AUDIT][s0thpc36a329afc5d9jhb3bo20][GUI]
+		Logout of 'admin'
+	[16/Jan/21 13:09:51][AUDIT][s0thpc36a329afc5d9jhb3bo20][GUI]
+		Login for 'pratik' from '10.0.1.138' succeeded
+	[16/Jan/21 13:37:55][AUDIT][s0thpc36a329afc5d9jhb3bo20][GUI]
+		Logout of 'pratik'
+	[16/Jan/22 06:56:38][AUDIT][dhsgqoli9hngn9mmc888upjsa6][GUI]
+		Login for 'admin' from '10.0.1.138' succeeded
+	[16/Jan/22 06:57:22][AUDIT][dhsgqoli9hngn9mmc888upjsa6][GUI]
+		Logout of 'admin'
+	[16/Jan/22 09:55:35][AUDIT][dhsgqoli9hngn9mmc888upjsa6][GUI]
+		Login for 'admin' from '10.0.1.138' succeeded
+	[16/Jan/22 09:56:36][AUDIT][dhsgqoli9hngn9mmc888upjsa6][GUI]
+		Logout of 'admin'
+	[16/Jan/22 10:40:11][AUDIT][dhsgqoli9hngn9mmc888upjsa6][GUI]
+		Login for 'admin' from '10.0.1.138' succeeded
+	[16/Jan/22 10:40:39][AUDIT][dhsgqoli9hngn9mmc888upjsa6][GUI]
+		Logout of 'admin'
+	[16/Jan/22 10:40:46][AUDIT][dhsgqoli9hngn9mmc888upjsa6][GUI]
+		Login for 'pratik' from '10.0.1.138' succeeded
+	[16/Jan/22 10:55:05][AUDIT][dhsgqoli9hngn9mmc888upjsa6][GUI]
+		User 'pratik' has insufficient rights for 'any' action on 'reqTcAssign.php'. Exit forced
+	[16/Jan/22 11:08:06][AUDIT][dhsgqoli9hngn9mmc888upjsa6][GUI]
+		Password of user 'pratik' was saved
+	[16/Jan/22 11:08:26][AUDIT][dhsgqoli9hngn9mmc888upjsa6][GUI]
+		Login for 'admin' from '10.0.1.138' succeeded
+	[16/Jan/22 11:10:56][AUDIT][dhsgqoli9hngn9mmc888upjsa6][GUI]
+		Logout of 'admin'
+	[16/Jan/22 12:54:39][AUDIT][dhsgqoli9hngn9mmc888upjsa6][GUI]
+		Login for 'admin' from '10.0.1.138' succeeded
+	[16/Jan/22 12:54:56][AUDIT][dhsgqoli9hngn9mmc888upjsa6][GUI]
+		Logout of 'admin'
+	[16/Jan/22 13:24:22][AUDIT][l9s9omlku1cnl5h9cu2oporj03][GUI]
+		Login for 'abhishek' from '10.0.2.134' succeeded
+	[16/Jan/25 05:42:37][AUDIT][gkke6d66hcufpe0rktjcvp1ci3][GUI]
+		Login for 'abhishek' from '10.0.2.134' succeeded
+	[16/Jan/25 06:12:07][AUDIT][ej6ckq8mqijbc87bcq1vbfk9b3][GUI]
+		Login for 'admin' from '10.0.1.163' succeeded
+	[16/Jan/25 06:15:05][AUDIT][ej6ckq8mqijbc87bcq1vbfk9b3][GUI]
+		User 'nehaa' was created
+	[16/Jan/25 06:34:08][AUDIT][24i5atgfvjei0kur1k99j13ik6][GUI]
+		Login for 'harshali' from '10.0.3.247' succeeded
+	[16/Jan/25 06:35:41][AUDIT][24i5atgfvjei0kur1k99j13ik6][GUI]
+		Logout of 'Harshali'
+	[16/Jan/25 06:39:14][AUDIT][24i5atgfvjei0kur1k99j13ik6][GUI]
+		Login for 'harshali' from '10.0.3.247' succeeded
+	[16/Jan/25 06:41:22][AUDIT][24i5atgfvjei0kur1k99j13ik6][GUI]
+		Logout of 'Harshali'
+	[16/Jan/25 07:10:21][AUDIT][<nosession>][GUI]
+		Login for 'pratik' from '10.0.1.138' failed
+	[16/Jan/25 07:10:30][AUDIT][<nosession>][GUI]
+		Login for 'pratik' from '10.0.1.138' failed
+	[16/Jan/25 07:10:44][AUDIT][h29n0lrclk8svj1pobdd4q7735][GUI]
+		Login for 'pratik' from '10.0.1.138' succeeded
+	[16/Jan/25 07:14:42][AUDIT][h29n0lrclk8svj1pobdd4q7735][GUI]
+		Logout of 'pratik'
+	[16/Jan/25 07:32:04][AUDIT][gkke6d66hcufpe0rktjcvp1ci3][GUI]
+		Logout of 'abhishek'
+	[16/Jan/25 08:49:16][AUDIT][gkke6d66hcufpe0rktjcvp1ci3][GUI]
+		Login for 'abhishek' from '10.0.2.134' succeeded
+	[16/Jan/25 09:03:47][AUDIT][gkke6d66hcufpe0rktjcvp1ci3][GUI]
+		Logout of 'abhishek'
+	[16/Jan/25 09:03:55][AUDIT][gkke6d66hcufpe0rktjcvp1ci3][GUI]
+		Login for 'abhishek' from '10.0.2.134' succeeded
+	[16/Jan/25 10:43:13][AUDIT][h29n0lrclk8svj1pobdd4q7735][GUI]
+		Login for 'pratik' from '10.0.1.138' succeeded
+	[16/Jan/25 10:46:10][AUDIT][h29n0lrclk8svj1pobdd4q7735][GUI]
+		Logout of 'pratik'
+	[16/Jan/25 10:49:10][AUDIT][h29n0lrclk8svj1pobdd4q7735][GUI]
+		Login for 'pratik' from '10.0.1.138' succeeded
+	[16/Jan/25 11:33:22][AUDIT][h29n0lrclk8svj1pobdd4q7735][GUI]
+		Test Project 'Demolition' - Test Plan 'Test Plan for Demolition project' was created
+	[16/Jan/25 12:37:33][AUDIT][1532p1o1dju6iqigp46cuchc21][GUI]
+		Login for 'admin' from '10.0.0.176' succeeded
+	[16/Jan/25 12:42:18][AUDIT][1532p1o1dju6iqigp46cuchc21][GUI]
+		Test Project 'Demolition' was saved
+	[16/Jan/25 13:01:07][AUDIT][h29n0lrclk8svj1pobdd4q7735][GUI]
+		Logout of 'pratik'
+	[16/Jan/25 13:09:55][AUDIT][75lcsjggpbc7jb6vntr6m3d1d0][GUI]
+		Login for 'admin' from '10.0.1.5' succeeded
+	[16/Jan/25 13:10:39][AUDIT][1532p1o1dju6iqigp46cuchc21][GUI]
+		User 'mayank' was created
+	[16/Jan/25 13:10:39][AUDIT][0bp0bk7r09psa6jvk8osaukv37][GUI]
+		Login for 'admin' from '10.0.1.7' succeeded
+	[16/Jan/25 13:11:07][AUDIT][1532p1o1dju6iqigp46cuchc21][GUI]
+		User 'mayank' was saved
+	[16/Jan/25 13:11:47][AUDIT][1532p1o1dju6iqigp46cuchc21][GUI]
+		User 'mayank' was saved
+	[16/Jan/25 13:14:42][AUDIT][0bp0bk7r09psa6jvk8osaukv37][GUI]
+		Test Project 'LATAS' was created
+	[16/Jan/25 13:16:25][AUDIT][0bp0bk7r09psa6jvk8osaukv37][GUI]
+		Test Project 'LATAS' was saved
+	[16/Jan/25 13:18:05][AUDIT][75lcsjggpbc7jb6vntr6m3d1d0][GUI]
+		User 'nagesh' was created
+	[16/Jan/25 13:20:56][AUDIT][75lcsjggpbc7jb6vntr6m3d1d0][GUI]
+		Logout of 'admin'
+	[16/Jan/25 13:21:05][AUDIT][75lcsjggpbc7jb6vntr6m3d1d0][GUI]
+		Login for 'nagesh' from '10.0.1.5' succeeded
+	[16/Jan/25 13:21:42][AUDIT][0bp0bk7r09psa6jvk8osaukv37][GUI]
+		User 'abhishek' was assigned the role 'guest' to the Test Project 'LATAS'
+	[16/Jan/25 13:23:13][AUDIT][0bp0bk7r09psa6jvk8osaukv37][GUI]
+		User 'abhishek' was assigned the role 'guest' to the Test Project 'LATAS'
+	[16/Jan/25 13:23:13][AUDIT][0bp0bk7r09psa6jvk8osaukv37][GUI]
+		User 'ameyk' was assigned the role 'guest' to the Test Project 'LATAS'
+	[16/Jan/25 13:23:13][AUDIT][0bp0bk7r09psa6jvk8osaukv37][GUI]
+		User 'Deepika' was assigned the role 'guest' to the Test Project 'LATAS'
+	[16/Jan/25 13:23:13][AUDIT][0bp0bk7r09psa6jvk8osaukv37][GUI]
+		User 'Harshali' was assigned the role 'guest' to the Test Project 'LATAS'
+	[16/Jan/25 13:23:13][AUDIT][0bp0bk7r09psa6jvk8osaukv37][GUI]
+		User 'nagesh' was assigned the role 'guest' to the Test Project 'LATAS'
+	[16/Jan/25 13:23:13][AUDIT][0bp0bk7r09psa6jvk8osaukv37][GUI]
+		User 'nehaa' was assigned the role 'guest' to the Test Project 'LATAS'
+	[16/Jan/25 13:23:13][AUDIT][0bp0bk7r09psa6jvk8osaukv37][GUI]
+		User 'pratik' was assigned the role 'guest' to the Test Project 'LATAS'
+	[16/Jan/25 13:23:13][AUDIT][0bp0bk7r09psa6jvk8osaukv37][GUI]
+		User 'priyanka' was assigned the role 'guest' to the Test Project 'LATAS'
+	[16/Jan/25 13:23:13][AUDIT][0bp0bk7r09psa6jvk8osaukv37][GUI]
+		User 'rajat.sharma@weboniselab.com' was assigned the role 'guest' to the Test Project 'LATAS'
+	[16/Jan/25 13:23:13][AUDIT][0bp0bk7r09psa6jvk8osaukv37][GUI]
+		User 'Reshma' was assigned the role 'guest' to the Test Project 'LATAS'
+	[16/Jan/25 13:23:13][AUDIT][0bp0bk7r09psa6jvk8osaukv37][GUI]
+		User 'tanushree' was assigned the role 'guest' to the Test Project 'LATAS'
+	[16/Jan/25 13:24:55][AUDIT][0bp0bk7r09psa6jvk8osaukv37][GUI]
+		User 'abhishek' was assigned the role 'guest' to the Test Project 'LATAS'
+	[16/Jan/25 13:24:56][AUDIT][0bp0bk7r09psa6jvk8osaukv37][GUI]
+		User 'ameyk' was assigned the role 'guest' to the Test Project 'LATAS'
+	[16/Jan/25 13:24:56][AUDIT][0bp0bk7r09psa6jvk8osaukv37][GUI]
+		User 'Deepika' was assigned the role 'guest' to the Test Project 'LATAS'
+	[16/Jan/25 13:24:56][AUDIT][0bp0bk7r09psa6jvk8osaukv37][GUI]
+		User 'Harshali' was assigned the role 'guest' to the Test Project 'LATAS'
+	[16/Jan/25 13:24:56][AUDIT][0bp0bk7r09psa6jvk8osaukv37][GUI]
+		User 'nagesh' was assigned the role 'guest' to the Test Project 'LATAS'
+	[16/Jan/25 13:24:56][AUDIT][0bp0bk7r09psa6jvk8osaukv37][GUI]
+		User 'nehaa' was assigned the role 'guest' to the Test Project 'LATAS'
+	[16/Jan/25 13:24:56][AUDIT][0bp0bk7r09psa6jvk8osaukv37][GUI]
+		User 'pratik' was assigned the role 'guest' to the Test Project 'LATAS'
+	[16/Jan/25 13:24:56][AUDIT][0bp0bk7r09psa6jvk8osaukv37][GUI]
+		User 'priyanka' was assigned the role 'guest' to the Test Project 'LATAS'
+	[16/Jan/25 13:24:56][AUDIT][0bp0bk7r09psa6jvk8osaukv37][GUI]
+		User 'rajat.sharma@weboniselab.com' was assigned the role 'guest' to the Test Project 'LATAS'
+	[16/Jan/25 13:24:56][AUDIT][0bp0bk7r09psa6jvk8osaukv37][GUI]
+		User 'Reshma' was assigned the role 'guest' to the Test Project 'LATAS'
+	[16/Jan/25 13:24:56][AUDIT][0bp0bk7r09psa6jvk8osaukv37][GUI]
+		User 'tanushree' was assigned the role 'guest' to the Test Project 'LATAS'
+	[16/Jan/25 13:26:20][AUDIT][75lcsjggpbc7jb6vntr6m3d1d0][GUI]
+		Test Project 'Royalpark' was created
+	[16/Jan/25 13:26:35][AUDIT][75lcsjggpbc7jb6vntr6m3d1d0][GUI]
+		Logout of 'nagesh'
+	[16/Jan/25 14:17:28][AUDIT][0bp0bk7r09psa6jvk8osaukv37][GUI]
+		User 'saroj' was created
+	[16/Jan/25 14:18:12][AUDIT][0bp0bk7r09psa6jvk8osaukv37][GUI]
+		User 'saroj' was saved
+	[16/Jan/25 14:18:29][AUDIT][0bp0bk7r09psa6jvk8osaukv37][GUI]
+		User 'saroj' was saved
+	[16/Jan/25 15:03:03][AUDIT][gkke6d66hcufpe0rktjcvp1ci3][GUI]
+		Logout of 'abhishek'
+	[16/Jan/27 04:57:51][AUDIT][noq2q1tg0ookdtomd2db008sf7][GUI]
+		Login for 'admin' from '10.0.1.138' succeeded
+	[16/Jan/27 04:58:11][AUDIT][noq2q1tg0ookdtomd2db008sf7][GUI]
+		Logout of 'admin'
+	[16/Jan/27 04:58:19][AUDIT][noq2q1tg0ookdtomd2db008sf7][GUI]
+		Login for 'pratik' from '10.0.1.138' succeeded
+	[16/Jan/27 05:29:22][AUDIT][f64s185s3bfif9s1dlhp456gg0][GUI]
+		Login for 'abhishek' from '10.0.2.134' succeeded
+	[16/Jan/27 06:04:05][AUDIT][f64s185s3bfif9s1dlhp456gg0][GUI]
+		Login for 'abhishek' from '10.0.2.134' succeeded
+	[16/Jan/27 07:13:12][AUDIT][noq2q1tg0ookdtomd2db008sf7][GUI]
+		Test Project 'Demolition' - Test Plan 'Test Plan for Demolition project' - Build 'Demolition: Issues and Improvements' was created
+	[16/Jan/27 07:19:30][AUDIT][noq2q1tg0ookdtomd2db008sf7][GUI]
+		Test Project 'Demolition' was saved
+	[16/Jan/27 07:22:04][AUDIT][noq2q1tg0ookdtomd2db008sf7][GUI]
+		Test Case 'DE-1 : Removing loader for 'Submit' button for 'Get edge on competition' section' version 1 was added to Test Plan Test Plan for Demolition project
+	[16/Jan/27 07:22:04][AUDIT][noq2q1tg0ookdtomd2db008sf7][GUI]
+		Test Case 'DE-2 : Advertisement above 'Wirewolf' does not display after clicking Back button from any advertisement' version 1 was added to Test Plan Test Plan for Demolition project
+	[16/Jan/27 07:22:04][AUDIT][noq2q1tg0ookdtomd2db008sf7][GUI]
+		Test Case 'DE-3 : 'Terms of Service' is clickable but does not work' version 1 was added to Test Plan Test Plan for Demolition project
+	[16/Jan/27 07:22:04][AUDIT][noq2q1tg0ookdtomd2db008sf7][GUI]
+		Test Case 'DE-4 : After clicking on 'Recent Opportunities', 'Error message' is displayed' version 1 was added to Test Plan Test Plan for Demolition project
+	[16/Jan/27 07:22:05][AUDIT][noq2q1tg0ookdtomd2db008sf7][GUI]
+		Test Case 'DE-5 : After clicking on 'Contact Admin Team' link on 'Error message' page, Chrome browser opens and no act' version 1 was added to Test Plan Test Plan for Demolition project
+	[16/Jan/27 07:22:05][AUDIT][noq2q1tg0ookdtomd2db008sf7][GUI]
+		Test Case 'DE-6 : There should be proper spacing between tabs at the top of the homepage' version 1 was added to Test Plan Test Plan for Demolition project
+	[16/Jan/27 07:22:05][AUDIT][noq2q1tg0ookdtomd2db008sf7][GUI]
+		Test Case 'DE-7 : On 'Checkout' page, text boxes are not properly aligned' version 1 was added to Test Plan Test Plan for Demolition project
+	[16/Jan/27 07:22:05][AUDIT][noq2q1tg0ookdtomd2db008sf7][GUI]
+		Test Case 'DE-8 : Grammatical error on 'Sign Up' page' version 1 was added to Test Plan Test Plan for Demolition project
+	[16/Jan/27 07:22:05][AUDIT][noq2q1tg0ookdtomd2db008sf7][GUI]
+		Test Case 'DE-9 : Wrong PDF file size is shown in 'Demo Memo' section' version 1 was added to Test Plan Test Plan for Demolition project
+	[16/Jan/27 07:22:05][AUDIT][noq2q1tg0ookdtomd2db008sf7][GUI]
+		Test Case 'DE-10 : In Advanced Search section (Project Leads), user has to press keyboard button multiple times to ente' version 1 was added to Test Plan Test Plan for Demolition project
+	[16/Jan/27 07:22:05][AUDIT][noq2q1tg0ookdtomd2db008sf7][GUI]
+		Test Case 'DE-11 : On 'Tracked Projects' page, Project State and Project City headings are not properly aligned (vertic' version 1 was added to Test Plan Test Plan for Demolition project
+	[16/Jan/27 07:22:05][AUDIT][noq2q1tg0ookdtomd2db008sf7][GUI]
+		Test Case 'DE-12 : When user selects second state for subscription, price for subscription increases by 20 $ instead of' version 1 was added to Test Plan Test Plan for Demolition project
+	[16/Jan/27 07:22:05][AUDIT][noq2q1tg0ookdtomd2db008sf7][GUI]
+		Test Case 'DE-13 : When user selects 8 states for subscription and then selects 9th state for subscription, price for s' version 1 was added to Test Plan Test Plan for Demolition project
+	[16/Jan/27 07:22:05][AUDIT][noq2q1tg0ookdtomd2db008sf7][GUI]
+		Test Case 'DE-14 : When monthly total for subscription is 49$, then yearly total displays as 490$' version 1 was added to Test Plan Test Plan for Demolition project
+	[16/Jan/27 07:22:05][AUDIT][noq2q1tg0ookdtomd2db008sf7][GUI]
+		Test Case 'DE-15 : Email goes to that non registered email id for resetting the password' version 1 was added to Test Plan Test Plan for Demolition project
+	[16/Jan/27 07:22:05][AUDIT][noq2q1tg0ookdtomd2db008sf7][GUI]
+		Test Case 'DE-16 : When user comes to 'Demolition News' page, then 1st advertisement displays with smaller dimensions' version 1 was added to Test Plan Test Plan for Demolition project
+	[16/Jan/27 07:22:05][AUDIT][noq2q1tg0ookdtomd2db008sf7][GUI]
+		Test Case 'DE-17 : Advertisements and news on 'Demolition News' page are not properly arranged' version 1 was added to Test Plan Test Plan for Demolition project
+	[16/Jan/27 07:22:05][AUDIT][noq2q1tg0ookdtomd2db008sf7][GUI]
+		Test Case 'DE-18 : Same news displays multiple times on 'Demolition News' page' version 1 was added to Test Plan Test Plan for Demolition project
+	[16/Jan/27 07:22:05][AUDIT][noq2q1tg0ookdtomd2db008sf7][GUI]
+		Test Case 'DE-19 : When logged in user logs out and clicks on back button, then user gets back to earlier page' version 1 was added to Test Plan Test Plan for Demolition project
+	[16/Jan/27 07:22:05][AUDIT][noq2q1tg0ookdtomd2db008sf7][GUI]
+		Test Case 'DE-20 : User can paste text in 'Credit Card' box and 'Security Code' box' version 1 was added to Test Plan Test Plan for Demolition project
+	[16/Jan/27 07:22:05][AUDIT][noq2q1tg0ookdtomd2db008sf7][GUI]
+		Test Case 'DE-21 : Improvement in Billing Address section' version 1 was added to Test Plan Test Plan for Demolition project
+	[16/Jan/27 07:22:05][AUDIT][noq2q1tg0ookdtomd2db008sf7][GUI]
+		Test Case 'DE-22 : Getting 404 error after selecting 6 random states for subscription' version 1 was added to Test Plan Test Plan for Demolition project
+	[16/Jan/27 07:22:05][AUDIT][noq2q1tg0ookdtomd2db008sf7][GUI]
+		Test Case 'DE-23 : User can access 'Project leads' and 'Demo memo' sections without logging in (Stage)' version 1 was added to Test Plan Test Plan for Demolition project
+	[16/Jan/27 07:22:05][AUDIT][noq2q1tg0ookdtomd2db008sf7][GUI]
+		Test Case 'DE-24 : Blank page displays after clicking on Advanced Search (Stage)' version 1 was added to Test Plan Test Plan for Demolition project
+	[16/Jan/27 07:22:05][AUDIT][noq2q1tg0ookdtomd2db008sf7][GUI]
+		Test Case 'DE-25 : Monthly and Annual totals for subscription are not displaying' version 1 was added to Test Plan Test Plan for Demolition project
+	[16/Jan/27 07:22:05][AUDIT][noq2q1tg0ookdtomd2db008sf7][GUI]
+		Test Case 'DE-26 : Text boxes on 'Checkout' page and 'Forgot password' page are missing' version 1 was added to Test Plan Test Plan for Demolition project
+	[16/Jan/27 07:22:05][AUDIT][noq2q1tg0ookdtomd2db008sf7][GUI]
+		Test Case 'DE-27 : User cannot logout on Stage instance' version 1 was added to Test Plan Test Plan for Demolition project
+	[16/Jan/27 07:22:05][AUDIT][noq2q1tg0ookdtomd2db008sf7][GUI]
+		Test Case 'DE-28 : Getting 500 Internal Server Error after clicking on 'Project Leads' (Stage)' version 1 was added to Test Plan Test Plan for Demolition project
+	[16/Jan/27 07:22:05][AUDIT][noq2q1tg0ookdtomd2db008sf7][GUI]
+		Test Case 'DE-29 : User cannot view Source of news after clicking on 'Source' button for first news' version 1 was added to Test Plan Test Plan for Demolition project
+	[16/Jan/27 07:22:05][AUDIT][noq2q1tg0ookdtomd2db008sf7][GUI]
+		Test Case 'DE-30 : Email is not going to user when he enters valid email address and clicks on Submit button' version 1 was added to Test Plan Test Plan for Demolition project
+	[16/Jan/27 07:22:05][AUDIT][noq2q1tg0ookdtomd2db008sf7][GUI]
+		Test Case 'DE-31 : When user selects few states for subscription, then product price displays as $0.00' version 1 was added to Test Plan Test Plan for Demolition project
+	[16/Jan/27 07:22:05][AUDIT][noq2q1tg0ookdtomd2db008sf7][GUI]
+		Test Case 'DE-32 : When user selects Monthly/ Annual subscription, then product price displays as $0.00' version 1 was added to Test Plan Test Plan for Demolition project
+	[16/Jan/27 07:22:05][AUDIT][noq2q1tg0ookdtomd2db008sf7][GUI]
+		Test Case 'DE-33 : On 'Calendar' page, after clicking on that particular date, no project is displayed' version 1 was added to Test Plan Test Plan for Demolition project
+	[16/Jan/27 07:22:05][AUDIT][noq2q1tg0ookdtomd2db008sf7][GUI]
+		Test Case 'DE-34 : 'Add new event' functionality on Calendar page is not working for a logged in user' version 1 was added to Test Plan Test Plan for Demolition project
+	[16/Jan/27 07:22:05][AUDIT][noq2q1tg0ookdtomd2db008sf7][GUI]
+		Test Case 'DE-35 : When user has not placed any orders, then 'View All' button is displayed and is also clickable' version 1 was added to Test Plan Test Plan for Demolition project
+	[16/Jan/27 07:37:39][AUDIT][noq2q1tg0ookdtomd2db008sf7][GUI]
+		Logout of 'pratik'
+	[16/Jan/27 08:27:27][AUDIT][noq2q1tg0ookdtomd2db008sf7][GUI]
+		Login for 'pratik' from '10.0.1.138' succeeded
+	[16/Jan/27 08:33:05][AUDIT][noq2q1tg0ookdtomd2db008sf7][GUI]
+		Logout of 'pratik'
+	[16/Jan/27 10:23:13][AUDIT][noq2q1tg0ookdtomd2db008sf7][GUI]
+		Login for 'pratik' from '10.0.1.138' succeeded
+	[16/Jan/27 10:59:26][AUDIT][noq2q1tg0ookdtomd2db008sf7][GUI]
+		Logout of 'pratik'
+	[16/Jan/27 13:29:36][AUDIT][noq2q1tg0ookdtomd2db008sf7][GUI]
+		Login for 'pratik' from '10.0.1.138' succeeded
+	[16/Jan/27 13:30:49][AUDIT][noq2q1tg0ookdtomd2db008sf7][GUI]
+		Logout of 'pratik'
+	[16/Jan/27 14:03:35][AUDIT][q7t9k6ckgc93uos6000b2mr3g7][GUI]
+		Login for 'admin' from '10.0.1.7' succeeded
+	[16/Jan/27 14:08:56][AUDIT][<nosession>][GUI]
+		Login for 'saroj' from '10.0.1.7' failed
+	[16/Jan/27 14:10:32][AUDIT][n8lkt2bhcqsmhfc02serlecjq6][GUI]
+		Login for 'saroj' from '10.0.1.7' succeeded
+	[16/Jan/28 06:13:46][AUDIT][s5fpg7t9dtcob36ueslljir5r1][GUI]
+		Login for 'abhishek' from '10.0.2.134' succeeded
+	[16/Jan/28 06:44:49][AUDIT][7v640tr6876qehcad7ahtdpvs1][GUI]
+		Login for 'nagesh' from '10.0.1.5' succeeded
+	[16/Jan/28 08:52:42][AUDIT][7c9n7feq6rrbndspfcvlfklb83][GUI]
+		Login for 'nagesh' from '10.0.1.5' succeeded
+	[16/Jan/28 12:02:51][AUDIT][0qs5o5j0t72equ0da8867ehj54][GUI]
+		Login for 'admin' from '10.0.1.138' succeeded
+	[16/Jan/28 12:02:56][AUDIT][0qs5o5j0t72equ0da8867ehj54][GUI]
+		Logout of 'admin'
+	[16/Jan/28 12:03:03][AUDIT][0qs5o5j0t72equ0da8867ehj54][GUI]
+		Login for 'pratik' from '10.0.1.138' succeeded
+	[16/Jan/28 12:27:12][AUDIT][7c9n7feq6rrbndspfcvlfklb83][GUI]
+		User 'nagesh' has insufficient rights for 'any' action on 'reqTcAssign.php'. Exit forced
+	[16/Jan/28 12:49:38][AUDIT][s5fpg7t9dtcob36ueslljir5r1][GUI]
+		Logout of 'abhishek'
+	[16/Jan/28 13:44:54][AUDIT][0qs5o5j0t72equ0da8867ehj54][GUI]
+		Logout of 'pratik'
+	[16/Jan/28 14:36:32][AUDIT][crd3q1it80bdcdkmrvgnnt65k6][GUI]
+		Login for 'admin' from '10.0.0.176' succeeded
+	[16/Jan/28 14:48:33][AUDIT][crd3q1it80bdcdkmrvgnnt65k6][GUI]
+		Logout of 'admin'
+	[16/Jan/29 05:17:47][AUDIT][859719oput3qoe4cuh1piqfds7][GUI]
+		Login for 'pratik' from '10.0.1.138' succeeded
+	[16/Jan/29 05:17:55][AUDIT][859719oput3qoe4cuh1piqfds7][GUI]
+		Logout of 'pratik'
+	[16/Jan/29 05:18:01][AUDIT][859719oput3qoe4cuh1piqfds7][GUI]
+		Login for 'admin' from '10.0.1.138' succeeded
+	[16/Jan/29 05:19:02][AUDIT][859719oput3qoe4cuh1piqfds7][GUI]
+		Logout of 'admin'
+	[16/Jan/29 05:23:36][AUDIT][<nosession>][GUI]
+		Login for 'nagesh' from '10.0.1.5' failed
+	[16/Jan/29 05:23:45][AUDIT][tvjo8nukoitbu6qss438pgeud5][GUI]
+		Login for 'nagesh' from '10.0.1.5' succeeded
+	[16/Jan/29 05:24:32][AUDIT][grni2r6ap8ufppin7ctt937oo5][GUI]
+		Login for 'admin' from '10.0.1.25' succeeded
+	[16/Jan/29 05:27:33][AUDIT][grni2r6ap8ufppin7ctt937oo5][GUI]
+		User 'anirban' was created
+	[16/Jan/29 05:29:09][AUDIT][grni2r6ap8ufppin7ctt937oo5][GUI]
+		Test Project 'DataMapper' was created
+	[16/Jan/29 05:29:38][AUDIT][grni2r6ap8ufppin7ctt937oo5][GUI]
+		Test Project 'Inflight' was created
+	[16/Jan/29 05:32:15][AUDIT][grni2r6ap8ufppin7ctt937oo5][GUI]
+		Test Project 'DataMapper' - Test Plan 'DM_BillingModel_suites' was created
+	[16/Jan/29 05:32:15][AUDIT][grni2r6ap8ufppin7ctt937oo5][GUI]
+		User 'admin' was assigned the role 'admin' to the Test Plan 'DM_BillingModel_suites'
+	[16/Jan/29 05:33:23][AUDIT][grni2r6ap8ufppin7ctt937oo5][GUI]
+		Attachment '' - file 'DataMapper Pricing for 2016.docx' was created
+	[16/Jan/29 05:33:28][AUDIT][grni2r6ap8ufppin7ctt937oo5][GUI]
+		Test Project 'DataMapper' - Test Plan 'DM_BillingModel_suites' was saved
+	[16/Jan/29 05:34:18][AUDIT][grni2r6ap8ufppin7ctt937oo5][GUI]
+		Test Project 'DataMapper' - Test Plan 'DM_BillingModel_2016' was saved
+	[16/Jan/29 05:44:12][AUDIT][olhql76qosrn1r5gk5thsfho62][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Jan/29 05:57:47][AUDIT][et52pu3sji873bgmaqokf4ilr3][GUI]
+		Login for 'abhishek' from '10.0.2.134' succeeded
+	[16/Jan/29 06:05:52][AUDIT][859719oput3qoe4cuh1piqfds7][GUI]
+		Login for 'pratik' from '10.0.1.138' succeeded
+	[16/Jan/29 06:32:14][AUDIT][grni2r6ap8ufppin7ctt937oo5][GUI]
+		Test Project 'DataMapper' - Test Plan 'DM_BillingModel_2016' - Build 'DM_BillingModel_2016' was created
+	[16/Jan/29 06:38:03][AUDIT][859719oput3qoe4cuh1piqfds7][GUI]
+		Logout of 'pratik'
+	[16/Jan/29 06:38:09][AUDIT][859719oput3qoe4cuh1piqfds7][GUI]
+		Login for 'admin' from '10.0.1.138' succeeded
+	[16/Jan/29 06:38:42][AUDIT][859719oput3qoe4cuh1piqfds7][GUI]
+		Logout of 'admin'
+	[16/Jan/29 06:43:02][AUDIT][859719oput3qoe4cuh1piqfds7][GUI]
+		Login for 'pratik' from '10.0.1.138' succeeded
+	[16/Jan/29 06:43:14][AUDIT][j7ddgf5qv1bo7t7q0rd38ktsm4][GUI]
+		Login for 'anirban' from '10.0.1.25' succeeded
+	[16/Jan/29 06:43:32][AUDIT][859719oput3qoe4cuh1piqfds7][GUI]
+		Logout of 'pratik'
+	[16/Jan/29 06:43:44][AUDIT][859719oput3qoe4cuh1piqfds7][GUI]
+		Login for 'admin' from '10.0.1.138' succeeded
+	[16/Jan/29 06:43:51][AUDIT][j7ddgf5qv1bo7t7q0rd38ktsm4][GUI]
+		Test Case 'DM-1 : New registered user should see new pricing plan after signin' version 1 was added to Test Plan DM_BillingModel_2016
+	[16/Jan/29 06:44:13][AUDIT][859719oput3qoe4cuh1piqfds7][GUI]
+		Test Project 'Test1' was created
+	[16/Jan/29 06:44:43][AUDIT][859719oput3qoe4cuh1piqfds7][GUI]
+		Test Project 'See n Pick' - Test Plan 'Test1' was created
+	[16/Jan/29 06:45:27][AUDIT][orb4s2tmsamr1uut426cd57h30][GUI]
+		Login for 'admin' from '10.0.2.250' succeeded
+	[16/Jan/29 06:46:46][AUDIT][859719oput3qoe4cuh1piqfds7][GUI]
+		User 'test1' was created
+	[16/Jan/29 06:46:51][AUDIT][859719oput3qoe4cuh1piqfds7][GUI]
+		Logout of 'admin'
+	[16/Jan/29 06:46:58][AUDIT][859719oput3qoe4cuh1piqfds7][GUI]
+		Login for 'test1' from '10.0.1.138' succeeded
+	[16/Jan/29 06:47:00][AUDIT][orb4s2tmsamr1uut426cd57h30][GUI]
+		User 'abhijeet.thalkari' was created
+	[16/Jan/29 06:47:35][AUDIT][859719oput3qoe4cuh1piqfds7][GUI]
+		Test Project 'Test3' was created
+	[16/Jan/29 06:47:51][AUDIT][859719oput3qoe4cuh1piqfds7][GUI]
+		Test Project 'CF Classic folios' - Test Plan 'test3' was created
+	[16/Jan/29 06:48:12][AUDIT][orb4s2tmsamr1uut426cd57h30][GUI]
+		Logout of 'admin'
+	[16/Jan/29 06:48:25][AUDIT][orb4s2tmsamr1uut426cd57h30][GUI]
+		Login for 'abhijeet.thalkari' from '10.0.2.250' succeeded
+	[16/Jan/29 06:50:51][AUDIT][859719oput3qoe4cuh1piqfds7][GUI]
+		Logout of 'test1'
+	[16/Jan/29 06:51:11][AUDIT][859719oput3qoe4cuh1piqfds7][GUI]
+		Login for 'admin' from '10.0.1.138' succeeded
+	[16/Jan/29 06:51:26][AUDIT][859719oput3qoe4cuh1piqfds7][GUI]
+		User 'test1' was disabled
+	[16/Jan/29 06:51:35][AUDIT][859719oput3qoe4cuh1piqfds7][GUI]
+		User 'test1' was disabled
+	[16/Jan/29 06:51:46][AUDIT][orb4s2tmsamr1uut426cd57h30][GUI]
+		Test Project 'Microsave Phase 2' was created
+	[16/Jan/29 06:51:46][AUDIT][orb4s2tmsamr1uut426cd57h30][GUI]
+		User 'abhijeet.thalkari' was assigned the role 'admin' to the Test Project 'Microsave Phase 2'
+	[16/Jan/29 06:52:23][AUDIT][orb4s2tmsamr1uut426cd57h30][GUI]
+		Test Project 'Microsave Phase 2' was saved
+	[16/Jan/29 06:53:28][AUDIT][859719oput3qoe4cuh1piqfds7][GUI]
+		All user roles were unassigned from the Test Plan 'test3'
+	[16/Jan/29 06:53:28][AUDIT][859719oput3qoe4cuh1piqfds7][GUI]
+		Test Project 'CF Classic folios' - Test Plan 'test3' was deleted
+	[16/Jan/29 06:53:51][AUDIT][859719oput3qoe4cuh1piqfds7][GUI]
+		Logout of 'admin'
+	[16/Jan/29 06:56:21][AUDIT][orb4s2tmsamr1uut426cd57h30][GUI]
+		Test Project 'DRF Tournaments' was created
+	[16/Jan/29 06:56:21][AUDIT][orb4s2tmsamr1uut426cd57h30][GUI]
+		User 'abhijeet.thalkari' was assigned the role 'admin' to the Test Project 'DRF Tournaments'
+	[16/Jan/29 07:41:14][AUDIT][<nosession>][GUI]
+		User 'kaustubh' created by self-sign up
+	[16/Jan/29 08:42:03][AUDIT][gcs82pu1ullcg9bt5khvoen7c5][GUI]
+		Login for 'kaustubh' from '10.0.0.179' succeeded
+	[16/Jan/29 08:43:11][AUDIT][gcs82pu1ullcg9bt5khvoen7c5][GUI]
+		Logout of 'kaustubh'
+	[16/Jan/29 08:43:19][AUDIT][gcs82pu1ullcg9bt5khvoen7c5][GUI]
+		Login for 'admin' from '10.0.0.179' succeeded
+	[16/Jan/29 08:43:41][AUDIT][gcs82pu1ullcg9bt5khvoen7c5][GUI]
+		User 'ameyk' was assigned the role 'senior tester' to the Test Project 'CF Classic folios'
+	[16/Jan/29 08:43:41][AUDIT][gcs82pu1ullcg9bt5khvoen7c5][GUI]
+		User 'Deepika' was assigned the role 'guest' to the Test Project 'CF Classic folios'
+	[16/Jan/29 08:43:41][AUDIT][gcs82pu1ullcg9bt5khvoen7c5][GUI]
+		User 'Harshali' was assigned the role 'guest' to the Test Project 'CF Classic folios'
+	[16/Jan/29 08:43:41][AUDIT][gcs82pu1ullcg9bt5khvoen7c5][GUI]
+		User 'kaustubh' was assigned the role 'senior tester' to the Test Project 'CF Classic folios'
+	[16/Jan/29 08:43:41][AUDIT][gcs82pu1ullcg9bt5khvoen7c5][GUI]
+		User 'pratik' was assigned the role 'guest' to the Test Project 'CF Classic folios'
+	[16/Jan/29 08:43:41][AUDIT][gcs82pu1ullcg9bt5khvoen7c5][GUI]
+		User 'priyanka' was assigned the role 'guest' to the Test Project 'CF Classic folios'
+	[16/Jan/29 08:43:41][AUDIT][gcs82pu1ullcg9bt5khvoen7c5][GUI]
+		User 'rajat.sharma@weboniselab.com' was assigned the role 'guest' to the Test Project 'CF Classic folios'
+	[16/Jan/29 08:43:41][AUDIT][gcs82pu1ullcg9bt5khvoen7c5][GUI]
+		User 'Reshma' was assigned the role 'senior tester' to the Test Project 'CF Classic folios'
+	[16/Jan/29 08:43:41][AUDIT][gcs82pu1ullcg9bt5khvoen7c5][GUI]
+		User 'tanushree' was assigned the role 'senior tester' to the Test Project 'CF Classic folios'
+	[16/Jan/29 08:43:46][AUDIT][gcs82pu1ullcg9bt5khvoen7c5][GUI]
+		Logout of 'admin'
+	[16/Jan/29 08:43:53][AUDIT][gcs82pu1ullcg9bt5khvoen7c5][GUI]
+		Login for 'kaustubh' from '10.0.0.179' succeeded
+	[16/Jan/29 08:44:02][AUDIT][gcs82pu1ullcg9bt5khvoen7c5][GUI]
+		Logout of 'kaustubh'
+	[16/Jan/29 08:44:10][AUDIT][gcs82pu1ullcg9bt5khvoen7c5][GUI]
+		Login for 'admin' from '10.0.0.179' succeeded
+	[16/Jan/29 08:44:54][AUDIT][gcs82pu1ullcg9bt5khvoen7c5][GUI]
+		Test Project 'Crucible' was created
+	[16/Jan/29 08:45:05][AUDIT][gcs82pu1ullcg9bt5khvoen7c5][GUI]
+		Logout of 'admin'
+	[16/Jan/29 08:45:17][AUDIT][gcs82pu1ullcg9bt5khvoen7c5][GUI]
+		Login for 'kaustubh' from '10.0.0.179' succeeded
+	[16/Jan/29 08:45:48][AUDIT][gcs82pu1ullcg9bt5khvoen7c5][GUI]
+		Logout of 'kaustubh'
+	[16/Jan/29 08:45:56][AUDIT][gcs82pu1ullcg9bt5khvoen7c5][GUI]
+		Login for 'admin' from '10.0.0.179' succeeded
+	[16/Jan/29 08:46:05][AUDIT][gcs82pu1ullcg9bt5khvoen7c5][GUI]
+		User 'ameyk' was assigned the role 'senior tester' to the Test Project 'CF Classic folios'
+	[16/Jan/29 08:46:05][AUDIT][gcs82pu1ullcg9bt5khvoen7c5][GUI]
+		User 'Deepika' was assigned the role 'guest' to the Test Project 'CF Classic folios'
+	[16/Jan/29 08:46:05][AUDIT][gcs82pu1ullcg9bt5khvoen7c5][GUI]
+		User 'Harshali' was assigned the role 'guest' to the Test Project 'CF Classic folios'
+	[16/Jan/29 08:46:05][AUDIT][gcs82pu1ullcg9bt5khvoen7c5][GUI]
+		User 'kaustubh' was assigned the role 'senior tester' to the Test Project 'CF Classic folios'
+	[16/Jan/29 08:46:05][AUDIT][gcs82pu1ullcg9bt5khvoen7c5][GUI]
+		User 'pratik' was assigned the role 'guest' to the Test Project 'CF Classic folios'
+	[16/Jan/29 08:46:06][AUDIT][gcs82pu1ullcg9bt5khvoen7c5][GUI]
+		User 'priyanka' was assigned the role 'guest' to the Test Project 'CF Classic folios'
+	[16/Jan/29 08:46:06][AUDIT][gcs82pu1ullcg9bt5khvoen7c5][GUI]
+		User 'rajat.sharma@weboniselab.com' was assigned the role 'guest' to the Test Project 'CF Classic folios'
+	[16/Jan/29 08:46:06][AUDIT][gcs82pu1ullcg9bt5khvoen7c5][GUI]
+		User 'Reshma' was assigned the role 'senior tester' to the Test Project 'CF Classic folios'
+	[16/Jan/29 08:46:06][AUDIT][gcs82pu1ullcg9bt5khvoen7c5][GUI]
+		User 'tanushree' was assigned the role 'senior tester' to the Test Project 'CF Classic folios'
+	[16/Jan/29 08:46:10][AUDIT][gcs82pu1ullcg9bt5khvoen7c5][GUI]
+		Logout of 'admin'
+	[16/Jan/29 08:46:18][AUDIT][gcs82pu1ullcg9bt5khvoen7c5][GUI]
+		Login for 'kaustubh' from '10.0.0.179' succeeded
+	[16/Jan/29 08:46:36][AUDIT][gcs82pu1ullcg9bt5khvoen7c5][GUI]
+		Logout of 'kaustubh'
+	[16/Jan/29 08:46:46][AUDIT][gcs82pu1ullcg9bt5khvoen7c5][GUI]
+		Login for 'admin' from '10.0.0.179' succeeded
+	[16/Jan/29 08:47:26][AUDIT][gcs82pu1ullcg9bt5khvoen7c5][GUI]
+		User 'ameyk' was assigned the role 'senior tester' to the Test Project 'CF Classic folios'
+	[16/Jan/29 08:47:26][AUDIT][gcs82pu1ullcg9bt5khvoen7c5][GUI]
+		User 'Deepika' was assigned the role 'guest' to the Test Project 'CF Classic folios'
+	[16/Jan/29 08:47:26][AUDIT][gcs82pu1ullcg9bt5khvoen7c5][GUI]
+		User 'Harshali' was assigned the role 'guest' to the Test Project 'CF Classic folios'
+	[16/Jan/29 08:47:26][AUDIT][gcs82pu1ullcg9bt5khvoen7c5][GUI]
+		User 'kaustubh' was assigned the role 'senior tester' to the Test Project 'CF Classic folios'
+	[16/Jan/29 08:47:26][AUDIT][gcs82pu1ullcg9bt5khvoen7c5][GUI]
+		User 'pratik' was assigned the role 'guest' to the Test Project 'CF Classic folios'
+	[16/Jan/29 08:47:26][AUDIT][gcs82pu1ullcg9bt5khvoen7c5][GUI]
+		User 'priyanka' was assigned the role 'guest' to the Test Project 'CF Classic folios'
+	[16/Jan/29 08:47:26][AUDIT][gcs82pu1ullcg9bt5khvoen7c5][GUI]
+		User 'rajat.sharma@weboniselab.com' was assigned the role 'guest' to the Test Project 'CF Classic folios'
+	[16/Jan/29 08:47:26][AUDIT][gcs82pu1ullcg9bt5khvoen7c5][GUI]
+		User 'Reshma' was assigned the role 'senior tester' to the Test Project 'CF Classic folios'
+	[16/Jan/29 08:47:26][AUDIT][gcs82pu1ullcg9bt5khvoen7c5][GUI]
+		User 'tanushree' was assigned the role 'senior tester' to the Test Project 'CF Classic folios'
+	[16/Jan/29 08:47:54][AUDIT][gcs82pu1ullcg9bt5khvoen7c5][GUI]
+		User 'kaustubh' was assigned the role 'senior tester' to the Test Project 'Crucible'
+	[16/Jan/29 08:48:05][AUDIT][gcs82pu1ullcg9bt5khvoen7c5][GUI]
+		Logout of 'admin'
+	[16/Jan/29 08:48:11][AUDIT][gcs82pu1ullcg9bt5khvoen7c5][GUI]
+		Login for 'kaustubh' from '10.0.0.179' succeeded
+	[16/Jan/29 09:26:21][AUDIT][olhql76qosrn1r5gk5thsfho62][GUI]
+		Logout of 'nehaa'
+	[16/Jan/29 09:26:28][AUDIT][olhql76qosrn1r5gk5thsfho62][GUI]
+		Login for 'admin' from '10.0.1.163' succeeded
+	[16/Jan/29 09:26:55][AUDIT][olhql76qosrn1r5gk5thsfho62][GUI]
+		Test Project 'Taxsutra' was created
+	[16/Jan/29 09:27:02][AUDIT][olhql76qosrn1r5gk5thsfho62][GUI]
+		Logout of 'admin'
+	[16/Jan/29 09:27:11][AUDIT][olhql76qosrn1r5gk5thsfho62][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Jan/29 09:56:43][AUDIT][859719oput3qoe4cuh1piqfds7][GUI]
+		Login for 'pratik' from '10.0.1.138' succeeded
+	[16/Jan/29 10:01:20][AUDIT][859719oput3qoe4cuh1piqfds7][GUI]
+		All user roles were unassigned from the Test Project with id 'Test1'
+	[16/Jan/29 10:01:20][AUDIT][859719oput3qoe4cuh1piqfds7][GUI]
+		Test Project 'Test1' was deleted
+	[16/Jan/29 10:01:26][AUDIT][859719oput3qoe4cuh1piqfds7][GUI]
+		All user roles were unassigned from the Test Project with id 'Test3'
+	[16/Jan/29 10:01:26][AUDIT][859719oput3qoe4cuh1piqfds7][GUI]
+		Test Project 'Test3' was deleted
+	[16/Jan/29 10:02:10][AUDIT][859719oput3qoe4cuh1piqfds7][GUI]
+		Logout of 'pratik'
+	[16/Jan/29 10:02:16][AUDIT][859719oput3qoe4cuh1piqfds7][GUI]
+		Login for 'admin' from '10.0.1.138' succeeded
+	[16/Jan/29 10:03:49][AUDIT][859719oput3qoe4cuh1piqfds7][GUI]
+		Logout of 'admin'
+	[16/Jan/29 10:12:40][AUDIT][859719oput3qoe4cuh1piqfds7][GUI]
+		Login for 'pratik' from '10.0.1.138' succeeded
+	[16/Jan/29 10:12:59][AUDIT][859719oput3qoe4cuh1piqfds7][GUI]
+		Logout of 'pratik'
+	[16/Jan/29 10:13:09][AUDIT][859719oput3qoe4cuh1piqfds7][GUI]
+		Login for 'pratik' from '10.0.1.138' succeeded
+	[16/Jan/29 10:13:26][AUDIT][859719oput3qoe4cuh1piqfds7][GUI]
+		Logout of 'pratik'
+	[16/Jan/29 10:13:32][AUDIT][859719oput3qoe4cuh1piqfds7][GUI]
+		Login for 'pratik' from '10.0.1.138' succeeded
+	[16/Jan/29 10:15:15][AUDIT][gcs82pu1ullcg9bt5khvoen7c5][GUI]
+		Login for 'kaustubh' from '10.0.0.179' failed
+	[16/Jan/29 10:15:25][AUDIT][gcs82pu1ullcg9bt5khvoen7c5][GUI]
+		Login for 'Kaustubh' from '10.0.0.179' failed
+	[16/Jan/29 10:15:39][AUDIT][gcs82pu1ullcg9bt5khvoen7c5][GUI]
+		Logout of 'kaustubh'
+	[16/Jan/29 10:15:45][AUDIT][gcs82pu1ullcg9bt5khvoen7c5][GUI]
+		Login for 'kaustubh' from '10.0.0.179' succeeded
+	[16/Jan/29 11:31:34][AUDIT][gcs82pu1ullcg9bt5khvoen7c5][GUI]
+		Logout of 'kaustubh'
+	[16/Jan/29 11:31:48][AUDIT][u9u5trm8vcqc0a6pjtpmoiq4e0][GUI]
+		Login for 'kaustubh' from '10.0.0.179' succeeded
+	[16/Jan/29 11:51:07][AUDIT][859719oput3qoe4cuh1piqfds7][GUI]
+		Login for 'pratik' from '10.0.1.138' succeeded
+	[16/Jan/29 11:54:10][AUDIT][olhql76qosrn1r5gk5thsfho62][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Jan/29 12:05:13][AUDIT][859719oput3qoe4cuh1piqfds7][GUI]
+		Test Project 'Demolition' - Test Plan 'Test Plan for Demolition project' - Build 'Demolition: Module wise Test Cases' was created
+	[16/Jan/29 12:05:25][AUDIT][859719oput3qoe4cuh1piqfds7][GUI]
+		Test Project 'Demolition' - Test Plan 'Test Plan for Demolition project' - Build 'Demolition: Module wise Test Cases' was saved
+	[16/Jan/29 12:10:50][AUDIT][859719oput3qoe4cuh1piqfds7][GUI]
+		Test Case 'DE-36 : Dashboard' version 1 was added to Test Plan Test Plan for Demolition project
+	[16/Jan/29 12:10:50][AUDIT][859719oput3qoe4cuh1piqfds7][GUI]
+		Test Case 'DE-37 : Advanced Search' version 1 was added to Test Plan Test Plan for Demolition project
+	[16/Jan/29 12:10:50][AUDIT][859719oput3qoe4cuh1piqfds7][GUI]
+		Test Case 'DE-38 : Tracked Projects' version 1 was added to Test Plan Test Plan for Demolition project
+	[16/Jan/29 12:10:50][AUDIT][859719oput3qoe4cuh1piqfds7][GUI]
+		Test Case 'DE-39 : Calendar' version 1 was added to Test Plan Test Plan for Demolition project
+	[16/Jan/29 12:10:50][AUDIT][859719oput3qoe4cuh1piqfds7][GUI]
+		Test Case 'DE-40 : Login' version 1 was added to Test Plan Test Plan for Demolition project
+	[16/Jan/29 12:10:50][AUDIT][859719oput3qoe4cuh1piqfds7][GUI]
+		Test Case 'DE-41 : Subscribe' version 1 was added to Test Plan Test Plan for Demolition project
+	[16/Jan/29 12:10:50][AUDIT][859719oput3qoe4cuh1piqfds7][GUI]
+		Test Case 'DE-42 : Recent Opportunities' version 1 was added to Test Plan Test Plan for Demolition project
+	[16/Jan/29 12:10:50][AUDIT][859719oput3qoe4cuh1piqfds7][GUI]
+		Test Case 'DE-43 : Advertising' version 1 was added to Test Plan Test Plan for Demolition project
+	[16/Jan/29 12:10:50][AUDIT][859719oput3qoe4cuh1piqfds7][GUI]
+		Test Case 'DE-44 : Demo Memo' version 1 was added to Test Plan Test Plan for Demolition project
+	[16/Jan/29 12:22:26][AUDIT][859719oput3qoe4cuh1piqfds7][GUI]
+		Logout of 'pratik'
+	[16/Jan/29 13:19:38][AUDIT][<nosession>][GUI]
+		Login for 'priyanka' from '10.0.0.202' failed
+	[16/Jan/29 13:19:47][AUDIT][<nosession>][GUI]
+		Login for 'priyanka' from '10.0.0.202' failed
+	[16/Jan/29 13:19:56][AUDIT][<nosession>][GUI]
+		Login for 'priyanka' from '10.0.0.202' failed
+	[16/Jan/29 13:20:05][AUDIT][<nosession>][GUI]
+		Login for 'priyanka' from '10.0.0.202' failed
+	[16/Jan/29 13:20:47][AUDIT][s65lbdupk9j14rq50rr8qj44u0][GUI]
+		Login for 'priyanka' from '10.0.0.202' succeeded
+	[16/Jan/29 14:49:57][AUDIT][tvjo8nukoitbu6qss438pgeud5][GUI]
+		Logout of 'nagesh'
+	[16/Feb/1 05:20:34][AUDIT][9ut5lv0m7c34khal3cu4q52hl7][GUI]
+		Login for 'pratik' from '10.0.1.138' succeeded
+	[16/Feb/1 05:35:05][AUDIT][p9figbk5vre7opb2lcf5an20g7][GUI]
+		Login for 'nagesh' from '10.0.1.5' succeeded
+	[16/Feb/1 06:08:39][AUDIT][uoc4h3vvd6kprvsre0lj292qi1][GUI]
+		Login for 'saroj' from '10.0.1.7' succeeded
+	[16/Feb/1 06:13:44][AUDIT][uoc4h3vvd6kprvsre0lj292qi1][GUI]
+		Test Project 'LATAS' was saved
+	[16/Feb/1 06:15:31][AUDIT][36elf2q7bo0e739r3cm33ahe46][GUI]
+		Login for 'admin' from '10.0.2.74' succeeded
+	[16/Feb/1 06:18:30][AUDIT][36elf2q7bo0e739r3cm33ahe46][GUI]
+		User 'atuls' was created
+	[16/Feb/1 06:19:40][AUDIT][4m6l3snu747q963af8fgs2glh3][GUI]
+		Login for 'admin' from '10.0.0.240' succeeded
+	[16/Feb/1 06:24:06][AUDIT][<nosession>][GUI]
+		Login for 'abhijeet.thalkari' from '10.0.2.250' failed
+	[16/Feb/1 06:24:13][AUDIT][ooo8sb79vt298gm9f5ut5ue1i5][GUI]
+		Login for 'abhijeet.thalkari' from '10.0.2.250' succeeded
+	[16/Feb/1 06:24:23][AUDIT][36elf2q7bo0e739r3cm33ahe46][GUI]
+		Test Project 'USAF - LMS' was created
+	[16/Feb/1 06:25:25][AUDIT][36elf2q7bo0e739r3cm33ahe46][GUI]
+		Logout of 'admin'
+	[16/Feb/1 06:25:42][AUDIT][36elf2q7bo0e739r3cm33ahe46][GUI]
+		Login for 'atuls' from '10.0.2.74' succeeded
+	[16/Feb/1 06:29:28][AUDIT][36elf2q7bo0e739r3cm33ahe46][GUI]
+		Logout of 'atuls'
+	[16/Feb/1 06:32:57][AUDIT][q7jp3ncso0k05v0ush89c8oc05][GUI]
+		Login for 'rajat.sharma@weboniselab.com' from '10.0.1.45' succeeded
+	[16/Feb/1 06:33:26][AUDIT][ooo8sb79vt298gm9f5ut5ue1i5][GUI]
+		Test Project 'Microsave Phase 2' - Test Plan 'Microsave Homepage' was created
+	[16/Feb/1 06:33:27][AUDIT][ooo8sb79vt298gm9f5ut5ue1i5][GUI]
+		User 'abhijeet.thalkari' was assigned the role 'admin' to the Test Plan 'Microsave Homepage'
+	[16/Feb/1 06:41:19][AUDIT][q7jp3ncso0k05v0ush89c8oc05][GUI]
+		Logout of 'rajat.sharma@weboniselab.com'
+	[16/Feb/1 06:41:25][AUDIT][q7jp3ncso0k05v0ush89c8oc05][GUI]
+		Login for 'admin' from '10.0.1.45' succeeded
+	[16/Feb/1 06:55:34][AUDIT][j9f17joduf9f7aq7uce123kil2][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Feb/1 06:56:55][AUDIT][q7jp3ncso0k05v0ush89c8oc05][GUI]
+		Test Project 'Platform Brown.' was created
+	[16/Feb/1 06:58:29][AUDIT][q7jp3ncso0k05v0ush89c8oc05][GUI]
+		Logout of 'admin'
+	[16/Feb/1 06:58:52][AUDIT][q7jp3ncso0k05v0ush89c8oc05][GUI]
+		Login for 'rajat.sharma@weboniselab.com' from '10.0.1.45' succeeded
+	[16/Feb/1 07:36:12][AUDIT][aaajd4ds1pa4u0d1jc88ep1fq7][GUI]
+		Login for 'abhishek' from '10.0.2.134' succeeded
+	[16/Feb/1 07:42:05][AUDIT][q7jp3ncso0k05v0ush89c8oc05][GUI]
+		Logout of 'rajat.sharma@weboniselab.com'
+	[16/Feb/1 07:42:10][AUDIT][q7jp3ncso0k05v0ush89c8oc05][GUI]
+		Login for 'admin' from '10.0.1.45' succeeded
+	[16/Feb/1 07:42:49][AUDIT][q7jp3ncso0k05v0ush89c8oc05][GUI]
+		User 'ameyk' was assigned the role 'senior tester' to the Test Project 'CF Classic folios'
+	[16/Feb/1 07:42:49][AUDIT][q7jp3ncso0k05v0ush89c8oc05][GUI]
+		User 'Deepika' was assigned the role 'guest' to the Test Project 'CF Classic folios'
+	[16/Feb/1 07:42:49][AUDIT][q7jp3ncso0k05v0ush89c8oc05][GUI]
+		User 'Harshali' was assigned the role 'guest' to the Test Project 'CF Classic folios'
+	[16/Feb/1 07:42:49][AUDIT][q7jp3ncso0k05v0ush89c8oc05][GUI]
+		User 'kaustubh' was assigned the role 'senior tester' to the Test Project 'CF Classic folios'
+	[16/Feb/1 07:42:49][AUDIT][q7jp3ncso0k05v0ush89c8oc05][GUI]
+		User 'pratik' was assigned the role 'guest' to the Test Project 'CF Classic folios'
+	[16/Feb/1 07:42:49][AUDIT][q7jp3ncso0k05v0ush89c8oc05][GUI]
+		User 'priyanka' was assigned the role 'guest' to the Test Project 'CF Classic folios'
+	[16/Feb/1 07:42:49][AUDIT][q7jp3ncso0k05v0ush89c8oc05][GUI]
+		User 'rajat.sharma@weboniselab.com' was assigned the role 'senior tester' to the Test Project 'CF Classic folios'
+	[16/Feb/1 07:42:49][AUDIT][q7jp3ncso0k05v0ush89c8oc05][GUI]
+		User 'Reshma' was assigned the role 'senior tester' to the Test Project 'CF Classic folios'
+	[16/Feb/1 07:42:49][AUDIT][q7jp3ncso0k05v0ush89c8oc05][GUI]
+		User 'tanushree' was assigned the role 'senior tester' to the Test Project 'CF Classic folios'
+	[16/Feb/1 07:42:56][AUDIT][q7jp3ncso0k05v0ush89c8oc05][GUI]
+		Logout of 'admin'
+	[16/Feb/1 07:43:14][AUDIT][q7jp3ncso0k05v0ush89c8oc05][GUI]
+		Login for 'rajat.sharma@weboniselab.com' from '10.0.1.45' succeeded
+	[16/Feb/1 08:25:54][AUDIT][q7jp3ncso0k05v0ush89c8oc05][GUI]
+		Logout of 'rajat.sharma@weboniselab.com'
+	[16/Feb/1 08:25:58][AUDIT][q7jp3ncso0k05v0ush89c8oc05][GUI]
+		Login for 'admin' from '10.0.1.45' succeeded
+	[16/Feb/1 08:26:23][AUDIT][q7jp3ncso0k05v0ush89c8oc05][GUI]
+		User 'rajat.sharma@weboniselab.com' was assigned the role 'senior tester' to the Test Project 'Platform Brown.'
+	[16/Feb/1 08:26:28][AUDIT][q7jp3ncso0k05v0ush89c8oc05][GUI]
+		Logout of 'admin'
+	[16/Feb/1 08:26:40][AUDIT][q7jp3ncso0k05v0ush89c8oc05][GUI]
+		Login for 'rajat.sharma@weboniselab.com' from '10.0.1.45' succeeded
+	[16/Feb/1 08:41:48][AUDIT][9ut5lv0m7c34khal3cu4q52hl7][GUI]
+		Login for 'pratik' from '10.0.1.138' succeeded
+	[16/Feb/1 09:06:58][AUDIT][j9f17joduf9f7aq7uce123kil2][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Feb/1 09:27:56][AUDIT][p9figbk5vre7opb2lcf5an20g7][GUI]
+		Login for 'nagesh' from '10.0.1.5' succeeded
+	[16/Feb/1 10:02:22][AUDIT][4m6l3snu747q963af8fgs2glh3][GUI]
+		Login for 'admin' from '10.0.0.240' succeeded
+	[16/Feb/1 10:20:51][AUDIT][j9f17joduf9f7aq7uce123kil2][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Feb/1 10:49:05][AUDIT][9ut5lv0m7c34khal3cu4q52hl7][GUI]
+		Logout of 'pratik'
+	[16/Feb/1 10:55:11][AUDIT][ooo8sb79vt298gm9f5ut5ue1i5][GUI]
+		Login for 'abhijeet.thalkari' from '10.0.2.250' succeeded
+	[16/Feb/1 11:44:09][AUDIT][avs3ajdh1fu7or6rmes620fha0][GUI]
+		Login for 'priyanka' from '10.0.0.202' succeeded
+	[16/Feb/1 12:12:47][AUDIT][p9figbk5vre7opb2lcf5an20g7][GUI]
+		Login for 'nagesh' from '10.0.1.5' succeeded
+	[16/Feb/1 13:09:08][AUDIT][4m6l3snu747q963af8fgs2glh3][GUI]
+		Login for 'admin' from '10.0.0.240' succeeded
+	[16/Feb/1 13:17:22][AUDIT][9ut5lv0m7c34khal3cu4q52hl7][GUI]
+		Login for 'pratik' from '10.0.1.138' succeeded
+	[16/Feb/1 13:21:40][AUDIT][9ut5lv0m7c34khal3cu4q52hl7][GUI]
+		Logout of 'pratik'
+	[16/Feb/1 15:27:21][AUDIT][p9figbk5vre7opb2lcf5an20g7][GUI]
+		Logout of 'nagesh'
+	[16/Feb/2 04:38:35][AUDIT][nju57v8eaeueusqgu0002iilg7][GUI]
+		Login for 'anirban' from '10.0.1.25' succeeded
+	[16/Feb/2 04:39:52][AUDIT][nju57v8eaeueusqgu0002iilg7][GUI]
+		Test Project 'DataMapper' - Test Plan 'Automated Algorithms with User Input' was created
+	[16/Feb/2 04:40:07][AUDIT][nju57v8eaeueusqgu0002iilg7][GUI]
+		Test Project 'DataMapper' - Test Plan 'Automated Algorithms with User Input' was saved
+	[16/Feb/2 04:40:07][AUDIT][nju57v8eaeueusqgu0002iilg7][GUI]
+		User 'anirban' was assigned the role 'admin' to the Test Plan 'Automated Algorithms with User Input'
+	[16/Feb/2 04:40:31][AUDIT][nju57v8eaeueusqgu0002iilg7][GUI]
+		Test Project 'DataMapper' - Test Plan 'DM_BillingModel_2016' - Build 'Automated Algorithms with User Input' was created
+	[16/Feb/2 04:41:46][AUDIT][nju57v8eaeueusqgu0002iilg7][GUI]
+		Test Project 'DataMapper' - Test Plan 'Automated Algorithms with User Input' - Build 'Automated Algorithms with User Input' was created
+	[16/Feb/2 04:43:40][AUDIT][nju57v8eaeueusqgu0002iilg7][GUI]
+		Test Project 'DataMapper' - Test Plan 'Automated Algorithms with User Input' was saved
+	[16/Feb/2 05:33:29][AUDIT][caccpe1p3gf77rnt4bo998pk66][GUI]
+		Login for 'nagesh' from '10.0.1.5' succeeded
+	[16/Feb/2 06:03:33][AUDIT][4m6l3snu747q963af8fgs2glh3][GUI]
+		Login for 'admin' from '10.0.0.240' succeeded
+	[16/Feb/2 06:04:20][AUDIT][4m6l3snu747q963af8fgs2glh3][GUI]
+		User 'deepak' was created
+	[16/Feb/2 06:05:19][AUDIT][4m6l3snu747q963af8fgs2glh3][GUI]
+		User 'admin1' was created
+	[16/Feb/2 06:05:33][AUDIT][4m6l3snu747q963af8fgs2glh3][GUI]
+		Logout of 'admin'
+	[16/Feb/2 06:05:54][AUDIT][nju57v8eaeueusqgu0002iilg7][GUI]
+		Test Case 'DM-2 : DM-2583_User should be able to select a new survey while applying an algorithm' version 1 was added to Test Plan Automated Algorithms with User Input
+	[16/Feb/2 06:06:12][AUDIT][nju57v8eaeueusqgu0002iilg7][GUI]
+		Test Case 'DM-6 : DM-2583_user should see survey date and time in popup survey section' version 1 was added to Test Plan Automated Algorithms with User Input
+	[16/Feb/2 06:06:28][AUDIT][nju57v8eaeueusqgu0002iilg7][GUI]
+		Test Case 'DM-7 : DM-2583_Select survey section user should show those surveys which are with same sensor type and GR' version 1 was added to Test Plan Automated Algorithms with User Input
+	[16/Feb/2 06:06:34][AUDIT][nju57v8eaeueusqgu0002iilg7][GUI]
+		Test Case 'DM-8 : DM-2583_User should be able to close select survey popup by clicking on Cancel(X) icon' version 1 was added to Test Plan Automated Algorithms with User Input
+	[16/Feb/2 06:06:41][AUDIT][nju57v8eaeueusqgu0002iilg7][GUI]
+		Test Case 'DM-9 : DM-2583_User should be able to close select survey popup by pressing ESC button' version 1 was added to Test Plan Automated Algorithms with User Input
+	[16/Feb/2 06:06:48][AUDIT][nju57v8eaeueusqgu0002iilg7][GUI]
+		Test Case 'DM-10 : DM-2583_selected new survey's KML should be shown in Select survey section' version 1 was added to Test Plan Automated Algorithms with User Input
+	[16/Feb/2 06:06:57][AUDIT][nju57v8eaeueusqgu0002iilg7][GUI]
+		Test Case 'DM-11 : DM-2583_User should see only those survey which have at-least one ortho with KML output' version 1 was added to Test Plan Automated Algorithms with User Input
+	[16/Feb/2 06:13:14][AUDIT][iiclbkvrni3usf7gaesfvjbr36][GUI]
+		Login for 'nagesh' from '10.0.1.5' succeeded
+	[16/Feb/2 06:15:31][AUDIT][hm76lrqo2e6p69s01q5ba4mea2][GUI]
+		Login for 'abhishek' from '10.0.2.134' succeeded
+	[16/Feb/2 08:33:17][AUDIT][gcs82pu1ullcg9bt5khvoen7c5][GUI]
+		Login for 'kaustubh' from '10.0.0.179' succeeded
+	[16/Feb/2 08:54:39][AUDIT][1838oapnoqrshj63gchk1ibbg1][GUI]
+		Login for 'admin1' from '10.0.0.100' succeeded
+	[16/Feb/2 08:55:26][AUDIT][1838oapnoqrshj63gchk1ibbg1][GUI]
+		User 'admin' was saved
+	[16/Feb/2 08:55:34][AUDIT][1838oapnoqrshj63gchk1ibbg1][GUI]
+		User 'deepak' was saved
+	[16/Feb/2 08:55:37][AUDIT][1838oapnoqrshj63gchk1ibbg1][GUI]
+		Logout of 'admin1'
+	[16/Feb/2 08:55:42][AUDIT][<nosession>][GUI]
+		Login for 'admin' from '10.0.0.100' failed
+	[16/Feb/2 08:55:52][AUDIT][1838oapnoqrshj63gchk1ibbg1][GUI]
+		Login for 'deepak' from '10.0.0.100' succeeded
+	[16/Feb/2 08:58:54][AUDIT][l2cq9egk9u899ai5gcevsu3c91][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Feb/2 09:31:05][AUDIT][2jig5rp8d1b76bcaho034mit92][GUI]
+		Login for 'priyanka' from '10.0.0.202' succeeded
+	[16/Feb/2 09:50:34][AUDIT][9h23p1apmttfgqibsobhi567q1][GUI]
+		Login for 'rajat.sharma@weboniselab.com' from '10.0.1.45' succeeded
+	[16/Feb/2 10:30:35][AUDIT][ug5e7lnan4et9jjp0qojiibk40][GUI]
+		Login for 'rajat.sharma@weboniselab.com' from '10.0.1.45' succeeded
+	[16/Feb/2 10:32:12][AUDIT][ug5e7lnan4et9jjp0qojiibk40][GUI]
+		User 'rajat.sharma@weboniselab.com' has insufficient rights for 'any' action on 'reqTcAssign.php'. Exit forced
+	[16/Feb/2 10:32:19][AUDIT][ug5e7lnan4et9jjp0qojiibk40][GUI]
+		User 'rajat.sharma@weboniselab.com' has insufficient rights for 'any' action on 'reqTcAssign.php'. Exit forced
+	[16/Feb/2 12:08:43][AUDIT][qqjat4jqdi6e4cj16nmtllvmt5][GUI]
+		Login for 'pratik' from '10.0.1.138' succeeded
+	[16/Feb/2 12:09:19][AUDIT][qqjat4jqdi6e4cj16nmtllvmt5][GUI]
+		Logout of 'pratik'
+	[16/Feb/2 12:09:26][AUDIT][<nosession>][GUI]
+		Login for 'admin' from '10.0.1.138' failed
+	[16/Feb/2 12:09:34][AUDIT][<nosession>][GUI]
+		Login for 'admin' from '10.0.1.138' failed
+	[16/Feb/2 13:50:14][AUDIT][qqjat4jqdi6e4cj16nmtllvmt5][GUI]
+		Login for 'pratik' from '10.0.1.138' succeeded
+	[16/Feb/2 13:51:06][AUDIT][qqjat4jqdi6e4cj16nmtllvmt5][GUI]
+		Logout of 'pratik'
+	[16/Feb/2 13:54:32][AUDIT][l2cq9egk9u899ai5gcevsu3c91][GUI]
+		Logout of 'nehaa'
+	[16/Feb/2 14:28:12][AUDIT][caccpe1p3gf77rnt4bo998pk66][GUI]
+		Logout of 'nagesh'
+	[16/Feb/2 14:44:22][AUDIT][caccpe1p3gf77rnt4bo998pk66][GUI]
+		Login for 'nagesh' from '10.0.1.5' succeeded
+	[16/Feb/3 06:13:36][AUDIT][<nosession>][GUI]
+		Login for 'nagesh' from '10.0.1.5' failed
+	[16/Feb/3 06:13:42][AUDIT][ku6jrmr305ecgkbo182ohaji01][GUI]
+		Login for 'nagesh' from '10.0.1.5' succeeded
+	[16/Feb/3 06:17:57][AUDIT][7248odh2b3hd4s6v6jjd0u4b86][GUI]
+		Login for 'rajat.sharma@weboniselab.com' from '10.0.1.45' succeeded
+	[16/Feb/3 06:18:42][AUDIT][gms3kdt7eiaoijek4kim3l2k13][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Feb/3 09:36:10][AUDIT][pgspcg1erbebgbfukbpjpch4h7][GUI]
+		Login for 'nagesh' from '10.0.1.5' succeeded
+	[16/Feb/3 11:11:20][AUDIT][br3q91mcu7bitedl8mmvhqoec5][GUI]
+		Login for 'rajat.sharma@weboniselab.com' from '10.0.1.45' succeeded
+	[16/Feb/3 13:47:58][AUDIT][gms3kdt7eiaoijek4kim3l2k13][GUI]
+		Logout of 'nehaa'
+	[16/Feb/3 14:24:38][AUDIT][<nosession>][GUI]
+		Login for 'admin' from '10.0.0.198' failed
+	[16/Feb/3 14:24:52][AUDIT][<nosession>][GUI]
+		Login for 'admin' from '10.0.0.198' failed
+	[16/Feb/3 14:25:10][AUDIT][746410v93e8j82vcf5rg2m78g2][GUI]
+		Login for 'abhishek' from '10.0.0.198' succeeded
+	[16/Feb/3 14:31:40][AUDIT][746410v93e8j82vcf5rg2m78g2][GUI]
+		Logout of 'abhishek'
+	[16/Feb/4 05:18:58][AUDIT][9fci7jjj42gfbb5qtisuv139p4][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Feb/4 07:34:23][AUDIT][a2s906rkqadrhjunjml20mpi32][GUI]
+		Login for 'pratik' from '10.0.1.138' succeeded
+	[16/Feb/4 07:34:39][AUDIT][a2s906rkqadrhjunjml20mpi32][GUI]
+		Logout of 'pratik'
+	[16/Feb/4 09:03:17][AUDIT][a2s906rkqadrhjunjml20mpi32][GUI]
+		Login for 'pratik' from '10.0.1.138' succeeded
+	[16/Feb/4 09:15:03][AUDIT][fpco3a76rp53chqu66a5th59a3][GUI]
+		Login for 'rajat.sharma@weboniselab.com' from '10.0.1.45' succeeded
+	[16/Feb/4 10:28:56][AUDIT][a2s906rkqadrhjunjml20mpi32][GUI]
+		Logout of 'pratik'
+	[16/Feb/4 12:41:56][AUDIT][g3rqkpk54tvf5tg6kevqncfdk3][GUI]
+		Login for 'nagesh' from '10.0.1.5' succeeded
+	[16/Feb/4 12:53:35][AUDIT][9fci7jjj42gfbb5qtisuv139p4][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Feb/5 08:11:31][AUDIT][1av29e2vn0prgl3a4lpabdb2d5][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Feb/5 09:51:37][AUDIT][<nosession>][GUI]
+		Login for 'anirban' from '10.0.0.141' failed
+	[16/Feb/5 09:51:46][AUDIT][rqspror3vrb2731h36nh85sps5][GUI]
+		Login for 'anirban' from '10.0.0.141' succeeded
+	[16/Feb/5 11:22:39][AUDIT][lekcr92j2sdu7gou6e2jg9ort4][GUI]
+		Login for 'pratik' from '10.0.1.138' succeeded
+	[16/Feb/5 12:10:33][AUDIT][rtqgrq6m931t2i9n9ta7vmv445][GUI]
+		Login for 'nehaa' from '10.0.0.255' succeeded
+	[16/Feb/5 12:18:04][AUDIT][lekcr92j2sdu7gou6e2jg9ort4][GUI]
+		Logout of 'pratik'
+	[16/Feb/5 12:52:38][AUDIT][lekcr92j2sdu7gou6e2jg9ort4][GUI]
+		Login for 'pratik' from '10.0.1.138' succeeded
+	[16/Feb/5 12:53:44][AUDIT][lekcr92j2sdu7gou6e2jg9ort4][GUI]
+		Logout of 'pratik'
+	[16/Feb/8 05:08:47][AUDIT][kq8mb5hc5r0jta2ngf8ja5pg43][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Feb/8 06:34:30][AUDIT][nd9kt6c52krf453duag1ngegi3][GUI]
+		Login for 'rajat.sharma@weboniselab.com' from '10.0.1.45' succeeded
+	[16/Feb/8 11:00:34][AUDIT][rbhvch773bjtd482bd4t4qfdb6][GUI]
+		Login for 'nehaa' from '10.0.0.250' succeeded
+	[16/Feb/9 05:09:35][AUDIT][f579igrhcste8tmnljn0pe0kg2][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Feb/9 06:47:11][AUDIT][ie69t83obks3odamiadv4euqb1][GUI]
+		Login for 'rajat.sharma@weboniselab.com' from '10.0.1.45' succeeded
+	[16/Feb/9 07:54:25][AUDIT][acjc2p6ufnoncsv3cq8hovco75][GUI]
+		Login for 'rajat.sharma@weboniselab.com' from '10.0.1.45' succeeded
+	[16/Feb/9 11:13:13][AUDIT][p8731cn7ptt0gi8pr181t3ra83][GUI]
+		Login for 'pratik' from '10.0.1.138' succeeded
+	[16/Feb/9 11:19:58][AUDIT][lap0bc7jp59h12g741f5gm2m76][GUI]
+		Login for 'saroj' from '10.0.1.7' succeeded
+	[16/Feb/9 11:21:33][AUDIT][acjc2p6ufnoncsv3cq8hovco75][GUI]
+		Login for 'rajat.sharma@weboniselab.com' from '10.0.1.45' succeeded
+	[16/Feb/9 11:31:24][AUDIT][p8731cn7ptt0gi8pr181t3ra83][GUI]
+		Logout of 'pratik'
+	[16/Feb/9 12:11:45][AUDIT][d20bnccf0ih54ah0eanq7h85p0][GUI]
+		Login for 'nagesh' from '10.0.1.5' succeeded
+	[16/Feb/9 13:01:14][AUDIT][lap0bc7jp59h12g741f5gm2m76][GUI]
+		Test Project 'LATAS' - Test Plan 'Regression' was created
+	[16/Feb/9 13:02:09][AUDIT][lap0bc7jp59h12g741f5gm2m76][GUI]
+		Test Project 'LATAS' - Test Plan 'Sanity' was created
+	[16/Feb/9 13:02:09][AUDIT][lap0bc7jp59h12g741f5gm2m76][GUI]
+		User 'saroj' was assigned the role 'senior tester' to the Test Plan 'Sanity'
+	[16/Feb/9 13:08:06][AUDIT][lap0bc7jp59h12g741f5gm2m76][GUI]
+		User 'saroj' has insufficient rights for 'any' action on 'reqTcAssign.php'. Exit forced
+	[16/Feb/9 13:11:17][AUDIT][lap0bc7jp59h12g741f5gm2m76][GUI]
+		User 'saroj' has insufficient rights for 'any' action on 'reqSpecListTree.php'. Exit forced
+	[16/Feb/9 13:11:41][AUDIT][lap0bc7jp59h12g741f5gm2m76][GUI]
+		User 'saroj' has insufficient rights for 'any' action on 'reqSpecListTree.php'. Exit forced
+	[16/Feb/9 13:25:12][AUDIT][lap0bc7jp59h12g741f5gm2m76][GUI]
+		Keyword 'LATAS' was created
+	[16/Feb/9 13:26:49][AUDIT][c415fbmml14so14rkq6ds2f1m0][GUI]
+		Login for 'admin1' from '10.0.0.240' succeeded
+	[16/Feb/9 13:27:58][AUDIT][c415fbmml14so14rkq6ds2f1m0][GUI]
+		Role 'senior tester' was saved
+	[16/Feb/9 13:28:04][AUDIT][lap0bc7jp59h12g741f5gm2m76][GUI]
+		Logout of 'saroj'
+	[16/Feb/9 13:28:20][AUDIT][lap0bc7jp59h12g741f5gm2m76][GUI]
+		Login for 'saroj' from '10.0.1.7' succeeded
+	[16/Feb/9 14:34:14][AUDIT][d20bnccf0ih54ah0eanq7h85p0][GUI]
+		Logout of 'nagesh'
+	[16/Feb/10 05:46:54][AUDIT][nhsun3dokucl3p86t2hqdnku71][GUI]
+		Login for 'nagesh' from '10.0.1.5' succeeded
+	[16/Feb/10 06:57:35][AUDIT][81hrqa2djpqj7abujl6on11dr4][GUI]
+		Login for 'nehaa' from '10.0.0.239' succeeded
+	[16/Feb/10 07:21:16][AUDIT][<nosession>][GUI]
+		Login for 'rajat.sharma@weboniselab.com' from '10.0.1.45' failed
+	[16/Feb/10 07:21:36][AUDIT][89med9dig32qbiu7v3t172d5j5][GUI]
+		Login for 'rajat.sharma@weboniselab.com' from '10.0.1.45' succeeded
+	[16/Feb/10 08:42:26][AUDIT][erg4vvv2eigh8uds4g7idj2nq5][GUI]
+		Login for 'saroj' from '10.0.1.7' succeeded
+	[16/Feb/10 09:18:35][AUDIT][erg4vvv2eigh8uds4g7idj2nq5][GUI]
+		Test Project 'LATAS' - Requirement specification 'Prepare a run time demo script that resides on the application' was created
+	[16/Feb/10 09:29:23][AUDIT][erg4vvv2eigh8uds4g7idj2nq5][GUI]
+		Logout of 'saroj'
+	[16/Feb/10 09:29:51][AUDIT][erg4vvv2eigh8uds4g7idj2nq5][GUI]
+		Login for 'saroj' from '10.0.1.7' succeeded
+	[16/Feb/10 10:26:06][AUDIT][enci76f7nerabkc00rv3hl3h30][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Feb/10 11:19:47][AUDIT][85hufqv9n4i5f5m1ljo7d0rkv4][GUI]
+		Login for 'pratik' from '10.0.1.138' succeeded
+	[16/Feb/10 11:24:07][AUDIT][85hufqv9n4i5f5m1ljo7d0rkv4][GUI]
+		Logout of 'pratik'
+	[16/Feb/11 05:32:24][AUDIT][<nosession>][GUI]
+		Login for 'nehaa' from '10.0.1.163' failed
+	[16/Feb/11 05:32:32][AUDIT][ao2j2fer5qqsuepusc5cfb41d5][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Feb/11 06:13:09][AUDIT][jnmkn5utqjgcjr78021qfqoe04][GUI]
+		Login for 'pratik' from '10.0.1.138' succeeded
+	[16/Feb/11 07:28:38][AUDIT][gqvlgb9srg8p7rh3p069ilvl81][GUI]
+		Login for 'rajat.sharma@weboniselab.com' from '10.0.1.45' succeeded
+	[16/Feb/11 07:42:44][AUDIT][k28lpjb0qdq4g0h2c77pifl1n5][GUI]
+		Login for 'nagesh' from '10.0.1.5' succeeded
+	[16/Feb/11 10:10:13][AUDIT][i5cr6m61i4jl4t0jmclmkmuj62][GUI]
+		Login for 'nagesh' from '10.0.1.5' succeeded
+	[16/Feb/11 12:36:48][AUDIT][jnmkn5utqjgcjr78021qfqoe04][GUI]
+		Logout of 'pratik'
+	[16/Feb/11 13:50:13][AUDIT][i5cr6m61i4jl4t0jmclmkmuj62][GUI]
+		Logout of 'nagesh'
+	[16/Feb/12 05:08:21][AUDIT][6aaavi09b6bbkku1v5ch1hcl34][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Feb/12 07:24:17][AUDIT][683ct110169340ntt20c22fdi4][GUI]
+		Login for 'deepika' from '10.0.0.198' succeeded
+	[16/Feb/12 07:48:12][AUDIT][<nosession>][GUI]
+		Login for 'deepak' from '10.0.3.247' failed
+	[16/Feb/12 07:48:23][AUDIT][p7cpkj5vb2fm54fmt5pg55ma92][GUI]
+		Login for 'harshali' from '10.0.3.247' succeeded
+	[16/Feb/12 09:46:01][AUDIT][e62ks48g11oj7ajtc78f119294][GUI]
+		Login for 'abhijeet.thalkari' from '10.0.2.250' succeeded
+	[16/Feb/12 09:46:04][AUDIT][oa2acpieog0c5adjsk2ar05861][GUI]
+		Login for 'mayank' from '10.0.0.176' succeeded
+	[16/Feb/12 09:50:31][AUDIT][e62ks48g11oj7ajtc78f119294][GUI]
+		User 'abhishek' was assigned the role '<no rights>' to the Test Project 'Microsave Phase 2'
+	[16/Feb/12 09:50:31][AUDIT][e62ks48g11oj7ajtc78f119294][GUI]
+		User 'ameyk' was assigned the role '<no rights>' to the Test Project 'Microsave Phase 2'
+	[16/Feb/12 09:50:31][AUDIT][e62ks48g11oj7ajtc78f119294][GUI]
+		User 'atuls' was assigned the role '<no rights>' to the Test Project 'Microsave Phase 2'
+	[16/Feb/12 09:50:31][AUDIT][e62ks48g11oj7ajtc78f119294][GUI]
+		User 'Deepika' was assigned the role '<no rights>' to the Test Project 'Microsave Phase 2'
+	[16/Feb/12 09:50:31][AUDIT][e62ks48g11oj7ajtc78f119294][GUI]
+		User 'Harshali' was assigned the role '<no rights>' to the Test Project 'Microsave Phase 2'
+	[16/Feb/12 09:50:31][AUDIT][e62ks48g11oj7ajtc78f119294][GUI]
+		User 'kaustubh' was assigned the role '<no rights>' to the Test Project 'Microsave Phase 2'
+	[16/Feb/12 09:50:31][AUDIT][e62ks48g11oj7ajtc78f119294][GUI]
+		User 'nagesh' was assigned the role '<no rights>' to the Test Project 'Microsave Phase 2'
+	[16/Feb/12 09:50:31][AUDIT][e62ks48g11oj7ajtc78f119294][GUI]
+		User 'nehaa' was assigned the role '<no rights>' to the Test Project 'Microsave Phase 2'
+	[16/Feb/12 09:50:32][AUDIT][e62ks48g11oj7ajtc78f119294][GUI]
+		User 'pratik' was assigned the role '<no rights>' to the Test Project 'Microsave Phase 2'
+	[16/Feb/12 09:50:32][AUDIT][e62ks48g11oj7ajtc78f119294][GUI]
+		User 'priyanka' was assigned the role '<no rights>' to the Test Project 'Microsave Phase 2'
+	[16/Feb/12 09:50:32][AUDIT][e62ks48g11oj7ajtc78f119294][GUI]
+		User 'rajat.sharma@weboniselab.com' was assigned the role 'senior tester' to the Test Project 'Microsave Phase 2'
+	[16/Feb/12 09:50:32][AUDIT][e62ks48g11oj7ajtc78f119294][GUI]
+		User 'Reshma' was assigned the role '<no rights>' to the Test Project 'Microsave Phase 2'
+	[16/Feb/12 09:50:32][AUDIT][e62ks48g11oj7ajtc78f119294][GUI]
+		User 'saroj' was assigned the role '<no rights>' to the Test Project 'Microsave Phase 2'
+	[16/Feb/12 09:50:32][AUDIT][e62ks48g11oj7ajtc78f119294][GUI]
+		User 'tanushree' was assigned the role '<no rights>' to the Test Project 'Microsave Phase 2'
+	[16/Feb/12 10:01:36][AUDIT][mqene3097neiq0gk2ehqnlrvu3][GUI]
+		Login for 'anirban' from '10.0.0.141' succeeded
+	[16/Feb/12 10:04:56][AUDIT][vfhgtms7anpqpqanads4caudc2][GUI]
+		Login for 'pratik' from '10.0.1.138' succeeded
+	[16/Feb/12 10:05:15][AUDIT][vfhgtms7anpqpqanads4caudc2][GUI]
+		Logout of 'pratik'
+	[16/Feb/12 10:24:01][AUDIT][kq21p58qqnb0kf51tlpf3hu7f6][GUI]
+		Login for 'saroj' from '10.0.1.7' succeeded
+	[16/Feb/12 10:24:33][AUDIT][3n4828ipv7l73p9tpuu68erce3][GUI]
+		Login for 'atuls' from '10.0.2.74' succeeded
+	[16/Feb/12 13:15:28][AUDIT][vfhgtms7anpqpqanads4caudc2][GUI]
+		Login for 'pratik' from '10.0.1.138' succeeded
+	[16/Feb/12 13:29:29][AUDIT][vfhgtms7anpqpqanads4caudc2][GUI]
+		Logout of 'pratik'
+	[16/Feb/12 13:46:03][AUDIT][6aaavi09b6bbkku1v5ch1hcl34][GUI]
+		Logout of 'nehaa'
+	[16/Feb/15 05:40:29][AUDIT][76kb85ak72rv9evg4de2mfti13][GUI]
+		Login for 'nehaa' from '10.0.0.255' succeeded
+	[16/Feb/15 09:08:45][AUDIT][<nosession>][GUI]
+		Login for 'nehaa' from '10.0.1.163' failed
+	[16/Feb/15 09:08:55][AUDIT][rijf53dumg9cni4j1sl5tf8jh1][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Feb/15 09:57:47][AUDIT][<nosession>][GUI]
+		Login for 'nagesh' from '10.0.0.229' failed
+	[16/Feb/16 05:50:02][AUDIT][1463sbgbcen9sk3f5r31d3d0c1][GUI]
+		Login for 'saroj' from '10.0.1.7' succeeded
+	[16/Feb/16 06:02:03][AUDIT][pptop09cm00k8ro046bn8k0tn2][GUI]
+		Login for 'deepika' from '10.0.0.198' succeeded
+	[16/Feb/16 06:13:14][AUDIT][1463sbgbcen9sk3f5r31d3d0c1][GUI]
+		Test Project 'LATAS' - Requirement specification 'As an API user, I should be able to register to the system' was created
+	[16/Feb/16 06:21:57][AUDIT][btho4b19fm6c982c8hbr27lv11][GUI]
+		Login for 'saroj' from '10.0.1.45' succeeded
+	[16/Feb/16 06:22:42][AUDIT][btho4b19fm6c982c8hbr27lv11][GUI]
+		Logout of 'saroj'
+	[16/Feb/16 06:25:29][AUDIT][c415fbmml14so14rkq6ds2f1m0][GUI]
+		Login for 'deepak' from '10.0.0.240' succeeded
+	[16/Feb/16 06:26:07][AUDIT][c415fbmml14so14rkq6ds2f1m0][GUI]
+		Test Project 'LATAS' - Test Plan 'Regression' - Build 'RC' was created
+	[16/Feb/17 09:28:15][AUDIT][5r1e02r6pqhm7sev4ffitgg194][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Feb/18 05:20:33][AUDIT][<nosession>][GUI]
+		Login for 'nehaa' from '10.0.1.163' failed
+	[16/Feb/18 05:20:58][AUDIT][d8fkhln7s6i33ij247gv8kg456][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Feb/18 05:31:02][AUDIT][cono2vl25ukb54p2e20ftgj9t6][GUI]
+		Login for 'rajat.sharma@weboniselab.com' from '10.0.1.45' succeeded
+	[16/Feb/18 05:31:24][AUDIT][cono2vl25ukb54p2e20ftgj9t6][GUI]
+		Logout of 'rajat.sharma@weboniselab.com'
+	[16/Feb/18 05:31:29][AUDIT][<nosession>][GUI]
+		Login for 'admin' from '10.0.1.45' failed
+	[16/Feb/18 05:35:01][AUDIT][cono2vl25ukb54p2e20ftgj9t6][GUI]
+		Login for 'rajat.sharma@weboniselab.com' from '10.0.1.45' succeeded
+	[16/Feb/18 05:49:49][AUDIT][cono2vl25ukb54p2e20ftgj9t6][GUI]
+		Keyword 'Burnett and Bradley' was created
+	[16/Feb/18 06:03:07][AUDIT][c415fbmml14so14rkq6ds2f1m0][GUI]
+		Login for 'deepak' from '10.0.0.240' succeeded
+	[16/Feb/18 06:04:26][AUDIT][c415fbmml14so14rkq6ds2f1m0][GUI]
+		Logout of 'deepak'
+	[16/Feb/18 06:04:44][AUDIT][c415fbmml14so14rkq6ds2f1m0][GUI]
+		Login for 'rajat.sharma@weboniselab.com' from '10.0.0.240' succeeded
+	[16/Feb/18 06:05:56][AUDIT][c415fbmml14so14rkq6ds2f1m0][GUI]
+		Keyword 'Burnett and Bradley' was deleted - Test Project 
+	[16/Feb/18 06:06:57][AUDIT][<nosession>][GUI]
+		Login for 'deepak' from '10.0.0.240' failed
+	[16/Feb/18 06:07:07][AUDIT][aur4683anoo9bhhle79icv2js7][GUI]
+		Login for 'deepak' from '10.0.0.240' succeeded
+	[16/Feb/18 06:10:29][AUDIT][aur4683anoo9bhhle79icv2js7][GUI]
+		Test Project 'Burnett & Bradley' was created
+	[16/Feb/18 06:11:03][AUDIT][aur4683anoo9bhhle79icv2js7][GUI]
+		User 'rajat.sharma@weboniselab.com' was saved
+	[16/Feb/18 06:12:03][AUDIT][c415fbmml14so14rkq6ds2f1m0][GUI]
+		Logout of 'rajat.sharma@weboniselab.com'
+	[16/Feb/18 06:12:28][AUDIT][c415fbmml14so14rkq6ds2f1m0][GUI]
+		Login for 'rajat.sharma@weboniselab.com' from '10.0.0.240' succeeded
+	[16/Feb/18 06:15:59][AUDIT][cono2vl25ukb54p2e20ftgj9t6][GUI]
+		Test Project 'Burnett & Bradley' was saved
+	[16/Feb/18 09:33:56][AUDIT][d8fkhln7s6i33ij247gv8kg456][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Feb/18 13:03:24][AUDIT][do66sv1flse838rk7j10fff8h5][GUI]
+		Login for 'pratik' from '10.0.1.138' succeeded
+	[16/Feb/18 13:39:25][AUDIT][do66sv1flse838rk7j10fff8h5][GUI]
+		Logout of 'pratik'
+	[16/Feb/19 04:35:15][AUDIT][aq5bmj5uhci6klq6fug5fh7d47][GUI]
+		Login for 'rajat.sharma@weboniselab.com' from '10.0.1.45' succeeded
+	[16/Feb/19 04:58:36][AUDIT][ukov2nc30ds97u3gcotgttsli4][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Feb/22 06:44:05][AUDIT][lv6qbtgmd3km4kmll4mkbr9e05][GUI]
+		Login for 'rajat.sharma@weboniselab.com' from '10.0.1.45' succeeded
+	[16/Feb/22 07:04:45][AUDIT][3a43og4ult1n6o1llev0dki9s6][GUI]
+		Login for 'anirban' from '10.0.0.141' succeeded
+	[16/Feb/22 09:01:08][AUDIT][3a43og4ult1n6o1llev0dki9s6][GUI]
+		Test Project 'DataMapper' - Test Plan 'Automated Algorithms with User Input' was saved
+	[16/Feb/22 09:01:30][AUDIT][3a43og4ult1n6o1llev0dki9s6][GUI]
+		Test Project 'DataMapper' - Test Plan 'DM_BillingModel_2016' was saved
+	[16/Feb/22 09:01:30][AUDIT][3a43og4ult1n6o1llev0dki9s6][GUI]
+		User 'anirban' was assigned the role 'admin' to the Test Plan 'DM_BillingModel_2016'
+	[16/Feb/22 09:15:37][AUDIT][3a43og4ult1n6o1llev0dki9s6][GUI]
+		Test Case 'DM-19 : Algorithm plan should be shown in user profile section after assigning an alternate plan' version 1 was added to Test Plan DM_BillingModel_2016
+	[16/Feb/22 09:15:55][AUDIT][3a43og4ult1n6o1llev0dki9s6][GUI]
+		Test Case 'DM-18 : Newly created algorithm plan should be shown while edit a user profile in admin side' version 1 was added to Test Plan DM_BillingModel_2016
+	[16/Feb/22 09:16:19][AUDIT][3a43og4ult1n6o1llev0dki9s6][GUI]
+		Test Case 'DM-17 : Algorithm plan dropdown should be blank when no alternate algorithm plan is present' version 1 was added to Test Plan DM_BillingModel_2016
+	[16/Feb/22 09:16:30][AUDIT][3a43og4ult1n6o1llev0dki9s6][GUI]
+		Test Case 'DM-16 : Admin should be able to see alternate algorithm plan in edit user section' version 1 was added to Test Plan DM_BillingModel_2016
+	[16/Feb/22 09:16:49][AUDIT][3a43og4ult1n6o1llev0dki9s6][GUI]
+		Test Case 'DM-12 : Admin should be able to see alternate storage plan in edit user section' version 1 was added to Test Plan DM_BillingModel_2016
+	[16/Feb/22 09:17:00][AUDIT][3a43og4ult1n6o1llev0dki9s6][GUI]
+		Test Case 'DM-13 : Storage plan dropdown should be blank when no alternate pricing plan is present' version 1 was added to Test Plan DM_BillingModel_2016
+	[16/Feb/22 09:17:09][AUDIT][3a43og4ult1n6o1llev0dki9s6][GUI]
+		Test Case 'DM-14 : Newly created storage plan should be shown while edit a user profile in admin side' version 1 was added to Test Plan DM_BillingModel_2016
+	[16/Feb/22 09:17:18][AUDIT][3a43og4ult1n6o1llev0dki9s6][GUI]
+		Test Case 'DM-15 : Pricing plan should be shown in user profile section after assigning an alternate pricing plane' version 1 was added to Test Plan DM_BillingModel_2016
+	[16/Feb/22 09:17:50][AUDIT][plhjluvtdsfq3ac2udaq3fhqh4][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Feb/22 13:30:27][AUDIT][<nosession>][GUI]
+		Login for 'saroj' from '10.0.1.7' failed
+	[16/Feb/22 13:30:41][AUDIT][uo9n98kgp10jnvq5m7ca39k2q7][GUI]
+		Login for 'saroj' from '10.0.1.7' succeeded
+	[16/Feb/23 06:15:08][AUDIT][<nosession>][GUI]
+		Login for 'reshma' from '10.0.1.142' failed
+	[16/Feb/23 06:15:38][AUDIT][djf5trakh8nnji4b5srkvh8fh5][GUI]
+		Login for 'reshma' from '10.0.1.142' succeeded
+	[16/Feb/23 08:56:01][AUDIT][3qeu41932vcfn5nfcmu7dvg6b4][GUI]
+		Login for 'Reshma' from '10.0.1.142' succeeded
+	[16/Feb/23 08:59:47][AUDIT][aoc3trpk23d7fao25nmemu9jv4][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Feb/23 09:50:25][AUDIT][hu9q6vspjp3bt07quhu8p057s4][GUI]
+		Login for 'rajat.sharma@weboniselab.com' from '10.0.1.45' succeeded
+	[16/Feb/23 10:24:16][AUDIT][3qeu41932vcfn5nfcmu7dvg6b4][GUI]
+		Login for 'Reshma' from '10.0.1.142' succeeded
+	[16/Feb/23 12:55:15][AUDIT][gr9iurrpaaefp6d2c2josqp3l4][GUI]
+		Login for 'reshma' from '10.0.1.142' succeeded
+	[16/Feb/24 11:20:48][AUDIT][oi0rj3h5cpltugarlai86l6bb7][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Feb/24 12:53:45][AUDIT][oi0rj3h5cpltugarlai86l6bb7][GUI]
+		Logout of 'nehaa'
+	[16/Feb/25 09:47:07][AUDIT][oqerckst9j0d1lff784sg153o7][GUI]
+		Login for 'mayank' from '10.0.0.176' succeeded
+	[16/Feb/25 10:13:13][AUDIT][r1v75mqep8ofei9frp5gen5i03][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Feb/26 05:08:22][AUDIT][3qeu41932vcfn5nfcmu7dvg6b4][GUI]
+		Login for 'reshma' from '10.0.1.142' succeeded
+	[16/Feb/26 05:58:11][AUDIT][6ss5m101mhl7asfk4o0caq3r87][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Feb/26 06:08:41][AUDIT][64jf2brnugm5efnntvki2jqrg0][GUI]
+		Login for 'nehaa' from '10.0.1.238' succeeded
+	[16/Feb/26 08:50:32][AUDIT][<nosession>][GUI]
+		Login for 'rajat.sharma@weboniselab.com' from '10.0.1.45' failed
+	[16/Feb/26 08:50:43][AUDIT][4uiq4st7bliribtkk4puepn7a3][GUI]
+		Login for 'rajat.sharma@weboniselab.com' from '10.0.1.45' succeeded
+	[16/Feb/26 08:55:54][AUDIT][4uiq4st7bliribtkk4puepn7a3][GUI]
+		Test Project 'Microsave Phase 2' was saved
+	[16/Feb/26 09:40:22][AUDIT][3qeu41932vcfn5nfcmu7dvg6b4][GUI]
+		Test Project 'USAB' was saved
+	[16/Feb/26 09:43:01][AUDIT][3qeu41932vcfn5nfcmu7dvg6b4][GUI]
+		Test Project 'USAB' - Requirement specification 'As an org admin I should be able to view my profile information by clicking' was created
+	[16/Feb/26 09:43:48][AUDIT][3qeu41932vcfn5nfcmu7dvg6b4][GUI]
+		Test Project 'USAB' - Requirement specification 'As an org admin I should be able to view my profile information by clicking' was deleted
+	[16/Feb/26 09:44:09][AUDIT][3qeu41932vcfn5nfcmu7dvg6b4][GUI]
+		Test Project 'USAB' - Requirement specification 'As an org admin I should be able to view my profile information by clicking' was created
+	[16/Feb/26 10:28:45][AUDIT][3qeu41932vcfn5nfcmu7dvg6b4][GUI]
+		Test Project 'USAB' - Test Plan 'USAB-Test Plan' was created
+	[16/Feb/26 10:28:45][AUDIT][3qeu41932vcfn5nfcmu7dvg6b4][GUI]
+		User 'Reshma' was assigned the role 'senior tester' to the Test Plan 'USAB-Test Plan'
+	[16/Feb/26 10:29:08][AUDIT][3qeu41932vcfn5nfcmu7dvg6b4][GUI]
+		Test Project 'USAB' - Test Plan 'USAB-Test Plan' was saved
+	[16/Feb/26 10:37:50][AUDIT][3qeu41932vcfn5nfcmu7dvg6b4][GUI]
+		Requirement 'USAB-72' was created
+	[16/Feb/26 10:38:15][AUDIT][3qeu41932vcfn5nfcmu7dvg6b4][GUI]
+		Requirement with title 'As an org admin I should be able to view my profile information by clicking' was assigned to the Test Case '20160226-11:32:51 As a Org admin I should be able to view my profile by clicking on'
+	[16/Feb/26 10:44:15][AUDIT][3qeu41932vcfn5nfcmu7dvg6b4][GUI]
+		Requirement with title 'As an org admin I should be able to view my profile information by clicking' was assigned to the Test Case 'As a Org admin I should be able to view my profile by clicking on "My Profile" link'
+	[16/Feb/26 10:44:32][AUDIT][3qeu41932vcfn5nfcmu7dvg6b4][GUI]
+		Requirement with title 'As an org admin I should be able to view my profile information by clicking' was assigned to the Test Case 'As an org admin I should be able to view list of organizations'
+	[16/Feb/26 10:48:08][AUDIT][3qeu41932vcfn5nfcmu7dvg6b4][GUI]
+		Requirement with title 'As an org admin I should be able to view my profile information by clicking' was assigned to the Test Case 'As a Org admin I should be able to view Account Information'
+	[16/Feb/26 10:50:18][AUDIT][3qeu41932vcfn5nfcmu7dvg6b4][GUI]
+		Requirement with title 'As an org admin I should be able to view my profile information by clicking' was assigned to the Test Case 'As a Org admin I should be able to view Professional Information'
+	[16/Feb/26 11:08:55][AUDIT][3qeu41932vcfn5nfcmu7dvg6b4][GUI]
+		Requirement with title 'As an org admin I should be able to view my profile information by clicking' was assigned to the Test Case 'As an org admin I should be able to navigate/scroll over to in-page Account Info section'
+	[16/Feb/26 11:09:15][AUDIT][3qeu41932vcfn5nfcmu7dvg6b4][GUI]
+		Requirement with title 'As an org admin I should be able to view my profile information by clicking' was assigned to the Test Case 'As an org admin I should be able to navigate to in-page Personal Info section'
+	[16/Feb/26 11:51:01][AUDIT][3qeu41932vcfn5nfcmu7dvg6b4][GUI]
+		Requirement with title 'As an org admin I should be able to view my profile information by clicking' was assigned to the Test Case 'As an org admin I should be able to view Organization Logo on My Profile page'
+	[16/Feb/26 11:52:19][AUDIT][3qeu41932vcfn5nfcmu7dvg6b4][GUI]
+		Requirement with title 'As an org admin I should be able to view my profile information by clicking' was assigned to the Test Case 'As a Org admin I should be able to view Organization Logo on my profile'
+	[16/Feb/26 11:59:34][AUDIT][3qeu41932vcfn5nfcmu7dvg6b4][GUI]
+		Test Project 'USAB' - Requirement specification 'As an org admin I should be able to edit the information being shown in the' was created
+	[16/Feb/26 12:00:29][AUDIT][3qeu41932vcfn5nfcmu7dvg6b4][GUI]
+		Requirement 'USAB-73' was created
+	[16/Feb/26 12:06:42][AUDIT][3qeu41932vcfn5nfcmu7dvg6b4][GUI]
+		Test Project 'USAB' - Requirement specification 'https://webonise.atlassian.net/browse/USAB-59' was created
+	[16/Feb/26 12:07:28][AUDIT][3qeu41932vcfn5nfcmu7dvg6b4][GUI]
+		Requirement '1' was created
+	[16/Feb/26 12:08:14][AUDIT][3qeu41932vcfn5nfcmu7dvg6b4][GUI]
+		Requirement with title 'As a super admin I should be able to view profile of a coach applicant' was assigned to the Test Case 'As a super admin I should be able to click on view details of  Associated Organization'
+	[16/Feb/26 12:08:44][AUDIT][3qeu41932vcfn5nfcmu7dvg6b4][GUI]
+		Requirement with title 'As a super admin I should be able to view profile of a coach applicant' was assigned to the Test Case 'As a super admin I should be able to see the Associated Organization of coach'
+	[16/Feb/26 12:08:59][AUDIT][3qeu41932vcfn5nfcmu7dvg6b4][GUI]
+		Requirement with title 'As a super admin I should be able to view profile of a coach applicant' was assigned to the Test Case ' As a super admin I should be able to see the Personal Information of coach'
+	[16/Feb/26 12:09:13][AUDIT][3qeu41932vcfn5nfcmu7dvg6b4][GUI]
+		Requirement with title 'As a super admin I should be able to view profile of a coach applicant' was assigned to the Test Case ' As a super admin I should be able to see the Account Information of coach'
+	[16/Feb/26 12:09:30][AUDIT][3qeu41932vcfn5nfcmu7dvg6b4][GUI]
+		Requirement with title 'As a super admin I should be able to view profile of a coach applicant' was assigned to the Test Case 'As a super admin I should be able to see the Payment Information of coach'
+	[16/Feb/26 12:09:40][AUDIT][3qeu41932vcfn5nfcmu7dvg6b4][GUI]
+		Requirement with title 'As a super admin I should be able to view profile of a coach applicant' was assigned to the Test Case 'As a super admin I should be able to search coach and click on view details link'
+	[16/Feb/26 12:09:51][AUDIT][3qeu41932vcfn5nfcmu7dvg6b4][GUI]
+		Requirement with title 'As a super admin I should be able to view profile of a coach applicant' was assigned to the Test Case 'As a super Admin  I should be able to click "View Link "'
+	[16/Feb/26 12:10:03][AUDIT][3qeu41932vcfn5nfcmu7dvg6b4][GUI]
+		Requirement with title 'As a super admin I should be able to view profile of a coach applicant' was unassigned from the Test Case 'As a super Admin  I should be able to click "View Link "'
+	[16/Feb/26 12:10:18][AUDIT][3qeu41932vcfn5nfcmu7dvg6b4][GUI]
+		Requirement with title 'As a super admin I should be able to view profile of a coach applicant' was assigned to the Test Case 'As a super admin I should be able to see the details of Associated Organization'
+	[16/Feb/26 12:43:07][AUDIT][6ss5m101mhl7asfk4o0caq3r87][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Feb/29 04:43:21][AUDIT][m7mpi0vbj54ioa7lc1nvo652v0][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Feb/29 05:14:36][AUDIT][g93c72ifajjqo553s2rtac4cn2][GUI]
+		Login for 'mayank' from '10.0.0.176' succeeded
+	[16/Feb/29 05:19:10][AUDIT][0vame2pivlh0qanere92uhrb82][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Feb/29 05:26:47][AUDIT][3qeu41932vcfn5nfcmu7dvg6b4][GUI]
+		Login for 'Reshma' from '10.0.1.142' succeeded
+	[16/Feb/29 09:05:23][AUDIT][3qeu41932vcfn5nfcmu7dvg6b4][GUI]
+		Login for 'Reshma' from '10.0.1.142' succeeded
+	[16/Feb/29 09:27:16][AUDIT][0vame2pivlh0qanere92uhrb82][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Feb/29 09:57:38][AUDIT][13c0rf5trkvofn9aqlsr0abld5][GUI]
+		Login for 'reshma' from '10.0.1.142' succeeded
+	[16/Feb/29 10:38:02][AUDIT][3qeu41932vcfn5nfcmu7dvg6b4][GUI]
+		Test Project 'USAB' - Requirement specification 'As a super admin I should be able to search the organizations registered in' was created
+	[16/Feb/29 10:38:28][AUDIT][3qeu41932vcfn5nfcmu7dvg6b4][GUI]
+		Requirement 'USAB-77' was created
+	[16/Feb/29 11:54:52][AUDIT][3qeu41932vcfn5nfcmu7dvg6b4][GUI]
+		Requirement with title 'As a super admin I should be able to search the organizations registered in' was assigned to the Test Case 'As a super admin I should be able to search the organizations registered in the portal'
+	[16/Feb/29 12:06:28][AUDIT][0vame2pivlh0qanere92uhrb82][GUI]
+		Logout of 'nehaa'
+	[16/Feb/29 14:46:08][AUDIT][5qblfbijqaim3hrsr4bvlubva2][GUI]
+		Login for 'rajat.sharma@weboniselab.com' from '10.0.1.45' succeeded
+	[16/Mar/1 05:59:58][AUDIT][cvnlj7lpkvo8fle1g9rk43vi62][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Mar/1 08:55:52][AUDIT][<nosession>][GUI]
+		Login for 'deepak' from '10.0.0.240' failed
+	[16/Mar/1 08:56:02][AUDIT][<nosession>][GUI]
+		Login for 'deepak' from '10.0.0.240' failed
+	[16/Mar/1 08:56:16][AUDIT][c415fbmml14so14rkq6ds2f1m0][GUI]
+		Login for 'deepak' from '10.0.0.240' succeeded
+	[16/Mar/1 08:57:50][AUDIT][c415fbmml14so14rkq6ds2f1m0][GUI]
+		Test Project 'Proof' was created
+	[16/Mar/1 09:00:52][AUDIT][c415fbmml14so14rkq6ds2f1m0][GUI]
+		Test Project 'Proof' - Test Plan 'Onboarding' was created
+	[16/Mar/1 10:18:41][AUDIT][92rupplq5427r4nttqta0i6nq4][GUI]
+		Login for 'nagesh' from '10.0.1.5' succeeded
+	[16/Mar/1 10:56:59][AUDIT][cvnlj7lpkvo8fle1g9rk43vi62][GUI]
+		Logout of 'nehaa'
+	[16/Mar/1 10:57:25][AUDIT][cvnlj7lpkvo8fle1g9rk43vi62][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Mar/1 13:17:01][AUDIT][<nosession>][GUI]
+		Login for 'priyanka' from '10.0.0.202' failed
+	[16/Mar/1 13:17:10][AUDIT][1on1a0tgs6j5k4lcmd8di2t0r1][GUI]
+		Login for 'priyanka' from '10.0.0.202' succeeded
+	[16/Mar/1 13:21:37][AUDIT][<nosession>][GUI]
+		Login for 'nehaa' from '10.0.1.163' failed
+	[16/Mar/1 13:21:45][AUDIT][cvnlj7lpkvo8fle1g9rk43vi62][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Mar/1 14:00:24][AUDIT][cvnlj7lpkvo8fle1g9rk43vi62][GUI]
+		Logout of 'nehaa'
+	[16/Mar/1 14:47:59][AUDIT][92rupplq5427r4nttqta0i6nq4][GUI]
+		Logout of 'nagesh'
+	[16/Mar/2 05:41:06][AUDIT][pilvudtt7eo0opv31aefbsa260][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Mar/2 06:05:58][AUDIT][hdv2s1njrnufpkurbv8d24nqe3][GUI]
+		Login for 'nagesh' from '10.0.1.5' succeeded
+	[16/Mar/2 07:17:57][AUDIT][c415fbmml14so14rkq6ds2f1m0][GUI]
+		Login for 'deepak' from '10.0.0.240' succeeded
+	[16/Mar/2 14:33:05][AUDIT][hdv2s1njrnufpkurbv8d24nqe3][GUI]
+		Logout of 'nagesh'
+	[16/Mar/3 04:44:28][AUDIT][bip1pkbus77ppodltgtohfch91][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Mar/3 06:13:29][AUDIT][f6gornsf7tmgi464gm9rnjb4u3][GUI]
+		Login for 'nagesh' from '10.0.1.5' succeeded
+	[16/Mar/3 07:28:00][AUDIT][3qeu41932vcfn5nfcmu7dvg6b4][GUI]
+		Login for 'Reshma' from '10.0.1.142' succeeded
+	[16/Mar/3 08:24:48][AUDIT][<nosession>][GUI]
+		Login for 'deepak' from '10.0.0.240' failed
+	[16/Mar/3 08:24:56][AUDIT][c415fbmml14so14rkq6ds2f1m0][GUI]
+		Login for 'deepak' from '10.0.0.240' succeeded
+	[16/Mar/3 08:59:38][AUDIT][f6gornsf7tmgi464gm9rnjb4u3][GUI]
+		Login for 'nagesh' from '10.0.1.5' succeeded
+	[16/Mar/3 12:56:01][AUDIT][2b0d3l1ccjsm16i7udusnt52j5][GUI]
+		Login for 'mayank' from '10.0.0.176' succeeded
+	[16/Mar/3 13:05:08][AUDIT][fn1jndq60uh7gb0r6i7ria2n83][GUI]
+		Login for 'nagesh' from '10.0.1.5' succeeded
+	[16/Mar/3 13:45:50][AUDIT][ig776oso7oauln8do0d9kao0l7][GUI]
+		Login for 'nagesh' from '10.0.0.183' succeeded
+	[16/Mar/3 14:24:08][AUDIT][fn1jndq60uh7gb0r6i7ria2n83][GUI]
+		Login for 'nagesh' from '10.0.1.5' succeeded
+	[16/Mar/3 14:34:38][AUDIT][q6nqsc0l2g399e49pnn7qo6cs2][GUI]
+		Login for 'nagesh' from '10.0.0.127' succeeded
+	[16/Mar/3 15:04:10][AUDIT][fn1jndq60uh7gb0r6i7ria2n83][GUI]
+		Logout of 'nagesh'
+	[16/Mar/4 04:57:52][AUDIT][1mk1ggh0tgq8tdol17bvipb6g1][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Mar/4 05:09:23][AUDIT][3jtqnjmmdiuv5p29b2us29hfe5][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Mar/4 05:24:19][AUDIT][89l9raiksqvhu78fbberfcddt2][GUI]
+		Login for 'nagesh' from '10.0.1.5' succeeded
+	[16/Mar/4 07:06:16][AUDIT][18ptl1oqjlljtq2mtblhj7ii60][GUI]
+		Login for 'nagesh' from '10.0.1.184' succeeded
+	[16/Mar/4 07:22:13][AUDIT][3qeu41932vcfn5nfcmu7dvg6b4][GUI]
+		Login for 'Reshma' from '10.0.1.142' succeeded
+	[16/Mar/4 08:37:35][AUDIT][3jtqnjmmdiuv5p29b2us29hfe5][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Mar/4 10:10:58][AUDIT][q6nqsc0l2g399e49pnn7qo6cs2][GUI]
+		Login for 'nagesh' from '10.0.0.127' succeeded
+	[16/Mar/4 10:36:12][AUDIT][<nosession>][GUI]
+		Login for 'tanushree' from '10.0.2.201' failed
+	[16/Mar/4 10:36:26][AUDIT][<nosession>][GUI]
+		Login for 'tanushree' from '10.0.2.201' failed
+	[16/Mar/4 10:36:40][AUDIT][<nosession>][GUI]
+		Login for 'tanushree' from '10.0.2.201' failed
+	[16/Mar/4 10:36:55][AUDIT][<nosession>][GUI]
+		Login for 'tanushree' from '10.0.2.201' failed
+	[16/Mar/4 10:37:02][AUDIT][lslvptibrqnrms2bpd2pu5p2h5][GUI]
+		Login for 'tanushree' from '10.0.2.201' succeeded
+	[16/Mar/4 10:44:17][AUDIT][lslvptibrqnrms2bpd2pu5p2h5][GUI]
+		Test Project 'CF Classic folios' was saved
+	[16/Mar/4 10:45:14][AUDIT][lslvptibrqnrms2bpd2pu5p2h5][GUI]
+		Test Project 'CF Classic folios' - Requirement specification 'testing title' was created
+	[16/Mar/4 12:00:56][AUDIT][lslvptibrqnrms2bpd2pu5p2h5][GUI]
+		Requirement '1' was created
+	[16/Mar/4 12:01:14][AUDIT][lslvptibrqnrms2bpd2pu5p2h5][GUI]
+		Requirement with title 'req1' was assigned to the Test Case 'test case 1 - for testing purpose'
+	[16/Mar/4 12:38:56][AUDIT][lslvptibrqnrms2bpd2pu5p2h5][GUI]
+		Test Project 'CF Classic folios' - Test Plan 'Classic folios test plan' was created
+	[16/Mar/4 12:44:41][AUDIT][lslvptibrqnrms2bpd2pu5p2h5][GUI]
+		Test Project 'CF Classic folios' - Test Plan 'Classic folios test plan' - Build 'Sprint 16 ( 19th feb - 10th march)' was created
+	[16/Mar/7 06:07:45][AUDIT][53lrfavlh9aj0ffphc34v7er13][GUI]
+		Login for 'nagesh' from '10.0.1.5' succeeded
+	[16/Mar/7 06:08:13][AUDIT][ii9iuia9jo2oo833jjaa3p9am5][GUI]
+		Login for 'rajat.sharma@weboniselab.com' from '10.0.1.45' succeeded
+	[16/Mar/7 09:27:02][AUDIT][7kk2tvcf1i5osp5e9c1qgn90t7][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Mar/7 10:19:43][AUDIT][ii9iuia9jo2oo833jjaa3p9am5][GUI]
+		Login for 'rajat.sharma@weboniselab.com' from '10.0.1.45' succeeded
+	[16/Mar/7 11:21:36][AUDIT][3qeu41932vcfn5nfcmu7dvg6b4][GUI]
+		Login for 'Reshma' from '10.0.1.142' succeeded
+	[16/Mar/7 11:21:58][AUDIT][3qeu41932vcfn5nfcmu7dvg6b4][GUI]
+		Logout of 'Reshma'
+	[16/Mar/7 11:22:06][AUDIT][3qeu41932vcfn5nfcmu7dvg6b4][GUI]
+		Login for 'Reshma' from '10.0.1.142' succeeded
+	[16/Mar/7 11:23:35][AUDIT][3qeu41932vcfn5nfcmu7dvg6b4][GUI]
+		Test Project 'Partner Locator App' was created
+	[16/Mar/7 12:52:17][AUDIT][en72pgliq0l5u2fh5q6v3gf4d3][GUI]
+		Login for 'mayank' from '10.0.0.176' succeeded
+	[16/Mar/7 13:16:51][AUDIT][tdjfg150h9fhfhsrb0v12r5265][GUI]
+		Login for 'tanushree' from '10.0.2.201' succeeded
+	[16/Mar/7 13:35:01][AUDIT][53lrfavlh9aj0ffphc34v7er13][GUI]
+		Logout of 'nagesh'
+	[16/Mar/8 04:31:12][AUDIT][q6nqsc0l2g399e49pnn7qo6cs2][GUI]
+		Login for 'nagesh' from '10.0.0.127' succeeded
+	[16/Mar/8 05:12:12][AUDIT][3vartgtpgg0a557vdt9o7ekf94][GUI]
+		Login for 'mayank' from '10.0.0.176' succeeded
+	[16/Mar/8 05:32:09][AUDIT][3vartgtpgg0a557vdt9o7ekf94][GUI]
+		Test Project 'Test' was created
+	[16/Mar/8 05:35:28][AUDIT][3vartgtpgg0a557vdt9o7ekf94][GUI]
+		Requirement with title 'As an org admin I should be able to view my profile information by clicking' was assigned to the Test Case 'As a super admin I should be able to click on view details of  Associated Organization'
+	[16/Mar/8 05:36:06][AUDIT][3vartgtpgg0a557vdt9o7ekf94][GUI]
+		Requirement with title 'As an org admin I should be able to view my profile information by clicking' was unassigned from the Test Case 'As a super admin I should be able to click on view details of  Associated Organization'
+	[16/Mar/8 06:25:14][AUDIT][3vartgtpgg0a557vdt9o7ekf94][GUI]
+		Test Project 'CF Classic folios' was saved
+	[16/Mar/8 06:26:59][AUDIT][3vartgtpgg0a557vdt9o7ekf94][GUI]
+		Requirement with title 'req1' was assigned to the Test Case 'sadad'
+	[16/Mar/8 06:28:57][AUDIT][tc162phofot2c3ko422theksn2][GUI]
+		Login for 'anirban' from '10.0.0.141' succeeded
+	[16/Mar/8 06:39:52][AUDIT][3qeu41932vcfn5nfcmu7dvg6b4][GUI]
+		Login for 'Reshma' from '10.0.1.142' succeeded
+	[16/Mar/8 07:00:24][AUDIT][3qeu41932vcfn5nfcmu7dvg6b4][GUI]
+		Logout of 'Reshma'
+	[16/Mar/8 07:00:33][AUDIT][3qeu41932vcfn5nfcmu7dvg6b4][GUI]
+		Login for 'Reshma' from '10.0.1.142' succeeded
+	[16/Mar/8 07:02:13][AUDIT][o88qui93q9eps4tk67h8l25t60][GUI]
+		Login for 'Reshma' from '10.0.1.142' succeeded
+	[16/Mar/8 07:08:11][AUDIT][etoeinui618701tunqgp6p7iq0][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Mar/8 07:13:17][AUDIT][cnn6bijoo2c8m6358451j7un66][GUI]
+		Login for 'pratik' from '10.0.1.138' succeeded
+	[16/Mar/8 07:14:19][AUDIT][3qeu41932vcfn5nfcmu7dvg6b4][GUI]
+		Test Project 'Partner Locator App' was saved
+	[16/Mar/8 07:15:50][AUDIT][cnn6bijoo2c8m6358451j7un66][GUI]
+		Logout of 'pratik'
+	[16/Mar/8 07:24:41][AUDIT][c415fbmml14so14rkq6ds2f1m0][GUI]
+		Login for 'deepak' from '10.0.0.240' succeeded
+	[16/Mar/8 09:24:06][AUDIT][v8al11n35q4f16g27pav45ail6][GUI]
+		Login for 'tanushree' from '10.0.2.201' succeeded
+	[16/Mar/8 09:27:30][AUDIT][5nodr9tehampio3ltjl5oke3a5][GUI]
+		Login for 'tanushree' from '10.0.2.201' succeeded
+	[16/Mar/8 10:08:58][AUDIT][<nosession>][GUI]
+		User 'shubham' created by self-sign up
+	[16/Mar/8 10:09:02][AUDIT][v796nhgvcvdbqiodj8mj5s5e57][GUI]
+		Login for 'shubham' from '10.0.1.4' succeeded
+	[16/Mar/8 10:12:14][AUDIT][v8al11n35q4f16g27pav45ail6][GUI]
+		Logout of 'tanushree'
+	[16/Mar/8 10:14:06][AUDIT][<nosession>][GUI]
+		Login for 'admin1' from '10.0.2.201' failed
+	[16/Mar/8 10:14:11][AUDIT][<nosession>][GUI]
+		Login for 'admin' from '10.0.2.201' failed
+	[16/Mar/8 10:14:20][AUDIT][v8al11n35q4f16g27pav45ail6][GUI]
+		Login for 'tanushree' from '10.0.2.201' succeeded
+	[16/Mar/8 10:16:30][AUDIT][v8al11n35q4f16g27pav45ail6][GUI]
+		Logout of 'tanushree'
+	[16/Mar/8 10:16:38][AUDIT][<nosession>][GUI]
+		Login for 'admin' from '10.0.2.201' failed
+	[16/Mar/8 10:16:42][AUDIT][<nosession>][GUI]
+		Login for 'admin1' from '10.0.2.201' failed
+	[16/Mar/8 10:17:04][AUDIT][<nosession>][GUI]
+		Login for 'admin' from '10.0.2.201' failed
+	[16/Mar/8 10:17:33][AUDIT][v8al11n35q4f16g27pav45ail6][GUI]
+		Login for 'tanushree' from '10.0.2.201' succeeded
+	[16/Mar/8 10:18:40][AUDIT][v8al11n35q4f16g27pav45ail6][GUI]
+		Logout of 'tanushree'
+	[16/Mar/8 10:18:46][AUDIT][v8al11n35q4f16g27pav45ail6][GUI]
+		Login for 'admin1' from '10.0.2.201' succeeded
+	[16/Mar/8 10:20:06][AUDIT][v8al11n35q4f16g27pav45ail6][GUI]
+		User 'ameyk' was assigned the role 'senior tester' to the Test Project 'CF Classic folios'
+	[16/Mar/8 10:20:06][AUDIT][v8al11n35q4f16g27pav45ail6][GUI]
+		User 'Deepika' was assigned the role 'guest' to the Test Project 'CF Classic folios'
+	[16/Mar/8 10:20:06][AUDIT][v8al11n35q4f16g27pav45ail6][GUI]
+		User 'Harshali' was assigned the role 'guest' to the Test Project 'CF Classic folios'
+	[16/Mar/8 10:20:06][AUDIT][v8al11n35q4f16g27pav45ail6][GUI]
+		User 'kaustubh' was assigned the role 'senior tester' to the Test Project 'CF Classic folios'
+	[16/Mar/8 10:20:06][AUDIT][v8al11n35q4f16g27pav45ail6][GUI]
+		User 'pratik' was assigned the role 'guest' to the Test Project 'CF Classic folios'
+	[16/Mar/8 10:20:06][AUDIT][v8al11n35q4f16g27pav45ail6][GUI]
+		User 'priyanka' was assigned the role 'guest' to the Test Project 'CF Classic folios'
+	[16/Mar/8 10:20:06][AUDIT][v8al11n35q4f16g27pav45ail6][GUI]
+		User 'rajat.sharma@weboniselab.com' was assigned the role 'senior tester' to the Test Project 'CF Classic folios'
+	[16/Mar/8 10:20:06][AUDIT][v8al11n35q4f16g27pav45ail6][GUI]
+		User 'Reshma' was assigned the role 'senior tester' to the Test Project 'CF Classic folios'
+	[16/Mar/8 10:20:06][AUDIT][v8al11n35q4f16g27pav45ail6][GUI]
+		User 'shubham' was assigned the role 'tester' to the Test Project 'CF Classic folios'
+	[16/Mar/8 10:20:06][AUDIT][v8al11n35q4f16g27pav45ail6][GUI]
+		User 'tanushree' was assigned the role 'senior tester' to the Test Project 'CF Classic folios'
+	[16/Mar/8 10:21:53][AUDIT][v8al11n35q4f16g27pav45ail6][GUI]
+		User 'ameyk' was assigned the role 'senior tester' to the Test Project 'CF Classic folios'
+	[16/Mar/8 10:21:53][AUDIT][v8al11n35q4f16g27pav45ail6][GUI]
+		User 'Deepika' was assigned the role 'guest' to the Test Project 'CF Classic folios'
+	[16/Mar/8 10:21:53][AUDIT][v8al11n35q4f16g27pav45ail6][GUI]
+		User 'Harshali' was assigned the role 'guest' to the Test Project 'CF Classic folios'
+	[16/Mar/8 10:21:53][AUDIT][v8al11n35q4f16g27pav45ail6][GUI]
+		User 'kaustubh' was assigned the role 'senior tester' to the Test Project 'CF Classic folios'
+	[16/Mar/8 10:21:53][AUDIT][v8al11n35q4f16g27pav45ail6][GUI]
+		User 'pratik' was assigned the role 'guest' to the Test Project 'CF Classic folios'
+	[16/Mar/8 10:21:53][AUDIT][v8al11n35q4f16g27pav45ail6][GUI]
+		User 'priyanka' was assigned the role 'guest' to the Test Project 'CF Classic folios'
+	[16/Mar/8 10:21:53][AUDIT][v8al11n35q4f16g27pav45ail6][GUI]
+		User 'rajat.sharma@weboniselab.com' was assigned the role 'senior tester' to the Test Project 'CF Classic folios'
+	[16/Mar/8 10:21:53][AUDIT][v8al11n35q4f16g27pav45ail6][GUI]
+		User 'Reshma' was assigned the role 'senior tester' to the Test Project 'CF Classic folios'
+	[16/Mar/8 10:21:53][AUDIT][v8al11n35q4f16g27pav45ail6][GUI]
+		User 'shubham' was assigned the role 'senior tester' to the Test Project 'CF Classic folios'
+	[16/Mar/8 10:21:53][AUDIT][v8al11n35q4f16g27pav45ail6][GUI]
+		User 'tanushree' was assigned the role 'senior tester' to the Test Project 'CF Classic folios'
+	[16/Mar/8 10:22:16][AUDIT][v796nhgvcvdbqiodj8mj5s5e57][GUI]
+		Logout of 'shubham'
+	[16/Mar/8 10:22:17][AUDIT][v796nhgvcvdbqiodj8mj5s5e57][GUI]
+		Login for 'shubham' from '10.0.1.4' succeeded
+	[16/Mar/8 10:22:45][AUDIT][v8al11n35q4f16g27pav45ail6][GUI]
+		Logout of 'admin1'
+	[16/Mar/8 10:23:57][AUDIT][v8al11n35q4f16g27pav45ail6][GUI]
+		Login for 'tanushree' from '10.0.2.201' succeeded
+	[16/Mar/8 10:51:52][AUDIT][3qeu41932vcfn5nfcmu7dvg6b4][GUI]
+		Login for 'Reshma' from '10.0.1.142' succeeded
+	[16/Mar/8 11:18:02][AUDIT][h678a12st8pdncsr8935n25k43][GUI]
+		Login for 'rajat.sharma@weboniselab.com' from '10.0.1.45' succeeded
+	[16/Mar/8 11:33:17][AUDIT][c415fbmml14so14rkq6ds2f1m0][GUI]
+		Login for 'deepak' from '10.0.0.240' succeeded
+	[16/Mar/8 14:32:37][AUDIT][etoeinui618701tunqgp6p7iq0][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Mar/8 14:40:35][AUDIT][etoeinui618701tunqgp6p7iq0][GUI]
+		Logout of 'nehaa'
+	[16/Mar/9 04:43:46][AUDIT][q6nqsc0l2g399e49pnn7qo6cs2][GUI]
+		Login for 'nagesh' from '10.0.0.127' succeeded
+	[16/Mar/9 05:26:26][AUDIT][rk1ejurm3d9jpfgvsb40bpv6f3][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Mar/9 06:41:05][AUDIT][<nosession>][GUI]
+		Login for 'saroj' from '10.0.1.7' failed
+	[16/Mar/9 06:41:09][AUDIT][<nosession>][GUI]
+		Login for 'admin' from '10.0.1.7' failed
+	[16/Mar/9 06:41:22][AUDIT][<nosession>][GUI]
+		Login for 'saroj' from '10.0.1.7' failed
+	[16/Mar/9 06:46:04][AUDIT][<nosession>][GUI]
+		Login for 'admin' from '10.0.1.7' failed
+	[16/Mar/9 06:53:29][AUDIT][<nosession>][GUI]
+		Login for 'admin' from '10.0.1.7' failed
+	[16/Mar/9 06:53:40][AUDIT][lc7vipb55skh3k21btpm8ppai0][GUI]
+		Login for 'saroj' from '10.0.1.7' succeeded
+	[16/Mar/9 06:56:05][AUDIT][lc7vipb55skh3k21btpm8ppai0][GUI]
+		Test Project 'Demo' - Test Plan 'Test plan2' was created
+	[16/Mar/9 06:56:05][AUDIT][lc7vipb55skh3k21btpm8ppai0][GUI]
+		User 'saroj' was assigned the role 'senior tester' to the Test Plan 'Test plan2'
+	[16/Mar/9 09:42:51][AUDIT][rk1ejurm3d9jpfgvsb40bpv6f3][GUI]
+		Requirement with title 'As an org admin I should be able to view my profile information by clicking' was assigned to the Test Case 'As a Org admin I should be able to view Organization Logo on my profile'
+	[16/Mar/9 09:42:51][AUDIT][rk1ejurm3d9jpfgvsb40bpv6f3][GUI]
+		Requirement with title 'As an org admin I should be able to view my profile information by clicking' was assigned to the Test Case 'As an org admin I should be able to navigate/scroll over to in-page Account Info section'
+	[16/Mar/9 09:42:51][AUDIT][rk1ejurm3d9jpfgvsb40bpv6f3][GUI]
+		Requirement with title 'As an org admin I should be able to view my profile information by clicking' was assigned to the Test Case 'As a Org admin I should be able to view Professional Information'
+	[16/Mar/9 09:42:52][AUDIT][rk1ejurm3d9jpfgvsb40bpv6f3][GUI]
+		Requirement with title 'As an org admin I should be able to view my profile information by clicking' was assigned to the Test Case 'As a Org admin I should be able to view Account Information'
+	[16/Mar/9 09:42:52][AUDIT][rk1ejurm3d9jpfgvsb40bpv6f3][GUI]
+		Requirement with title 'As an org admin I should be able to view my profile information by clicking' was assigned to the Test Case 'As a Org admin I should be able to view details of my profile'
+	[16/Mar/9 09:42:52][AUDIT][rk1ejurm3d9jpfgvsb40bpv6f3][GUI]
+		Requirement with title 'As an org admin I should be able to view my profile information by clicking' was assigned to the Test Case 'As a Org admin I should be able to view my profile by clicking on "My Profile" link'
+	[16/Mar/9 09:42:53][AUDIT][rk1ejurm3d9jpfgvsb40bpv6f3][GUI]
+		Requirement with title 'As an org admin I should be able to view my profile information by clicking' was assigned to the Test Case 'As an org admin I should be able to view list of organizations'
+	[16/Mar/9 09:42:53][AUDIT][rk1ejurm3d9jpfgvsb40bpv6f3][GUI]
+		Requirement with title 'As an org admin I should be able to view my profile information by clicking' was assigned to the Test Case 'As an org admin I should be able to navigate to in-page Personal Info section'
+	[16/Mar/9 09:53:08][AUDIT][<nosession>][GUI]
+		Login for 'pratik' from '10.0.1.138' failed
+	[16/Mar/9 09:53:20][AUDIT][aktuq9vactbs7nj9degg12vik1][GUI]
+		Login for 'pratik' from '10.0.1.138' succeeded
+	[16/Mar/9 09:59:18][AUDIT][aktuq9vactbs7nj9degg12vik1][GUI]
+		Logout of 'pratik'
+	[16/Mar/9 09:59:27][AUDIT][<nosession>][GUI]
+		Login for 'admin' from '10.0.1.138' failed
+	[16/Mar/9 09:59:35][AUDIT][aktuq9vactbs7nj9degg12vik1][GUI]
+		Login for 'pratik' from '10.0.1.138' succeeded
+	[16/Mar/9 10:01:21][AUDIT][aktuq9vactbs7nj9degg12vik1][GUI]
+		Logout of 'pratik'
+	[16/Mar/9 11:42:19][AUDIT][rk1ejurm3d9jpfgvsb40bpv6f3][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Mar/9 11:57:08][AUDIT][lc7vipb55skh3k21btpm8ppai0][GUI]
+		Login for 'saroj' from '10.0.1.7' succeeded
+	[16/Mar/9 12:48:18][AUDIT][rk1ejurm3d9jpfgvsb40bpv6f3][GUI]
+		Requirement with title 'As an org admin I should be able to view my profile information by clicking' was assigned to the Test Case 'As a Org admin I should be able to view Organization Logo on my profile'
+	[16/Mar/9 12:48:19][AUDIT][rk1ejurm3d9jpfgvsb40bpv6f3][GUI]
+		Requirement with title 'As an org admin I should be able to view my profile information by clicking' was assigned to the Test Case 'As an org admin I should be able to navigate/scroll over to in-page Account Info section'
+	[16/Mar/9 12:48:19][AUDIT][rk1ejurm3d9jpfgvsb40bpv6f3][GUI]
+		Requirement with title 'As an org admin I should be able to view my profile information by clicking' was assigned to the Test Case 'As a Org admin I should be able to view Professional Information'
+	[16/Mar/9 12:48:19][AUDIT][rk1ejurm3d9jpfgvsb40bpv6f3][GUI]
+		Requirement with title 'As an org admin I should be able to view my profile information by clicking' was assigned to the Test Case 'As a Org admin I should be able to view Account Information'
+	[16/Mar/9 12:48:19][AUDIT][rk1ejurm3d9jpfgvsb40bpv6f3][GUI]
+		Requirement with title 'As an org admin I should be able to view my profile information by clicking' was assigned to the Test Case 'As a Org admin I should be able to view details of my profile'
+	[16/Mar/9 12:48:19][AUDIT][rk1ejurm3d9jpfgvsb40bpv6f3][GUI]
+		Requirement with title 'As an org admin I should be able to view my profile information by clicking' was assigned to the Test Case 'As a Org admin I should be able to view my profile by clicking on "My Profile" link'
+	[16/Mar/9 12:48:20][AUDIT][rk1ejurm3d9jpfgvsb40bpv6f3][GUI]
+		Requirement with title 'As an org admin I should be able to view my profile information by clicking' was assigned to the Test Case 'As an org admin I should be able to view list of organizations'
+	[16/Mar/9 12:48:20][AUDIT][rk1ejurm3d9jpfgvsb40bpv6f3][GUI]
+		Requirement with title 'As an org admin I should be able to view my profile information by clicking' was assigned to the Test Case 'As an org admin I should be able to navigate to in-page Personal Info section'
+	[16/Mar/9 12:54:59][AUDIT][aktuq9vactbs7nj9degg12vik1][GUI]
+		Login for 'pratik' from '10.0.1.138' succeeded
+	[16/Mar/9 13:22:40][AUDIT][uf65g8edp4sq65c4qvh1cnr1g0][GUI]
+		Login for 'tanushree' from '10.0.2.201' succeeded
+	[16/Mar/9 13:22:47][AUDIT][uf65g8edp4sq65c4qvh1cnr1g0][GUI]
+		Logout of 'tanushree'
+	[16/Mar/9 13:22:53][AUDIT][uf65g8edp4sq65c4qvh1cnr1g0][GUI]
+		Login for 'admin1' from '10.0.2.201' succeeded
+	[16/Mar/9 13:24:16][AUDIT][aktuq9vactbs7nj9degg12vik1][GUI]
+		Logout of 'pratik'
+	[16/Mar/9 13:27:56][AUDIT][<nosession>][GUI]
+		User 'Shobhit.webonise' created by self-sign up
+	[16/Mar/9 13:28:07][AUDIT][u61s5l7rghuai4uknc6asn8e67][GUI]
+		Login for 'Shobhit.webonise' from '10.0.0.227' succeeded
+	[16/Mar/9 13:29:37][AUDIT][uf65g8edp4sq65c4qvh1cnr1g0][GUI]
+		User 'Shobhit.webonise' was assigned the role 'tester' to the Test Project 'Demo'
+	[16/Mar/9 13:30:04][AUDIT][uf65g8edp4sq65c4qvh1cnr1g0][GUI]
+		User 'Shobhit.webonise' was assigned the role 'tester' to the Test Project 'Demo'
+	[16/Mar/9 13:30:04][AUDIT][uf65g8edp4sq65c4qvh1cnr1g0][GUI]
+		User 'shubham' was assigned the role 'tester' to the Test Project 'Demo'
+	[16/Mar/9 13:30:29][AUDIT][bpttf1q07jprpl2nqf4erc08a0][GUI]
+		Login for 'shubham' from '10.0.1.4' succeeded
+	[16/Mar/9 13:30:46][AUDIT][uf65g8edp4sq65c4qvh1cnr1g0][GUI]
+		User 'Shobhit.webonise' was assigned the role 'tester' to the Test Project 'Demo'
+	[16/Mar/9 13:30:47][AUDIT][uf65g8edp4sq65c4qvh1cnr1g0][GUI]
+		User 'shubham' was assigned the role 'senior tester' to the Test Project 'Demo'
+	[16/Mar/9 13:30:52][AUDIT][bpttf1q07jprpl2nqf4erc08a0][GUI]
+		Logout of 'shubham'
+	[16/Mar/9 13:30:54][AUDIT][bpttf1q07jprpl2nqf4erc08a0][GUI]
+		Login for 'shubham' from '10.0.1.4' succeeded
+	[16/Mar/9 13:31:04][AUDIT][uf65g8edp4sq65c4qvh1cnr1g0][GUI]
+		User 'Shobhit.webonise' was assigned the role 'senior tester' to the Test Project 'Demo'
+	[16/Mar/9 13:31:05][AUDIT][uf65g8edp4sq65c4qvh1cnr1g0][GUI]
+		User 'shubham' was assigned the role 'senior tester' to the Test Project 'Demo'
+	[16/Mar/9 13:33:21][AUDIT][uf65g8edp4sq65c4qvh1cnr1g0][GUI]
+		Logout of 'admin1'
+	[16/Mar/9 14:49:11][AUDIT][bpttf1q07jprpl2nqf4erc08a0][GUI]
+		Logout of 'shubham'
+	[16/Mar/10 04:46:31][AUDIT][r9m1js6cfkp4t7m1g2u4m6rth2][GUI]
+		Login for 'shubham' from '10.0.1.4' succeeded
+	[16/Mar/10 04:50:16][AUDIT][2slbrpas17skff39go6gqbp4t1][GUI]
+		Login for 'Shobhit.webonise' from '10.0.0.227' succeeded
+	[16/Mar/10 06:11:42][AUDIT][c415fbmml14so14rkq6ds2f1m0][GUI]
+		Login for 'deepak' from '10.0.0.240' succeeded
+	[16/Mar/10 06:59:22][AUDIT][nlk3brtk30ftap0s2ih72pvps4][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Mar/10 07:23:28][AUDIT][c415fbmml14so14rkq6ds2f1m0][GUI]
+		Login for 'deepak' from '10.0.0.240' succeeded
+	[16/Mar/10 07:36:58][AUDIT][nlk3brtk30ftap0s2ih72pvps4][GUI]
+		Requirement with title 'As an org admin I should be able to view my profile information by clicking' was assigned to the Test Case 'As a Org admin I should be able to hide/unhide Professional Information'
+	[16/Mar/10 07:36:58][AUDIT][nlk3brtk30ftap0s2ih72pvps4][GUI]
+		Requirement with title 'As an org admin I should be able to view my profile information by clicking' was assigned to the Test Case 'As a Org admin I should be able to hide Account Information'
+	[16/Mar/10 07:37:03][AUDIT][r9m1js6cfkp4t7m1g2u4m6rth2][GUI]
+		Logout of 'shubham'
+	[16/Mar/10 08:30:11][AUDIT][r9m1js6cfkp4t7m1g2u4m6rth2][GUI]
+		Login for 'shubham' from '10.0.1.4' succeeded
+	[16/Mar/10 10:29:30][AUDIT][q37i6gjprl9hjdpug2oak0a8h6][GUI]
+		Login for 'nehaa' from '10.0.1.238' succeeded
+	[16/Mar/10 13:33:24][AUDIT][nlk3brtk30ftap0s2ih72pvps4][GUI]
+		Requirement with title 'As an org admin I should be able to view my profile information by clicking' was assigned to the Test Case 'As a Org admin I should be able to hide/unhide Professional Information'
+	[16/Mar/10 13:33:25][AUDIT][nlk3brtk30ftap0s2ih72pvps4][GUI]
+		Requirement with title 'As an org admin I should be able to view my profile information by clicking' was assigned to the Test Case 'As a Org admin I should be able to hide Account Information'
+	[16/Mar/10 15:01:37][AUDIT][r9m1js6cfkp4t7m1g2u4m6rth2][GUI]
+		Logout of 'shubham'
+	[16/Mar/11 04:28:35][AUDIT][2vuqgn9v3dla93ui7meamr1me0][GUI]
+		Login for 'Shobhit.webonise' from '10.0.0.227' succeeded
+	[16/Mar/11 05:01:33][AUDIT][9t2ju5vdl9s40qk3eed1maf325][GUI]
+		Login for 'shubham' from '10.0.1.4' succeeded
+	[16/Mar/11 05:23:45][AUDIT][9t2ju5vdl9s40qk3eed1maf325][GUI]
+		Logout of 'shubham'
+	[16/Mar/11 05:47:38][AUDIT][f73sch87n3rmkdf66mj95qovc4][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Mar/11 05:58:56][AUDIT][s0j73s3iuoao30tl58dg6419a6][GUI]
+		Login for 'nagesh' from '10.0.2.17' succeeded
+	[16/Mar/11 06:07:32][AUDIT][7vdshp1oagt4tmohddrt2aqtr5][GUI]
+		Login for 'nagesh' from '10.0.1.95' succeeded
+	[16/Mar/11 06:15:07][AUDIT][mcgaeqs78a9uopjlpiehsgnda6][GUI]
+		Login for 'mayank' from '10.0.0.176' succeeded
+	[16/Mar/11 10:04:19][AUDIT][9t2ju5vdl9s40qk3eed1maf325][GUI]
+		Login for 'shubham' from '10.0.1.4' succeeded
+	[16/Mar/11 10:42:58][AUDIT][dachkdkk5viq37050q0i3kvjv6][GUI]
+		Login for 'anirban' from '10.0.1.25' succeeded
+	[16/Mar/11 11:29:58][AUDIT][9t2ju5vdl9s40qk3eed1maf325][GUI]
+		Logout of 'shubham'
+	[16/Mar/11 12:03:06][AUDIT][9t2ju5vdl9s40qk3eed1maf325][GUI]
+		Login for 'shubham' from '10.0.1.4' succeeded
+	[16/Mar/11 12:06:17][AUDIT][3qeu41932vcfn5nfcmu7dvg6b4][GUI]
+		Login for 'Reshma' from '10.0.1.142' succeeded
+	[16/Mar/11 12:16:30][AUDIT][nhscv4u47e0599nl772b4l9ot5][GUI]
+		Login for 'pratik' from '10.0.1.138' succeeded
+	[16/Mar/11 12:24:22][AUDIT][nhscv4u47e0599nl772b4l9ot5][GUI]
+		Test Project 'Magnus' was created
+	[16/Mar/11 12:26:42][AUDIT][nhscv4u47e0599nl772b4l9ot5][GUI]
+		Test Project 'Magnus' - Test Plan 'Test plan for Magnus Healthcare' was created
+	[16/Mar/11 12:32:22][AUDIT][dachkdkk5viq37050q0i3kvjv6][GUI]
+		Login for 'anirban' from '10.0.1.25' succeeded
+	[16/Mar/11 13:50:54][AUDIT][nhscv4u47e0599nl772b4l9ot5][GUI]
+		Test Project 'Magnus' - Test Plan 'Test plan for Magnus Healthcare' - Build 'Build for Magnus' was created
+	[16/Mar/11 13:53:34][AUDIT][nhscv4u47e0599nl772b4l9ot5][GUI]
+		Test Project 'Magnus' - Test Plan 'Test plan for Magnus Healthcare' - Build 'Build for Magnus' was saved
+	[16/Mar/11 14:01:11][AUDIT][9t2ju5vdl9s40qk3eed1maf325][GUI]
+		Logout of 'shubham'
+	[16/Mar/11 14:15:08][AUDIT][nhscv4u47e0599nl772b4l9ot5][GUI]
+		Logout of 'pratik'
+	[16/Mar/14 04:59:44][AUDIT][mrn2ku6aqedjc14q4d6mtq0e83][GUI]
+		Login for 'shubham' from '10.0.1.4' succeeded
+	[16/Mar/14 05:09:52][AUDIT][vcibo6bremjijcjtk54m1ifkl1][GUI]
+		Login for 'Shobhit.webonise' from '10.0.0.227' succeeded
+	[16/Mar/14 05:47:31][AUDIT][<nosession>][GUI]
+		Login for 'Reshma' from '10.0.1.142' failed
+	[16/Mar/14 05:47:41][AUDIT][3qeu41932vcfn5nfcmu7dvg6b4][GUI]
+		Login for 'Reshma' from '10.0.1.142' succeeded
+	[16/Mar/14 05:48:05][AUDIT][84akla04lg4p7o8d1k8mpqomv0][GUI]
+		Login for 'tanushree' from '10.0.2.201' succeeded
+	[16/Mar/14 06:06:01][AUDIT][ekuljus5lprsd8s9rd0u02o5c1][GUI]
+		Login for 'pratik' from '10.0.1.138' succeeded
+	[16/Mar/14 06:58:26][AUDIT][<nosession>][GUI]
+		Login for 'priyanka' from '10.0.0.202' failed
+	[16/Mar/14 06:58:33][AUDIT][po4kjhl10i2n9sf16e0urinlv5][GUI]
+		Login for 'priyanka' from '10.0.0.202' succeeded
+	[16/Mar/14 10:27:53][AUDIT][84akla04lg4p7o8d1k8mpqomv0][GUI]
+		Login for 'tanushree' from '10.0.2.201' succeeded
+	[16/Mar/14 10:58:15][AUDIT][ekuljus5lprsd8s9rd0u02o5c1][GUI]
+		Login for 'pratik' from '10.0.1.138' succeeded
+	[16/Mar/14 11:45:14][AUDIT][euedqtaljooviql0e6aa5257r7][GUI]
+		Login for 'mayank' from '10.0.0.176' succeeded
+	[16/Mar/14 13:48:12][AUDIT][ekuljus5lprsd8s9rd0u02o5c1][GUI]
+		Logout of 'pratik'
+	[16/Mar/14 13:51:39][AUDIT][mrn2ku6aqedjc14q4d6mtq0e83][GUI]
+		Logout of 'shubham'
+	[16/Mar/14 14:18:22][AUDIT][<nosession>][GUI]
+		Login for 'saroj' from '10.0.1.7' failed
+	[16/Mar/14 14:18:34][AUDIT][lc7vipb55skh3k21btpm8ppai0][GUI]
+		Login for 'saroj' from '10.0.1.7' succeeded
+	[16/Mar/15 05:02:40][AUDIT][4tjdm5qarkeis174jeakej2cg1][GUI]
+		Login for 'Shobhit.webonise' from '10.0.0.227' succeeded
+	[16/Mar/15 05:12:13][AUDIT][3qeu41932vcfn5nfcmu7dvg6b4][GUI]
+		Login for 'Reshma' from '10.0.1.142' succeeded
+	[16/Mar/15 08:20:36][AUDIT][eq6kgd4j71npeqmjhre0i5m0u5][GUI]
+		Login for 'pratik' from '10.0.1.138' succeeded
+	[16/Mar/15 11:15:30][AUDIT][etp54rtt69b5te8p9l04ovrrn3][GUI]
+		Login for 'nagesh' from '10.0.1.5' succeeded
+	[16/Mar/15 13:27:11][AUDIT][eq6kgd4j71npeqmjhre0i5m0u5][GUI]
+		Logout of 'pratik'
+	[16/Mar/15 13:27:28][AUDIT][etp54rtt69b5te8p9l04ovrrn3][GUI]
+		Logout of 'nagesh'
+	[16/Mar/16 05:48:55][AUDIT][<nosession>][GUI]
+		Login for 'saroj' from '10.0.1.7' failed
+	[16/Mar/16 05:49:44][AUDIT][ojqmtkeia06u8d7gq37iubb8p4][GUI]
+		Login for 'saroj' from '10.0.1.7' succeeded
+	[16/Mar/16 06:03:04][AUDIT][4htb3grtc54f0087uguk1eot20][GUI]
+		Login for 'nagesh' from '10.0.1.5' succeeded
+	[16/Mar/16 11:33:04][AUDIT][<nosession>][GUI]
+		Login for 'deepak' from '10.0.0.240' failed
+	[16/Mar/16 11:33:11][AUDIT][c415fbmml14so14rkq6ds2f1m0][GUI]
+		Login for 'deepak' from '10.0.0.240' succeeded
+	[16/Mar/16 12:47:05][AUDIT][<nosession>][GUI]
+		Login for 'ameyk' from '10.0.0.235' failed
+	[16/Mar/16 12:47:17][AUDIT][<nosession>][GUI]
+		Login for 'ameyk' from '10.0.0.235' failed
+	[16/Mar/16 12:47:58][AUDIT][<nosession>][GUI]
+		Login for 'ameyk' from '10.0.0.235' failed
+	[16/Mar/16 12:47:59][AUDIT][tgsfnl06maptsgirtpvcpdkli4][GUI]
+		Login for 'harshali' from '10.0.3.247' succeeded
+	[16/Mar/16 12:48:36][AUDIT][<nosession>][GUI]
+		Login for 'ameyk' from '10.0.0.235' failed
+	[16/Mar/16 12:48:53][AUDIT][<nosession>][GUI]
+		Login for 'admin' from '10.0.0.235' failed
+	[16/Mar/16 12:50:05][AUDIT][tgsfnl06maptsgirtpvcpdkli4][GUI]
+		Logout of 'Harshali'
+	[16/Mar/16 12:51:45][AUDIT][<nosession>][GUI]
+		Login for 'ameyk' from '10.0.0.235' failed
+	[16/Mar/16 12:52:03][AUDIT][<nosession>][GUI]
+		Login for 'ameyk' from '10.0.0.235' failed
+	[16/Mar/16 12:52:20][AUDIT][<nosession>][GUI]
+		Login for 'ameyk' from '10.0.0.235' failed
+	[16/Mar/16 12:52:28][AUDIT][<nosession>][GUI]
+		Login for 'ameyk' from '10.0.0.235' failed
+	[16/Mar/16 12:56:31][AUDIT][so10793tbr4c1mgocg229t6ef1][GUI]
+		Login for 'ameyk' from '10.0.0.235' succeeded
+	[16/Mar/16 12:57:07][AUDIT][so10793tbr4c1mgocg229t6ef1][GUI]
+		Password of user 'ameyk' was saved
+	[16/Mar/16 12:57:20][AUDIT][so10793tbr4c1mgocg229t6ef1][GUI]
+		Login for 'ameyk' from '10.0.0.235' succeeded
+	[16/Mar/16 13:42:59][AUDIT][tt1ccmiqdmjk33rvo6qromb662][GUI]
+		Login for 'pratik' from '10.0.1.138' succeeded
+	[16/Mar/16 13:52:10][AUDIT][tt1ccmiqdmjk33rvo6qromb662][GUI]
+		Logout of 'pratik'
+	[16/Mar/16 14:12:16][AUDIT][c415fbmml14so14rkq6ds2f1m0][GUI]
+		Login for 'deepak' from '10.0.0.240' succeeded
+	[16/Mar/16 14:31:11][AUDIT][4htb3grtc54f0087uguk1eot20][GUI]
+		Logout of 'nagesh'
+	[16/Mar/17 04:58:55][AUDIT][kqlksftsttf3k9utb94sop8v60][GUI]
+		Login for 'Shobhit.webonise' from '10.0.0.227' succeeded
+	[16/Mar/17 05:13:09][AUDIT][56rguk73evt1hjdf3n6q8udqk1][GUI]
+		Login for 'nagesh' from '10.0.1.5' succeeded
+	[16/Mar/17 05:27:40][AUDIT][<nosession>][GUI]
+		Login for 'mayank' from '10.0.0.176' failed
+	[16/Mar/17 05:27:51][AUDIT][<nosession>][GUI]
+		Login for 'mayank' from '10.0.0.176' failed
+	[16/Mar/17 05:28:12][AUDIT][98rci095cmraoo435lfft6iko0][GUI]
+		Login for 'mayank' from '10.0.0.176' succeeded
+	[16/Mar/17 05:35:11][AUDIT][<nosession>][GUI]
+		Login for 'saroj' from '10.0.1.7' failed
+	[16/Mar/17 05:35:31][AUDIT][ojqmtkeia06u8d7gq37iubb8p4][GUI]
+		Login for 'saroj' from '10.0.1.7' succeeded
+	[16/Mar/17 09:51:49][AUDIT][<nosession>][GUI]
+		Login for 'priyanka' from '10.0.0.202' failed
+	[16/Mar/17 09:52:34][AUDIT][mikvlmlt0do10md72anhtqngs6][GUI]
+		Login for 'priyanka' from '10.0.0.202' succeeded
+	[16/Mar/17 10:44:28][AUDIT][ojqmtkeia06u8d7gq37iubb8p4][GUI]
+		Login for 'saroj' from '10.0.1.7' succeeded
+	[16/Mar/17 11:26:09][AUDIT][3rmn0886h7k3a0s7ua7n4tq880][GUI]
+		Login for 'nehaa' from '10.0.1.238' succeeded
+	[16/Mar/17 11:39:46][AUDIT][mchsusor6s4clk34501bf952m6][GUI]
+		Login for 'shubham' from '10.0.1.4' succeeded
+	[16/Mar/18 05:08:32][AUDIT][mbd7uq1amk81pst3dmi591era7][GUI]
+		Login for 'mayank' from '10.0.0.176' succeeded
+	[16/Mar/18 05:32:32][AUDIT][opdjvg7mkahjlri29a8ienokn2][GUI]
+		Login for 'shubham' from '10.0.1.4' succeeded
+	[16/Mar/18 06:08:28][AUDIT][oq0up19s20354nnso4ammhq9g4][GUI]
+		Login for 'shubham' from '10.0.1.4' succeeded
+	[16/Mar/18 07:05:46][AUDIT][<nosession>][GUI]
+		Login for 'ameyk' from '10.0.0.235' failed
+	[16/Mar/18 07:05:56][AUDIT][4e1j38i25le3vdshanga1tdcv1][GUI]
+		Login for 'ameyk' from '10.0.0.235' succeeded
+	[16/Mar/18 07:11:19][AUDIT][<nosession>][GUI]
+		Login for 'rajat.sharma@weboniselab.com' from '10.0.1.45' failed
+	[16/Mar/18 07:11:32][AUDIT][pkce08cq1ni5cdnunfkd5eu4n3][GUI]
+		Login for 'rajat.sharma@weboniselab.com' from '10.0.1.45' succeeded
+	[16/Mar/18 08:54:00][AUDIT][oq0up19s20354nnso4ammhq9g4][GUI]
+		Login for 'shubham' from '10.0.1.4' succeeded
+	[16/Mar/18 09:24:37][AUDIT][c415fbmml14so14rkq6ds2f1m0][GUI]
+		Login for 'deepak' from '10.0.0.240' succeeded
+	[16/Mar/18 09:40:30][AUDIT][uag14dfr79s2ntad29icl3a2e6][GUI]
+		Login for 'Shobhit.webonise' from '10.0.0.227' succeeded
+	[16/Mar/18 09:42:59][AUDIT][06c2b2fi9b0lp3ok00672ej0t2][GUI]
+		Login for 'nagesh' from '10.0.1.5' succeeded
+	[16/Mar/18 12:14:39][AUDIT][oq0up19s20354nnso4ammhq9g4][GUI]
+		Logout of 'shubham'
+	[16/Mar/18 13:41:15][AUDIT][cb0447ie00vfbf3cp7ui0mq9p2][GUI]
+		Login for 'nagesh' from '10.0.1.5' succeeded
+	[16/Mar/18 13:42:19][AUDIT][cb0447ie00vfbf3cp7ui0mq9p2][GUI]
+		Logout of 'nagesh'
+	[16/Mar/18 14:15:19][AUDIT][06c2b2fi9b0lp3ok00672ej0t2][GUI]
+		Logout of 'nagesh'
+	[16/Mar/21 05:01:50][AUDIT][3qmaicqm9gvdts114ea5mi1nh5][GUI]
+		Login for 'Shobhit.webonise' from '10.0.0.227' succeeded
+	[16/Mar/21 05:53:31][AUDIT][ei24k7s8h0h72cke3p7du4ut11][GUI]
+		Login for 'anirban' from '10.0.0.239' succeeded
+	[16/Mar/21 06:13:24][AUDIT][an6jsth938rv2cv93g43b5gsv6][GUI]
+		Login for 'rajat.sharma@weboniselab.com' from '10.0.1.45' succeeded
+	[16/Mar/21 08:40:45][AUDIT][<nosession>][GUI]
+		Login for 'Reshma' from '10.0.1.142' failed
+	[16/Mar/21 08:40:58][AUDIT][<nosession>][GUI]
+		Login for 'Reshma' from '10.0.1.142' failed
+	[16/Mar/21 08:41:18][AUDIT][<nosession>][GUI]
+		Login for 'Reshma' from '10.0.1.142' failed
+	[16/Mar/21 08:42:05][AUDIT][teleo5shmpf86g7ojvvgcv6hi6][GUI]
+		Login for 'Reshma' from '10.0.1.142' succeeded
+	[16/Mar/21 08:54:33][AUDIT][4e1j38i25le3vdshanga1tdcv1][GUI]
+		Login for 'ameyk' from '10.0.0.235' succeeded
+	[16/Mar/21 09:22:17][AUDIT][teleo5shmpf86g7ojvvgcv6hi6][GUI]
+		Test Project 'USAB' - Requirement specification 'As a coach I should be associated with an org who has sent me an invite lin' was created
+	[16/Mar/21 09:50:15][AUDIT][3qmaicqm9gvdts114ea5mi1nh5][GUI]
+		Login for 'Shobhit.webonise' from '10.0.0.227' succeeded
+	[16/Mar/21 09:54:06][AUDIT][ja75p7003nbl85lrn3j40jh5m5][GUI]
+		Login for 'Reshma' from '10.0.1.142' succeeded
+	[16/Mar/21 14:00:01][AUDIT][06c2b2fi9b0lp3ok00672ej0t2][GUI]
+		Login for 'nagesh' from '10.0.1.5' succeeded
+	[16/Mar/21 14:13:23][AUDIT][06c2b2fi9b0lp3ok00672ej0t2][GUI]
+		Logout of 'nagesh'
+	[16/Mar/22 05:26:09][AUDIT][7nl5qtl8bqk7h8m9rd443pe360][GUI]
+		Login for 'pratik' from '10.0.1.138' succeeded
+	[16/Mar/22 05:26:21][AUDIT][jtut1gsv8uuhafqncvrh7u0s20][GUI]
+		Login for 'Shobhit.webonise' from '10.0.0.227' succeeded
+	[16/Mar/22 06:37:18][AUDIT][a4d7h5kgc78da8hgvtba6iuo31][GUI]
+		Login for 'shubham' from '10.0.1.4' succeeded
+	[16/Mar/22 06:37:50][AUDIT][0d63937rtelh5bn0hmhrji0ri0][GUI]
+		Login for 'shubham' from '10.0.1.4' succeeded
+	[16/Mar/22 06:39:38][AUDIT][a4d7h5kgc78da8hgvtba6iuo31][GUI]
+		Logout of 'shubham'
+	[16/Mar/22 07:26:19][AUDIT][7nl5qtl8bqk7h8m9rd443pe360][GUI]
+		Logout of 'pratik'
+	[16/Mar/22 08:53:49][AUDIT][h4ac5hgeg5sfdknulk9smasjr2][GUI]
+		Login for 'deepak' from '10.0.0.240' succeeded
+	[16/Mar/22 09:08:52][AUDIT][7nl5qtl8bqk7h8m9rd443pe360][GUI]
+		Login for 'pratik' from '10.0.1.138' succeeded
+	[16/Mar/22 09:10:56][AUDIT][vfhh6ohi3jvtkav3cr8ao9e1l4][GUI]
+		Login for 'rajat.sharma@weboniselab.com' from '10.0.1.45' succeeded
+	[16/Mar/22 11:32:32][AUDIT][cgubpeoige0kn6eq4jdjc22pt0][GUI]
+		Login for 'nagesh' from '10.0.1.5' succeeded
+	[16/Mar/22 11:41:46][AUDIT][teleo5shmpf86g7ojvvgcv6hi6][GUI]
+		Login for 'Reshma' from '10.0.1.142' succeeded
+	[16/Mar/22 12:30:19][AUDIT][<nosession>][GUI]
+		Login for 'nagesh' from '10.0.0.169' failed
+	[16/Mar/22 13:47:07][AUDIT][cgubpeoige0kn6eq4jdjc22pt0][GUI]
+		Logout of 'nagesh'
+	[16/Mar/23 07:11:38][AUDIT][c4uea4sd151a68hsmrrj6fu7n0][GUI]
+		Login for 'shubham' from '10.0.1.4' succeeded
+	[16/Mar/23 09:00:52][AUDIT][c4uea4sd151a68hsmrrj6fu7n0][GUI]
+		Logout of 'shubham'
+	[16/Mar/23 09:01:25][AUDIT][c4uea4sd151a68hsmrrj6fu7n0][GUI]
+		Login for 'shubham' from '10.0.1.4' succeeded
+	[16/Mar/23 09:02:56][AUDIT][c4uea4sd151a68hsmrrj6fu7n0][GUI]
+		Logout of 'shubham'
+	[16/Mar/23 09:02:59][AUDIT][c4uea4sd151a68hsmrrj6fu7n0][GUI]
+		Login for 'shubham' from '10.0.1.4' succeeded
+	[16/Mar/23 09:03:09][AUDIT][c4uea4sd151a68hsmrrj6fu7n0][GUI]
+		Logout of 'shubham'
+	[16/Mar/23 09:03:11][AUDIT][c4uea4sd151a68hsmrrj6fu7n0][GUI]
+		Login for 'shubham' from '10.0.1.4' succeeded
+	[16/Mar/23 09:04:19][AUDIT][c4uea4sd151a68hsmrrj6fu7n0][GUI]
+		Logout of 'shubham'
+	[16/Mar/23 12:13:37][AUDIT][jijkavkfglqqhtm5ue8vhg1uk0][GUI]
+		Login for 'rajat.sharma@weboniselab.com' from '10.0.1.45' succeeded
+	[16/Mar/28 05:16:30][AUDIT][81hbirj4pt93uq6j3qrv8m6i54][GUI]
+		Login for 'nagesh' from '10.0.1.5' succeeded
+	[16/Mar/28 05:19:05][AUDIT][4hhnflnceq6an6euad4075uti4][GUI]
+		Login for 'Shobhit.webonise' from '10.0.0.227' succeeded
+	[16/Mar/28 05:50:09][AUDIT][nceusvarr08cteojmgp5rs59p7][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Mar/28 07:17:46][AUDIT][bp260tfskk1c4cdv6oc7cvpf52][GUI]
+		Login for 'rajat.sharma@weboniselab.com' from '10.0.1.45' succeeded
+	[16/Mar/28 08:39:22][AUDIT][k7q2brp8mp1h49reo1jhlpdha0][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Mar/28 11:05:49][AUDIT][96m93jhohdch0fg3smi2kl0og2][GUI]
+		Login for 'pratik' from '10.0.1.138' succeeded
+	[16/Mar/28 11:08:26][AUDIT][3b4e2gejtvdb256du4go7ahcv4][GUI]
+		Login for 'pratik' from '10.0.1.138' succeeded
+	[16/Mar/28 11:14:50][AUDIT][3b4e2gejtvdb256du4go7ahcv4][GUI]
+		Test Project 'Max My Wealth' was created
+	[16/Mar/28 12:02:12][AUDIT][nsit0357lehgo20bbto40uita5][GUI]
+		Login for 'pratik' from '10.0.1.138' succeeded
+	[16/Mar/28 12:05:52][AUDIT][mrpvafo9n302n01am66lm36435][GUI]
+		Login for 'pratik' from '10.0.1.138' succeeded
+	[16/Mar/28 12:12:36][AUDIT][mrpvafo9n302n01am66lm36435][GUI]
+		Test Project 'Max My Wealth' was saved
+	[16/Mar/28 12:16:58][AUDIT][mrpvafo9n302n01am66lm36435][GUI]
+		Test Project 'Max My Wealth' - Test Plan 'MMW test plan' was created
+	[16/Mar/28 13:55:39][AUDIT][k7q2brp8mp1h49reo1jhlpdha0][GUI]
+		Logout of 'nehaa'
+	[16/Mar/28 14:08:50][AUDIT][81hbirj4pt93uq6j3qrv8m6i54][GUI]
+		Logout of 'nagesh'
+	[16/Mar/29 04:46:44][AUDIT][f796ujo6e7j8v4apkhi5585rl0][GUI]
+		Login for 'Shobhit.webonise' from '10.0.0.227' succeeded
+	[16/Mar/29 05:07:07][AUDIT][9n0bc4drpfjb2nh7p69p59gi80][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Mar/29 05:13:17][AUDIT][t03cntkn7c04htgip0j9v68814][GUI]
+		Login for 'pratik' from '10.0.1.138' succeeded
+	[16/Mar/29 06:15:21][AUDIT][4e1j38i25le3vdshanga1tdcv1][GUI]
+		Login for 'ameyk' from '10.0.0.235' succeeded
+	[16/Mar/29 07:07:42][AUDIT][km2cp96gi0kqahc36r07hsec46][GUI]
+		Login for 'nagesh' from '10.0.1.5' succeeded
+	[16/Mar/29 09:47:16][AUDIT][r6jc8kakdok2kb3fto1a5k3787][GUI]
+		Login for 'rajat.sharma@weboniselab.com' from '10.0.1.45' succeeded
+	[16/Mar/29 09:59:36][AUDIT][h4ac5hgeg5sfdknulk9smasjr2][GUI]
+		Login for 'deepak' from '10.0.0.240' succeeded
+	[16/Mar/29 10:01:37][AUDIT][h4ac5hgeg5sfdknulk9smasjr2][GUI]
+		User 'webonise' was created
+	[16/Mar/29 10:03:32][AUDIT][t03cntkn7c04htgip0j9v68814][GUI]
+		Logout of 'pratik'
+	[16/Mar/29 10:03:41][AUDIT][t03cntkn7c04htgip0j9v68814][GUI]
+		Login for 'webonise' from '10.0.1.138' succeeded
+	[16/Mar/29 10:05:32][AUDIT][t03cntkn7c04htgip0j9v68814][GUI]
+		Logout of 'webonise'
+	[16/Mar/29 10:05:41][AUDIT][t03cntkn7c04htgip0j9v68814][GUI]
+		Login for 'pratik' from '10.0.1.138' succeeded
+	[16/Mar/29 10:09:18][AUDIT][t03cntkn7c04htgip0j9v68814][GUI]
+		Logout of 'pratik'
+	[16/Mar/29 10:09:27][AUDIT][t03cntkn7c04htgip0j9v68814][GUI]
+		Login for 'webonise' from '10.0.1.138' succeeded
+	[16/Mar/29 10:37:02][AUDIT][km2cp96gi0kqahc36r07hsec46][GUI]
+		Logout of 'nagesh'
+	[16/Mar/29 10:37:11][AUDIT][km2cp96gi0kqahc36r07hsec46][GUI]
+		Login for 'webonise' from '10.0.1.5' succeeded
+	[16/Mar/29 10:38:05][AUDIT][km2cp96gi0kqahc36r07hsec46][GUI]
+		Logout of 'webonise'
+	[16/Mar/29 10:41:16][AUDIT][t03cntkn7c04htgip0j9v68814][GUI]
+		Logout of 'webonise'
+	[16/Mar/29 10:41:24][AUDIT][t03cntkn7c04htgip0j9v68814][GUI]
+		Login for 'pratik' from '10.0.1.138' succeeded
+	[16/Mar/29 11:08:32][AUDIT][<nosession>][GUI]
+		Login for 'priyanka' from '10.0.0.202' failed
+	[16/Mar/29 11:08:40][AUDIT][9cnmdrukm6sudk8kr5m7a62u26][GUI]
+		Login for 'priyanka' from '10.0.0.202' succeeded
+	[16/Mar/29 11:14:32][AUDIT][t03cntkn7c04htgip0j9v68814][GUI]
+		Logout of 'pratik'
+	[16/Mar/29 12:05:29][AUDIT][km2cp96gi0kqahc36r07hsec46][GUI]
+		Login for 'nagesh' from '10.0.1.5' succeeded
+	[16/Mar/29 12:16:02][AUDIT][n0331e3ff346ph9orkbeqs4350][GUI]
+		Login for 'nehaa' from '10.0.1.238' succeeded
+	[16/Mar/29 12:16:48][AUDIT][9n0bc4drpfjb2nh7p69p59gi80][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Mar/29 13:46:54][AUDIT][9n0bc4drpfjb2nh7p69p59gi80][GUI]
+		Logout of 'nehaa'
+	[16/Mar/29 14:10:27][AUDIT][km2cp96gi0kqahc36r07hsec46][GUI]
+		Logout of 'nagesh'
+	[16/Mar/30 04:56:15][AUDIT][c33aldvtj10md9i4spnhgbupc2][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Mar/30 07:21:28][AUDIT][5n2i2f6dla51ih4d2r0465jrr4][GUI]
+		Login for 'pratik' from '10.0.1.138' succeeded
+	[16/Mar/30 09:13:16][AUDIT][h4ac5hgeg5sfdknulk9smasjr2][GUI]
+		Login for 'deepak' from '10.0.0.240' succeeded
+	[16/Mar/30 11:47:25][AUDIT][hnqng965oincjgi1caqpjv3oh6][GUI]
+		Login for 'rajat.sharma@weboniselab.com' from '10.0.1.45' succeeded
+	[16/Mar/30 11:52:19][AUDIT][c33aldvtj10md9i4spnhgbupc2][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Mar/30 11:57:10][AUDIT][bketbnr6vsc8iahoc3mflgf482][GUI]
+		Login for 'nagesh' from '10.0.1.5' succeeded
+	[16/Mar/30 11:57:24][AUDIT][<nosession>][GUI]
+		Login for 'ameyk' from '10.0.0.235' failed
+	[16/Mar/30 11:57:35][AUDIT][4e1j38i25le3vdshanga1tdcv1][GUI]
+		Login for 'ameyk' from '10.0.0.235' succeeded
+	[16/Mar/30 12:42:48][AUDIT][bketbnr6vsc8iahoc3mflgf482][GUI]
+		Logout of 'nagesh'
+	[16/Mar/31 04:52:05][AUDIT][rv204ilscr0477lt698sts26r1][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Mar/31 06:26:29][AUDIT][8cq3b4sq459lulp52ab5bmgnk7][GUI]
+		Login for 'pratik' from '10.0.1.138' succeeded
+	[16/Mar/31 10:15:42][AUDIT][8cq3b4sq459lulp52ab5bmgnk7][GUI]
+		Test Case 'MAG-11 : As A MHA or SCH Admin I want the ability to create a conditional question inside Admin Dashboard' version 1 was added to Test Plan Test plan for Magnus Healthcare
+	[16/Mar/31 10:16:00][AUDIT][8cq3b4sq459lulp52ab5bmgnk7][GUI]
+		Test Case 'MAG-13 : As a MHA or SCH Admin I want the ability to archive conditional question inside Admin Dashboard' version 1 was added to Test Plan Test plan for Magnus Healthcare
+	[16/Mar/31 10:16:08][AUDIT][8cq3b4sq459lulp52ab5bmgnk7][GUI]
+		Test Case 'MAG-12 : As a MHA or SCH Admin I want ability to edit an existing conditional question inside Admin Dashboard' version 1 was added to Test Plan Test plan for Magnus Healthcare
+	[16/Mar/31 10:28:35][AUDIT][rni62gr5trb3prrpplt0g02fi0][GUI]
+		Login for 'mayank' from '10.0.0.176' succeeded
+	[16/Mar/31 10:37:33][AUDIT][c8gtvs3kc1ir0pg8s56p2lo101][GUI]
+		Login for 'nagesh' from '10.0.1.5' succeeded
+	[16/Mar/31 11:48:24][AUDIT][8cq3b4sq459lulp52ab5bmgnk7][GUI]
+		Test Case 'MAG-9 : Login' version 1 was added to Test Plan Test plan for Magnus Healthcare
+	[16/Mar/31 11:51:51][AUDIT][8cq3b4sq459lulp52ab5bmgnk7][GUI]
+		Test Case 'MAG-5 : Smart Lists' version 1 was added to Test Plan Test plan for Magnus Healthcare
+	[16/Mar/31 11:52:03][AUDIT][8cq3b4sq459lulp52ab5bmgnk7][GUI]
+		Test Case 'MAG-1 : Student Health Tracker' version 1 was added to Test Plan Test plan for Magnus Healthcare
+	[16/Mar/31 11:52:13][AUDIT][8cq3b4sq459lulp52ab5bmgnk7][GUI]
+		Test Case 'MAG-2 : Magnus 911' version 1 was added to Test Plan Test plan for Magnus Healthcare
+	[16/Mar/31 11:52:22][AUDIT][8cq3b4sq459lulp52ab5bmgnk7][GUI]
+		Test Case 'MAG-3 : Treatment Notes' version 1 was added to Test Plan Test plan for Magnus Healthcare
+	[16/Mar/31 11:52:34][AUDIT][8cq3b4sq459lulp52ab5bmgnk7][GUI]
+		Test Case 'MAG-4 : Clinic Alerts' version 1 was added to Test Plan Test plan for Magnus Healthcare
+	[16/Mar/31 11:52:52][AUDIT][8cq3b4sq459lulp52ab5bmgnk7][GUI]
+		Test Case 'MAG-6 : Check In' version 1 was added to Test Plan Test plan for Magnus Healthcare
+	[16/Mar/31 11:53:01][AUDIT][8cq3b4sq459lulp52ab5bmgnk7][GUI]
+		Test Case 'MAG-7 : Immunizations' version 1 was added to Test Plan Test plan for Magnus Healthcare
+	[16/Mar/31 11:53:14][AUDIT][8cq3b4sq459lulp52ab5bmgnk7][GUI]
+		Test Case 'MAG-8 : Prescription' version 1 was added to Test Plan Test plan for Magnus Healthcare
+	[16/Mar/31 11:53:24][AUDIT][8cq3b4sq459lulp52ab5bmgnk7][GUI]
+		Test Case 'MAG-10 : Conditional Questions' version 1 was added to Test Plan Test plan for Magnus Healthcare
+	[16/Mar/31 12:16:41][AUDIT][teleo5shmpf86g7ojvvgcv6hi6][GUI]
+		Login for 'Reshma' from '10.0.1.142' succeeded
+	[16/Mar/31 14:03:51][AUDIT][c8gtvs3kc1ir0pg8s56p2lo101][GUI]
+		Logout of 'nagesh'
+	[16/Apr/1 05:16:33][AUDIT][<nosession>][GUI]
+		Login for 'nehaa' from '10.0.1.163' failed
+	[16/Apr/1 05:16:41][AUDIT][8158r9cl022ildlhrnglc5tu57][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Apr/1 05:32:13][AUDIT][auls2rvcvke7ur82bgu1nastf6][GUI]
+		Login for 'rajat.sharma@weboniselab.com' from '10.0.1.45' succeeded
+	[16/Apr/1 08:42:08][AUDIT][ev8l5fiam5cmd0c7uv2k66u0e4][GUI]
+		Login for 'ameyk' from '10.0.0.235' succeeded
+	[16/Apr/1 09:37:41][AUDIT][h4mkdipld00k7jhk5o1f6n7s00][GUI]
+		Login for 'pratik' from '10.0.1.138' succeeded
+	[16/Apr/1 09:45:27][AUDIT][o1ml18ljuitk50gfn7sp10m7s7][GUI]
+		Login for 'nehaa' from '10.0.0.255' succeeded
+	[16/Apr/1 12:08:08][AUDIT][damsucnsvvmtq74r0kr8mtdkg3][GUI]
+		Login for 'shubham' from '10.0.1.4' succeeded
+	[16/Apr/1 12:08:42][AUDIT][damsucnsvvmtq74r0kr8mtdkg3][GUI]
+		Logout of 'shubham'
+	[16/Apr/1 12:14:12][AUDIT][h4mkdipld00k7jhk5o1f6n7s00][GUI]
+		Test Case 'MMW-1 : As a new customer , I should be able to register myself on MMW' version 1 was added to Test Plan MMW test plan
+	[16/Apr/1 12:14:35][AUDIT][h4mkdipld00k7jhk5o1f6n7s00][GUI]
+		Test Project 'Max My Wealth' - Test Plan 'MMW test plan' - Build 'Build for MMW' was created
+	[16/Apr/1 12:43:57][AUDIT][d9cf0it3dpl11fndeg5vocgq75][GUI]
+		Login for 'mayank' from '10.0.0.176' succeeded
+	[16/Apr/4 05:32:04][AUDIT][j7098ss87u8d106vjbjv68cn10][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Apr/4 05:40:45][AUDIT][j7098ss87u8d106vjbjv68cn10][GUI]
+		Test Case 'USAB-174 : Change Password enabled on clicking edit.' version 1 was added to Test Plan USAB-Test Plan
+	[16/Apr/4 06:14:02][AUDIT][thfp53b2g4mcs5q6h5ugedusv4][GUI]
+		Login for 'pratik' from '10.0.1.138' succeeded
+	[16/Apr/4 06:14:29][AUDIT][vml4d92pvrtaeattfilo05aa51][GUI]
+		Login for 'priyanka' from '10.0.0.202' succeeded
+	[16/Apr/4 06:28:05][AUDIT][l2g4pc0op949o7057pambdbpa4][GUI]
+		Login for 'rajat.sharma@weboniselab.com' from '10.0.1.45' succeeded
+	[16/Apr/5 05:05:29][AUDIT][0c99gmj48gq7osl97hbf69gc00][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Apr/5 05:22:37][AUDIT][vpi64avimhk7bjcob2n4gp4ce0][GUI]
+		Login for 'rajat.sharma@weboniselab.com' from '10.0.1.45' succeeded
+	[16/Apr/5 06:25:02][AUDIT][qdeo32r24shiev8b4u21kbnlq0][GUI]
+		Login for 'pratik' from '10.0.1.138' succeeded
+	[16/Apr/5 07:24:47][AUDIT][<nosession>][GUI]
+		Login for 'priyanka' from '10.0.0.202' failed
+	[16/Apr/5 07:24:57][AUDIT][lm9apkdnfv5soder8oan9vabf7][GUI]
+		Login for 'priyanka' from '10.0.0.202' succeeded
+	[16/Apr/5 13:15:59][AUDIT][qdeo32r24shiev8b4u21kbnlq0][GUI]
+		Login for 'pratik' from '10.0.1.138' succeeded
+	[16/Apr/6 04:51:26][AUDIT][5h8r464l13vev8gb4jifsbita3][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Apr/6 07:05:13][AUDIT][h7b1pqruhio0da0noeth8u74q4][GUI]
+		Login for 'tanushree' from '10.0.2.201' succeeded
+	[16/Apr/6 08:49:43][AUDIT][lhs19ckr7deqd0m2lmgc4m7je1][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Apr/6 09:54:32][AUDIT][sogclleqpt4li3ji403vj33kb2][GUI]
+		Login for 'nehaa' from '10.0.1.238' succeeded
+	[16/Apr/7 09:04:39][AUDIT][vep1lstoeej7o47t6kflgdpq50][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Apr/11 04:58:14][AUDIT][i0dfl7806a2glmq2u7itfr3170][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Apr/11 06:34:34][AUDIT][heg8e2frs3o6tm6gdc6tllv521][GUI]
+		Login for 'pratik' from '10.0.1.138' succeeded
+	[16/Apr/11 06:34:46][AUDIT][heg8e2frs3o6tm6gdc6tllv521][GUI]
+		Logout of 'pratik'
+	[16/Apr/11 09:42:15][AUDIT][kodkmq3fqv01r929sriat4usg4][GUI]
+		Login for 'mayank' from '10.0.0.176' succeeded
+	[16/Apr/12 06:24:00][AUDIT][<nosession>][GUI]
+		Login for 'nehaa' from '10.0.1.163' failed
+	[16/Apr/12 06:24:11][AUDIT][jc4urneis19sf9tco3dnempmq1][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Apr/12 07:03:07][AUDIT][plc64d5fvpf7jrru0kf1v95kd5][GUI]
+		Login for 'pratik' from '10.0.1.138' succeeded
+	[16/Apr/12 07:12:34][AUDIT][plc64d5fvpf7jrru0kf1v95kd5][GUI]
+		Test Case 'MAG-25 : My Profile' version 1 was added to Test Plan Test plan for Magnus Healthcare
+	[16/Apr/12 07:14:23][AUDIT][plc64d5fvpf7jrru0kf1v95kd5][GUI]
+		Test Case 'MAG-24 : Additional features' version 1 was added to Test Plan Test plan for Magnus Healthcare
+	[16/Apr/12 07:15:59][AUDIT][plc64d5fvpf7jrru0kf1v95kd5][GUI]
+		Test Case 'MAG-23 : Vital Health Record Reports' version 1 was added to Test Plan Test plan for Magnus Healthcare
+	[16/Apr/12 07:22:11][AUDIT][plc64d5fvpf7jrru0kf1v95kd5][GUI]
+		Logout of 'pratik'
+	[16/Apr/12 08:24:55][AUDIT][<nosession>][GUI]
+		Login for 'harshali' from '10.0.3.247' failed
+	[16/Apr/12 08:25:16][AUDIT][vsgvg88j2nt9dstphkv63m9gk7][GUI]
+		Login for 'harshali' from '10.0.3.247' succeeded
+	[16/Apr/12 08:26:04][AUDIT][iulobtfvbq3drpbg6289baoos6][GUI]
+		Login for 'deepak' from '10.0.0.240' succeeded
+	[16/Apr/12 08:27:23][AUDIT][vsgvg88j2nt9dstphkv63m9gk7][GUI]
+		Logout of 'Harshali'
+	[16/Apr/13 04:51:28][AUDIT][d2o541401a40m7p5pnqdigbc16][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Apr/13 05:58:33][AUDIT][<nosession>][GUI]
+		Login for 'priyanka' from '10.0.0.202' failed
+	[16/Apr/13 05:58:45][AUDIT][o50kda8ojrroks9lm048ncbaj1][GUI]
+		Login for 'priyanka' from '10.0.0.202' succeeded
+	[16/Apr/14 05:04:21][AUDIT][8rni7rnh1uo94vibg0s5dh2fv0][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Apr/14 09:13:57][AUDIT][8kp3bgiruud66j3cf2svu7ch51][GUI]
+		Login for 'priyanka' from '10.0.0.202' succeeded
+	[16/Apr/14 10:08:46][AUDIT][588i7mjdevt98dn13314m2pum7][GUI]
+		Login for 'nehaa' from '10.0.0.131' succeeded
+	[16/Apr/15 05:52:13][AUDIT][9sumtannl4fsam6866rtl1a6n0][GUI]
+		Login for 'priyanka' from '10.0.0.202' succeeded
+	[16/Apr/15 09:13:55][AUDIT][0dg1t0bg0e5ffdmeu1gbuun7e3][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Apr/18 11:47:05][AUDIT][3bc4g20vsqktrhubngk6qevm07][GUI]
+		Login for 'mayank' from '10.0.0.176' succeeded
+	[16/Apr/19 05:34:50][AUDIT][95o0e6h4a2cbcl2orp786opl92][GUI]
+		Login for 'mayank' from '10.0.0.176' succeeded
+	[16/Apr/19 06:37:01][AUDIT][no0gd5alq4suai834mvc1v2870][GUI]
+		Login for 'tanushree' from '10.0.2.201' succeeded
+	[16/Apr/19 09:18:58][AUDIT][no0gd5alq4suai834mvc1v2870][GUI]
+		Test Project 'Partner Locator App' was saved
+	[16/Apr/19 09:19:38][AUDIT][no0gd5alq4suai834mvc1v2870][GUI]
+		Logout of 'tanushree'
+	[16/Apr/19 09:20:13][AUDIT][no0gd5alq4suai834mvc1v2870][GUI]
+		Login for 'admin1' from '10.0.2.201' succeeded
+	[16/Apr/19 09:20:53][AUDIT][no0gd5alq4suai834mvc1v2870][GUI]
+		User 'Harshali' was assigned the role 'senior tester' to the Test Project 'Partner Locator App'
+	[16/Apr/19 09:20:57][AUDIT][no0gd5alq4suai834mvc1v2870][GUI]
+		User 'Harshali' was assigned the role 'senior tester' to the Test Project 'Partner Locator App'
+	[16/Apr/19 09:21:01][AUDIT][no0gd5alq4suai834mvc1v2870][GUI]
+		Logout of 'admin1'
+	[16/Apr/19 09:26:18][AUDIT][qfkqfc1rp56hbu30812iba7oo5][GUI]
+		Login for 'harshali' from '10.0.3.247' succeeded
+	[16/Apr/19 09:37:49][AUDIT][p7qdnmq9qhtq7er8t5uc4uccd6][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Apr/20 05:26:12][AUDIT][qmu817jla8nsjpu8lhatqcj3s4][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Apr/20 06:27:09][AUDIT][<nosession>][GUI]
+		Login for 'priyanka' from '10.0.0.202' failed
+	[16/Apr/20 06:27:51][AUDIT][qmsp3hgivrenjvg0hrpelcqh17][GUI]
+		Login for 'priyanka' from '10.0.0.202' succeeded
+	[16/Apr/21 05:25:16][AUDIT][nsk8i28dbuvq9o5923eo8dbvg0][GUI]
+		Login for 'priyanka' from '10.0.0.202' succeeded
+	[16/Apr/21 09:36:23][AUDIT][<nosession>][GUI]
+		Login for 'harshali' from '10.0.3.247' failed
+	[16/Apr/21 09:36:30][AUDIT][97m9u7oeihobk0uprh84jnhc55][GUI]
+		Login for 'harshali' from '10.0.3.247' succeeded
+	[16/Apr/21 09:36:38][AUDIT][<nosession>][GUI]
+		Login for 'nehaa' from '10.0.1.163' failed
+	[16/Apr/21 09:36:51][AUDIT][sgfu1nks4tnjci6e8hij1avvp1][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Apr/21 10:02:20][AUDIT][sgfu1nks4tnjci6e8hij1avvp1][GUI]
+		Test Project 'USAB' - Test Plan 'USAB-Test Plan' was saved
+	[16/Apr/21 10:04:04][AUDIT][sgfu1nks4tnjci6e8hij1avvp1][GUI]
+		Test Case 'USAB-340 :  Resource shouldn't  show if super admin doesn't  allow.' version 1 was added to Test Plan USAB-Test Plan
+	[16/Apr/21 13:29:02][AUDIT][rpk40m7enapflka4jobto41rp6][GUI]
+		Login for 'harshali' from '10.0.0.116' succeeded
+	[16/Apr/21 13:30:33][AUDIT][ethvd08j3u5nb8bdfnd5edufi2][GUI]
+		Login for 'harshali' from '10.0.0.140' succeeded
+	[16/Apr/21 13:52:30][AUDIT][97m9u7oeihobk0uprh84jnhc55][GUI]
+		Logout of 'Harshali'
+	[16/Apr/21 14:24:03][AUDIT][ethvd08j3u5nb8bdfnd5edufi2][GUI]
+		Logout of 'Harshali'
+	[16/Apr/21 14:42:21][AUDIT][rpk40m7enapflka4jobto41rp6][GUI]
+		Logout of 'Harshali'
+	[16/Apr/22 09:19:04][AUDIT][97m9u7oeihobk0uprh84jnhc55][GUI]
+		Login for 'harshali' from '10.0.3.247' succeeded
+	[16/Apr/22 09:19:56][AUDIT][97m9u7oeihobk0uprh84jnhc55][GUI]
+		Logout of 'Harshali'
+	[16/Apr/22 09:20:00][AUDIT][<nosession>][GUI]
+		Login for 'nehaa' from '10.0.1.163' failed
+	[16/Apr/22 09:20:17][AUDIT][ail6v34v725acphfh9heds8ui7][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Apr/22 09:36:14][AUDIT][ail6v34v725acphfh9heds8ui7][GUI]
+		Test Case 'USAB-352 : Lock selection should not change on browser back.' version 1 was added to Test Plan USAB-Test Plan
+	[16/Apr/22 09:37:01][AUDIT][ail6v34v725acphfh9heds8ui7][GUI]
+		Test Case 'USAB-358 : Check box can be selected deselected.' version 1 was added to Test Plan USAB-Test Plan
+	[16/Apr/22 09:38:21][AUDIT][ail6v34v725acphfh9heds8ui7][GUI]
+		Test Case 'USAB-360 : As a Org admin I should be able to hide my profile.' version 1 was added to Test Plan USAB-Test Plan
+	[16/Apr/25 06:07:40][AUDIT][aaaef36a67lbtoeqavr67cap62][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Apr/25 06:08:54][AUDIT][ceh28471a91ran4veibs96i0g1][GUI]
+		Login for 'mayank' from '10.0.2.255' succeeded
+	[16/Apr/25 07:34:32][AUDIT][97m9u7oeihobk0uprh84jnhc55][GUI]
+		Login for 'harshali' from '10.0.3.247' succeeded
+	[16/Apr/25 09:22:01][AUDIT][<nosession>][GUI]
+		Login for 'priyanka' from '10.0.0.202' failed
+	[16/Apr/25 09:22:11][AUDIT][v3fioovf0ffi1u8lk27hgudh07][GUI]
+		Login for 'priyanka' from '10.0.0.202' succeeded
+	[16/Apr/25 14:13:19][AUDIT][97m9u7oeihobk0uprh84jnhc55][GUI]
+		Logout of 'Harshali'
+	[16/Apr/25 14:13:24][AUDIT][97m9u7oeihobk0uprh84jnhc55][GUI]
+		Login for 'admin1' from '10.0.3.247' succeeded
+	[16/Apr/25 14:13:39][AUDIT][97m9u7oeihobk0uprh84jnhc55][GUI]
+		Logout of 'admin1'
+	[16/Apr/26 05:32:47][AUDIT][de6cc1r4p5c76ufds6fbdqmf14][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Apr/26 06:15:49][AUDIT][97m9u7oeihobk0uprh84jnhc55][GUI]
+		Login for 'harshali' from '10.0.3.247' succeeded
+	[16/Apr/26 10:39:27][AUDIT][<nosession>][GUI]
+		Login for 'deepak' from '10.0.0.116' failed
+	[16/Apr/26 10:39:39][AUDIT][7tokd8nhai0i7ctmumchlo2mo7][GUI]
+		Login for 'deepak' from '10.0.0.116' succeeded
+	[16/Apr/26 10:45:45][AUDIT][7tokd8nhai0i7ctmumchlo2mo7][GUI]
+		Test Case 'PF-1 : Verify that new user can sign-up from application' version 1 was added to Test Plan Onboarding
+	[16/Apr/26 10:46:48][AUDIT][7tokd8nhai0i7ctmumchlo2mo7][GUI]
+		Test Project 'Proof' - Test Plan 'Onboarding' - Build '100' was created
+	[16/Apr/26 10:46:54][AUDIT][7tokd8nhai0i7ctmumchlo2mo7][GUI]
+		Test Project 'Proof' - Test Plan 'Onboarding' - Build '100' was saved
+	[16/Apr/26 12:08:33][AUDIT][de6cc1r4p5c76ufds6fbdqmf14][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Apr/27 09:39:28][AUDIT][<nosession>][GUI]
+		Login for 'nehaa' from '10.0.1.163' failed
+	[16/Apr/27 09:39:36][AUDIT][nj2qni77d0k95dusi2isk64fh7][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Apr/27 11:07:32][AUDIT][j2ag2afth22rdm5u24gir5jp01][GUI]
+		Login for 'priyanka' from '10.0.0.202' succeeded
+	[16/Apr/27 11:52:19][AUDIT][anm8dibl60m6clokml579irfq4][GUI]
+		Login for 'deepak' from '10.0.0.240' succeeded
+	[16/Apr/28 13:12:26][AUDIT][sb1q2tc8e0u07bbvin3es3u4g1][GUI]
+		Login for 'pratik' from '10.0.1.138' succeeded
+	[16/Apr/28 13:13:53][AUDIT][hthur47cesrb2osd19gftel840][GUI]
+		Login for 'priyanka' from '10.0.0.202' succeeded
+	[16/Apr/29 05:42:51][AUDIT][6ch0m7qc46beeb12etks26la54][GUI]
+		Login for 'priyanka' from '10.0.0.202' succeeded
+	[16/Apr/29 07:02:13][AUDIT][j91bqharoud141ahspb5gg9nc0][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/Apr/29 12:20:38][AUDIT][j91bqharoud141ahspb5gg9nc0][GUI]
+		Logout of 'nehaa'
+	[16/Apr/29 13:42:50][AUDIT][<nosession>][GUI]
+		Login for 'priyanka' from '10.0.0.100' failed
+	[16/Apr/29 13:43:01][AUDIT][<nosession>][GUI]
+		Login for 'priyanka' from '10.0.0.100' failed
+	[16/Apr/29 13:43:41][AUDIT][j4sg7iunhd8hi830f4sisk2s73][GUI]
+		Login for 'deepak' from '10.0.0.100' succeeded
+	[16/Apr/29 13:43:47][AUDIT][j4sg7iunhd8hi830f4sisk2s73][GUI]
+		Logout of 'deepak'
+	[16/Apr/29 13:44:28][AUDIT][<nosession>][GUI]
+		Login for 'priyanka' from '10.0.0.100' failed
+	[16/Apr/29 13:44:46][AUDIT][j4sg7iunhd8hi830f4sisk2s73][GUI]
+		Login for 'priyanka' from '10.0.0.100' succeeded
+	[16/Apr/29 14:13:06][AUDIT][<nosession>][GUI]
+		Login for 'priyanka' from '10.0.0.202' failed
+	[16/Apr/29 14:13:31][AUDIT][<nosession>][GUI]
+		Login for 'priyanka' from '10.0.0.202' failed
+	[16/Apr/29 14:13:39][AUDIT][6ch0m7qc46beeb12etks26la54][GUI]
+		Login for 'priyanka' from '10.0.0.202' succeeded
+	[16/May/1 19:57:15][AUDIT][0d5mdgks1hu11n11qdiltb5g40][GUI]
+		Login for 'priyanka' from '10.0.0.100' succeeded
+	[16/May/2 06:20:24][AUDIT][oet99ctcd0rbn0thhnllb70bn2][GUI]
+		Login for 'pratik' from '10.0.1.138' succeeded
+	[16/May/2 07:24:18][AUDIT][0d5mdgks1hu11n11qdiltb5g40][GUI]
+		Logout of 'priyanka'
+	[16/May/2 09:56:45][AUDIT][osim1pqugiiruul95dguje82b6][GUI]
+		Login for 'priyanka' from '10.0.0.202' succeeded
+	[16/May/2 10:14:04][AUDIT][g8ugth5a041pfsl7mbq80hoc52][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/May/2 10:25:32][AUDIT][oet99ctcd0rbn0thhnllb70bn2][GUI]
+		Logout of 'pratik'
+	[16/May/2 10:58:16][AUDIT][588db9jn9e7tm7d5dj3idhuhn5][GUI]
+		Login for 'abhishek' from '10.0.2.134' succeeded
+	[16/May/2 10:59:38][AUDIT][osim1pqugiiruul95dguje82b6][GUI]
+		Test Project 'Proof' - Test Plan 'test p' was created
+	[16/May/2 10:59:38][AUDIT][osim1pqugiiruul95dguje82b6][GUI]
+		User 'priyanka' was assigned the role 'senior tester' to the Test Plan 'test p'
+	[16/May/2 11:02:16][AUDIT][osim1pqugiiruul95dguje82b6][GUI]
+		Test Case 'PF-15 : Verify that user can hit the signup and view the require details' version 1 was added to Test Plan test p
+	[16/May/2 11:05:46][AUDIT][osim1pqugiiruul95dguje82b6][GUI]
+		Test Case 'PF-16 : Verify that user can login with alphanumeric user name and long password with wild char' version 1 was added to Test Plan test p
+	[16/May/2 11:05:47][AUDIT][588db9jn9e7tm7d5dj3idhuhn5][GUI]
+		Logout of 'abhishek'
+	[16/May/2 11:06:05][AUDIT][osim1pqugiiruul95dguje82b6][GUI]
+		Test Case 'PF-17 : Verify for basic security testing' version 1 was added to Test Plan test p
+	[16/May/2 11:57:29][AUDIT][osim1pqugiiruul95dguje82b6][GUI]
+		Test Project 'Proof' - Test Plan 'test p' was saved
+	[16/May/2 12:24:37][AUDIT][osim1pqugiiruul95dguje82b6][GUI]
+		Test Project 'Proof' - Test Plan 'Onboarding' - Build 'test b' was created
+	[16/May/2 12:45:09][AUDIT][osim1pqugiiruul95dguje82b6][GUI]
+		Test Project 'Proof' - Test Plan 'Onboarding' - Build 'test b' was saved
+	[16/May/2 12:45:15][AUDIT][osim1pqugiiruul95dguje82b6][GUI]
+		Test Project 'Proof' - Test Plan 'Onboarding' - Build 'test b' was saved
+	[16/May/2 12:45:28][AUDIT][g8ugth5a041pfsl7mbq80hoc52][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/May/2 12:46:16][AUDIT][osim1pqugiiruul95dguje82b6][GUI]
+		Test Project 'Proof' - Test Plan 'Onboarding' - Build 'test 100' was created
+	[16/May/2 13:07:30][AUDIT][anm8dibl60m6clokml579irfq4][GUI]
+		Login for 'deepak' from '10.0.0.240' succeeded
+	[16/May/2 13:20:35][AUDIT][anm8dibl60m6clokml579irfq4][GUI]
+		Logout of 'deepak'
+	[16/May/2 13:29:14][AUDIT][g8ugth5a041pfsl7mbq80hoc52][GUI]
+		Logout of 'nehaa'
+	[16/May/2 13:54:26][AUDIT][osim1pqugiiruul95dguje82b6][GUI]
+		Test Project 'Proof' - Test Plan 'Regression' was created
+	[16/May/2 13:57:42][AUDIT][osim1pqugiiruul95dguje82b6][GUI]
+		Test Case 'PF-15 : Verify that user can hit the signup and view the require details' version 1 was added to Test Plan Regression
+	[16/May/2 13:58:10][AUDIT][osim1pqugiiruul95dguje82b6][GUI]
+		Test Case 'PF-18 : Verify that if email_id already present then proper message  display to user.' version 1 was added to Test Plan Regression
+	[16/May/2 13:58:24][AUDIT][osim1pqugiiruul95dguje82b6][GUI]
+		Test Case 'PF-19 : Verify if mandatory fields not filled by user then proper message will display to user.' version 1 was added to Test Plan Regression
+	[16/May/2 13:58:54][AUDIT][osim1pqugiiruul95dguje82b6][GUI]
+		Test Case 'PF-20 : Verify that on login page either username/password field is blank then proper message will display' version 1 was added to Test Plan Regression
+	[16/May/2 13:59:16][AUDIT][osim1pqugiiruul95dguje82b6][GUI]
+		Test Case 'PF-60 : To verify multiple logins from different system' version 1 was added to Test Plan Regression
+	[16/May/2 14:02:19][AUDIT][osim1pqugiiruul95dguje82b6][GUI]
+		Test Case 'PF-97 : Verify that user is able to login with valid credentials' version 1 was added to Test Plan Regression
+	[16/May/2 14:03:02][AUDIT][osim1pqugiiruul95dguje82b6][GUI]
+		Test Case 'PF-2 : Verify the Data Import' version 1 was added to Test Plan Regression
+	[16/May/2 14:04:31][AUDIT][osim1pqugiiruul95dguje82b6][GUI]
+		Test Case 'PF-3 : Verify that admin can add new calculation type' version 1 was added to Test Plan Regression
+	[16/May/2 14:04:49][AUDIT][osim1pqugiiruul95dguje82b6][GUI]
+		Test Case 'PF-5 : Verify that if admin not provide mandatory fields then proper error message will throw' version 1 was added to Test Plan Regression
+	[16/May/2 14:05:16][AUDIT][osim1pqugiiruul95dguje82b6][GUI]
+		Test Case 'PF-7 : Verify that admin can perform edit operations using actions' version 1 was added to Test Plan Regression
+	[16/May/2 14:05:26][AUDIT][osim1pqugiiruul95dguje82b6][GUI]
+		Test Case 'PF-9 : Verify that admin can delete cal-type' version 1 was added to Test Plan Regression
+	[16/May/2 14:05:39][AUDIT][osim1pqugiiruul95dguje82b6][GUI]
+		Test Case 'PF-10 : Verify that when admin can't delete cal-type if cal-type associated with other objects ' version 1 was added to Test Plan Regression
+	[16/May/2 14:05:59][AUDIT][osim1pqugiiruul95dguje82b6][GUI]
+		Test Case 'PF-14 : Verify that on cal_type page admin can view cal_type with desc order of creation date' version 1 was added to Test Plan Regression
+	[16/May/2 14:06:14][AUDIT][osim1pqugiiruul95dguje82b6][GUI]
+		Test Case 'PF-23 : Verify that data sets (KRI) should reflect in decending order of creation date' version 1 was added to Test Plan Regression
+	[16/May/2 14:06:24][AUDIT][osim1pqugiiruul95dguje82b6][GUI]
+		Test Case 'PF-24 : Verify that user should able to view all public data set' version 1 was added to Test Plan Regression
+	[16/May/2 14:06:33][AUDIT][osim1pqugiiruul95dguje82b6][GUI]
+		Test Case 'PF-25 : Verify that user can view his created data sets' version 1 was added to Test Plan Regression
+	[16/May/2 14:06:45][AUDIT][osim1pqugiiruul95dguje82b6][GUI]
+		Test Case 'PF-26 : Verify that when one user created public data set then that data set should view by other user' version 1 was added to Test Plan Regression
+	[16/May/2 14:07:21][AUDIT][osim1pqugiiruul95dguje82b6][GUI]
+		Test Case 'PF-28 : Verify that user can view detail of the person who uploaded the file' version 1 was added to Test Plan Regression
+	[16/May/2 14:07:34][AUDIT][osim1pqugiiruul95dguje82b6][GUI]
+		Test Case 'PF-29 : Verify that add data link will redirect user to different screen' version 1 was added to Test Plan Regression
+	[16/May/2 14:08:18][AUDIT][osim1pqugiiruul95dguje82b6][GUI]
+		Test Case 'PF-31 : Verify that user can land on data set page from different navigations' version 1 was added to Test Plan Regression
+	[16/May/2 14:12:24][AUDIT][osim1pqugiiruul95dguje82b6][GUI]
+		Test Case 'PF-32 : Verify that on cal.screen  if mandatory fields not in putted the proper error message will throw.' version 1 was added to Test Plan Regression
+	[16/May/2 14:12:44][AUDIT][osim1pqugiiruul95dguje82b6][GUI]
+		Test Case 'PF-33 : Verify that user can view defined calculation type only' version 1 was added to Test Plan Regression
+	[16/May/2 14:12:53][AUDIT][osim1pqugiiruul95dguje82b6][GUI]
+		Test Case 'PF-34 : Verify user can view public KPI in dashboard dropdown' version 1 was added to Test Plan Regression
+	[16/May/2 14:13:00][AUDIT][osim1pqugiiruul95dguje82b6][GUI]
+		Test Case 'PF-35 : Verify that user can select only one cause and one effect' version 1 was added to Test Plan Regression
+	[16/May/2 14:13:18][AUDIT][osim1pqugiiruul95dguje82b6][GUI]
+		Test Case 'PF-36 : Verify that after Cancel user should return to previous screen' version 1 was added to Test Plan Regression
+	[16/May/2 14:15:28][AUDIT][osim1pqugiiruul95dguje82b6][GUI]
+		Test Case 'PF-37 : Verify that if calculation name is already present then proper error message should show' version 1 was added to Test Plan Regression
+	[16/May/2 14:15:40][AUDIT][osim1pqugiiruul95dguje82b6][GUI]
+		Test Case 'PF-57 : Verify that user can select time period for calculation' version 1 was added to Test Plan Regression
+	[16/May/2 14:16:08][AUDIT][osim1pqugiiruul95dguje82b6][GUI]
+		Test Case 'PF-59 : To verify date effect for cause and effect series.' version 1 was added to Test Plan Regression
+	[16/May/2 14:16:22][AUDIT][osim1pqugiiruul95dguje82b6][GUI]
+		Test Case 'PF-39 : Verify that 'Add new KPI' button is working properly' version 1 was added to Test Plan Regression
+	[16/May/2 14:16:32][AUDIT][osim1pqugiiruul95dguje82b6][GUI]
+		Test Case 'PF-40 : Verify user can search KPI name by typing a keyword.' version 1 was added to Test Plan Regression
+	[16/May/2 14:16:40][AUDIT][osim1pqugiiruul95dguje82b6][GUI]
+		Test Case 'PF-41 : Verify KPI names should be displayed in descending order of date of creation' version 1 was added to Test Plan Regression
+	[16/May/2 14:16:58][AUDIT][osim1pqugiiruul95dguje82b6][GUI]
+		Test Case 'PF-44 : Verify that user should not drag and  drop same KPI's in cause and effect' version 1 was added to Test Plan Regression
+	[16/May/2 14:17:07][AUDIT][osim1pqugiiruul95dguje82b6][GUI]
+		Test Case 'PF-45 : Verify that user can remove co-relation combination' version 1 was added to Test Plan Regression
+	[16/May/2 14:17:22][AUDIT][osim1pqugiiruul95dguje82b6][GUI]
+		Test Case 'PF-47 : Verify that after click on skip , user will redirect to dashboard' version 1 was added to Test Plan Regression
+	[16/May/2 14:17:30][AUDIT][osim1pqugiiruul95dguje82b6][GUI]
+		Test Case 'PF-91 : Verify that user will land on configure dashboard screen from different navigation' version 1 was added to Test Plan Regression
+	[16/May/2 14:17:37][AUDIT][osim1pqugiiruul95dguje82b6][GUI]
+		Test Case 'PF-73 : Verify navigation to configure screen' version 1 was added to Test Plan Regression
+	[16/May/3 05:08:43][AUDIT][<nosession>][GUI]
+		Login for 'priyanka' from '10.0.0.202' failed
+	[16/May/3 05:09:49][AUDIT][us6pflvc5s5qson8l85t38ss56][GUI]
+		Login for 'priyanka' from '10.0.0.202' succeeded
+	[16/May/3 05:10:30][AUDIT][us6pflvc5s5qson8l85t38ss56][GUI]
+		Test Case 'PF-55 : Verify co-relation bell curve data' version 1 was added to Test Plan Regression
+	[16/May/3 05:10:38][AUDIT][us6pflvc5s5qson8l85t38ss56][GUI]
+		Test Case 'PF-75 : Verify the building blocks on the correlation bell curve' version 1 was added to Test Plan Regression
+	[16/May/3 05:10:49][AUDIT][us6pflvc5s5qson8l85t38ss56][GUI]
+		Test Case 'PF-76 : Verify the correlation bell curve after adding more correlation pairs' version 1 was added to Test Plan Regression
+	[16/May/3 05:11:05][AUDIT][us6pflvc5s5qson8l85t38ss56][GUI]
+		Test Case 'PF-78 : Verify time to impact bell curve data' version 1 was added to Test Plan Regression
+	[16/May/3 05:11:12][AUDIT][us6pflvc5s5qson8l85t38ss56][GUI]
+		Test Case 'PF-79 : To verify the building blocks on the time to impact bell curve' version 1 was added to Test Plan Regression
+	[16/May/3 05:11:24][AUDIT][us6pflvc5s5qson8l85t38ss56][GUI]
+		Test Case 'PF-80 : Verify the time to impact bell curve after adding more correlation pairs' version 1 was added to Test Plan Regression
+	[16/May/3 05:11:33][AUDIT][us6pflvc5s5qson8l85t38ss56][GUI]
+		Test Case 'PF-82 : To verify the correlation strength of the correlation pair for quarter' version 1 was added to Test Plan Regression
+	[16/May/3 05:11:41][AUDIT][us6pflvc5s5qson8l85t38ss56][GUI]
+		Test Case 'PF-83 : Verify the time to impact of a correlation pair for quarter' version 1 was added to Test Plan Regression
+	[16/May/3 05:12:09][AUDIT][us6pflvc5s5qson8l85t38ss56][GUI]
+		Test Case 'PF-48 : Veriy that user can view configure link on dashboard page and able to perform action on it' version 1 was added to Test Plan Regression
+	[16/May/3 05:12:20][AUDIT][us6pflvc5s5qson8l85t38ss56][GUI]
+		Test Case 'PF-49 : Verify that when user click on add data then he can navigate to add data screen' version 1 was added to Test Plan Regression
+	[16/May/3 05:12:29][AUDIT][us6pflvc5s5qson8l85t38ss56][GUI]
+		Test Case 'PF-50 : Verify that user can perform calculate operation from dashboard' version 1 was added to Test Plan Regression
+	[16/May/3 05:12:49][AUDIT][us6pflvc5s5qson8l85t38ss56][GUI]
+		Test Case 'PF-51 : Veriy that correlation Strength will be calculated for the latest quarter of the correlation pair' version 1 was added to Test Plan Regression
+	[16/May/3 05:13:02][AUDIT][us6pflvc5s5qson8l85t38ss56][GUI]
+		Test Case 'PF-53 : Verify that building block display with descending order on dashboard page' version 1 was added to Test Plan Regression
+	[16/May/3 05:13:14][AUDIT][us6pflvc5s5qson8l85t38ss56][GUI]
+		Test Case 'PF-54 : Verify the data on UI dashboard which is reflection of REST response' version 1 was added to Test Plan Regression
+	[16/May/3 05:13:31][AUDIT][us6pflvc5s5qson8l85t38ss56][GUI]
+		Test Case 'PF-58 : To verify the corelation for all the selected KPIs.' version 1 was added to Test Plan Regression
+	[16/May/3 05:13:55][AUDIT][us6pflvc5s5qson8l85t38ss56][GUI]
+		Test Case 'PF-70 : To verify that user can click on the building block to see performance of that correlation pair' version 1 was added to Test Plan Regression
+	[16/May/3 05:14:14][AUDIT][us6pflvc5s5qson8l85t38ss56][GUI]
+		Test Case 'PF-85 : Verify that user can see the correlation and time to impact for the building blocks' version 1 was added to Test Plan Regression
+	[16/May/3 05:14:29][AUDIT][us6pflvc5s5qson8l85t38ss56][GUI]
+		Test Case 'PF-61 : To verify calculations should reflect in order of date of creation' version 1 was added to Test Plan Regression
+	[16/May/3 05:14:36][AUDIT][us6pflvc5s5qson8l85t38ss56][GUI]
+		Test Case 'PF-62 : Verify that user should be able to view all public calculations' version 1 was added to Test Plan Regression
+	[16/May/3 05:14:44][AUDIT][us6pflvc5s5qson8l85t38ss56][GUI]
+		Test Case 'PF-63 : Verify that user should be able to view his created calculation' version 1 was added to Test Plan Regression
+	[16/May/3 05:14:52][AUDIT][us6pflvc5s5qson8l85t38ss56][GUI]
+		Test Case 'PF-64 : To verify that when one user created public calculation then that can be viewed by other users.' version 1 was added to Test Plan Regression
+	[16/May/3 05:15:29][AUDIT][us6pflvc5s5qson8l85t38ss56][GUI]
+		Test Case 'PF-66 : To verify all the information of calculation' version 1 was added to Test Plan Regression
+	[16/May/3 05:15:40][AUDIT][us6pflvc5s5qson8l85t38ss56][GUI]
+		Test Case 'PF-67 : Verify the links to other page from calculation library screen' version 1 was added to Test Plan Regression
+	[16/May/3 05:15:49][AUDIT][us6pflvc5s5qson8l85t38ss56][GUI]
+		Test Case 'PF-68 : To verify user can land on calculation library screen from different navigations' version 1 was added to Test Plan Regression
+	[16/May/3 05:16:02][AUDIT][us6pflvc5s5qson8l85t38ss56][GUI]
+		Test Case 'PF-69 : Verify that user can save calculation' version 1 was added to Test Plan Regression
+	[16/May/3 05:16:19][AUDIT][us6pflvc5s5qson8l85t38ss56][GUI]
+		Test Case 'PF-72 : To verify the time shift for the time period selected' version 1 was added to Test Plan Regression
+	[16/May/3 05:16:27][AUDIT][us6pflvc5s5qson8l85t38ss56][GUI]
+		Test Case 'PF-84 : Very correlation strength bars should be displayed only when time shift is enabled' version 1 was added to Test Plan Regression
+	[16/May/3 06:09:00][AUDIT][b0nlmrkrb9uur8ev2s2abjk317][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/May/3 06:48:06][AUDIT][7v97ghrthh1sfhudgaj93sp7i3][GUI]
+		Login for 'pratik' from '10.0.1.138' succeeded
+	[16/May/3 06:48:54][AUDIT][7v97ghrthh1sfhudgaj93sp7i3][GUI]
+		Test Case 'MAG-26 : As a MHA,I should be able to add a new Insight report query' version 1 was added to Test Plan Test plan for Magnus Healthcare
+	[16/May/3 06:56:39][AUDIT][7v97ghrthh1sfhudgaj93sp7i3][GUI]
+		Test Case 'MAG-27 : As a MHA, I should be able to edit a new insight report query' version 1 was added to Test Plan Test plan for Magnus Healthcare
+	[16/May/3 06:57:24][AUDIT][7v97ghrthh1sfhudgaj93sp7i3][GUI]
+		Test Case 'MAG-28 : As a MHA,I should be able to delete a new insight report query' version 1 was added to Test Plan Test plan for Magnus Healthcare
+	[16/May/3 06:58:11][AUDIT][7v97ghrthh1sfhudgaj93sp7i3][GUI]
+		Test Case 'MAG-29 : As a MHA,I should be able to see all the insights queries in a grid' version 1 was added to Test Plan Test plan for Magnus Healthcare
+	[16/May/3 07:02:43][AUDIT][7v97ghrthh1sfhudgaj93sp7i3][GUI]
+		Logout of 'pratik'
+	[16/May/3 07:02:51][AUDIT][7v97ghrthh1sfhudgaj93sp7i3][GUI]
+		Login for 'pratik' from '10.0.1.138' succeeded
+	[16/May/3 07:06:02][AUDIT][anm8dibl60m6clokml579irfq4][GUI]
+		Login for 'deepak' from '10.0.0.240' succeeded
+	[16/May/3 07:15:57][AUDIT][anm8dibl60m6clokml579irfq4][GUI]
+		Test Project 'Proof' - Test Plan 'Onboarding' - Build '101' was created
+	[16/May/3 07:17:23][AUDIT][anm8dibl60m6clokml579irfq4][GUI]
+		Test Project 'Proof' - Test Plan 'Regression' - Build '101' was created
+	[16/May/3 09:32:32][AUDIT][kgs2iu0dtfj4nhsr4o32uhtog0][GUI]
+		Login for 'abhishek' from '10.0.2.134' succeeded
+	[16/May/3 13:30:00][AUDIT][fpbppmro0m4rnfcq9tethve3c3][GUI]
+		Login for 'kaustubh' from '10.0.0.179' succeeded
+	[16/May/4 09:25:52][AUDIT][r33grejvphpkklu1khseaacdd0][GUI]
+		Login for 'abhishek' from '10.0.2.134' succeeded
+	[16/May/4 09:37:17][AUDIT][megjjlpmcojdp4k2an1bprh606][GUI]
+		Login for 'tanushree' from '10.0.2.201' succeeded
+	[16/May/5 06:49:37][AUDIT][0d5mdgks1hu11n11qdiltb5g40][GUI]
+		Login for 'deepak' from '10.0.0.100' succeeded
+	[16/May/5 06:50:08][AUDIT][0d5mdgks1hu11n11qdiltb5g40][GUI]
+		Logout of 'deepak'
+	[16/May/5 06:50:17][AUDIT][<nosession>][GUI]
+		Login for 'test1' from '10.0.0.100' failed
+	[16/May/5 06:50:35][AUDIT][0d5mdgks1hu11n11qdiltb5g40][GUI]
+		Login for 'deepak' from '10.0.0.100' succeeded
+	[16/May/5 06:50:48][AUDIT][0d5mdgks1hu11n11qdiltb5g40][GUI]
+		Logout of 'deepak'
+	[16/May/5 06:50:55][AUDIT][<nosession>][GUI]
+		Login for 'webonise' from '10.0.0.100' failed
+	[16/May/5 06:51:03][AUDIT][<nosession>][GUI]
+		Login for 'webonise' from '10.0.0.100' failed
+	[16/May/5 06:51:12][AUDIT][0d5mdgks1hu11n11qdiltb5g40][GUI]
+		Login for 'webonise' from '10.0.0.100' succeeded
+	[16/May/5 06:52:39][AUDIT][su40n6h31auncm3vfefjigaqt7][GUI]
+		Login for 'tanushree' from '10.0.2.201' succeeded
+	[16/May/5 06:53:51][AUDIT][su40n6h31auncm3vfefjigaqt7][GUI]
+		Logout of 'tanushree'
+	[16/May/5 06:54:18][AUDIT][su40n6h31auncm3vfefjigaqt7][GUI]
+		Login for 'admin1' from '10.0.2.201' succeeded
+	[16/May/5 06:56:04][AUDIT][su40n6h31auncm3vfefjigaqt7][GUI]
+		User 'Harshali' was assigned the role 'senior tester' to the Test Project 'Partner Locator App'
+	[16/May/5 06:56:22][AUDIT][su40n6h31auncm3vfefjigaqt7][GUI]
+		Logout of 'admin1'
+	[16/May/5 06:56:26][AUDIT][su40n6h31auncm3vfefjigaqt7][GUI]
+		Login for 'tanushree' from '10.0.2.201' succeeded
+	[16/May/5 06:57:15][AUDIT][su40n6h31auncm3vfefjigaqt7][GUI]
+		Logout of 'tanushree'
+	[16/May/5 06:57:49][AUDIT][su40n6h31auncm3vfefjigaqt7][GUI]
+		Login for 'webonise' from '10.0.2.201' succeeded
+	[16/May/5 07:09:29][AUDIT][su40n6h31auncm3vfefjigaqt7][GUI]
+		Logout of 'webonise'
+	[16/May/5 07:09:35][AUDIT][su40n6h31auncm3vfefjigaqt7][GUI]
+		Login for 'tanushree' from '10.0.2.201' succeeded
+	[16/May/5 09:06:07][AUDIT][298is2gpf4d84m313f5n8sjdb4][GUI]
+		Login for 'harshali' from '10.0.3.247' succeeded
+	[16/May/5 09:48:13][AUDIT][jifh19riamoc4b6f4t4uiblmp3][GUI]
+		Login for 'nehaa' from '10.0.1.163' succeeded
+	[16/May/5 13:57:10][AUDIT][0d5mdgks1hu11n11qdiltb5g40][GUI]
+		Logout of 'webonise'
+	[16/May/5 13:57:20][AUDIT][0d5mdgks1hu11n11qdiltb5g40][GUI]
+		Login for 'admin1' from '10.0.0.100' succeeded
+	[16/May/5 13:57:23][AUDIT][0d5mdgks1hu11n11qdiltb5g40][GUI]
+		Logout of 'admin1'
+	[16/May/5 13:59:45][AUDIT][0d5mdgks1hu11n11qdiltb5g40][GUI]
+		Login for 'admin1' from '10.0.0.100' succeeded
+	[16/May/6 12:50:51][AUDIT][futgfqudmvnbr4ahvminncl0g2][GUI]
+		Login for 'shubham' from '10.0.1.4' succeeded
+	[16/May/6 12:51:36][AUDIT][futgfqudmvnbr4ahvminncl0g2][GUI]
+		Logout of 'shubham'
+	[16/May/6 12:52:20][AUDIT][futgfqudmvnbr4ahvminncl0g2][GUI]
+		Login for 'shubham' from '10.0.1.4' succeeded
+	[16/May/6 12:53:58][AUDIT][futgfqudmvnbr4ahvminncl0g2][GUI]
+		Logout of 'shubham'
+	[16/May/6 13:34:51][AUDIT][4lqrjbph90b1o5cnk8jcuhnoe0][GUI]
+		Login for 'harshali' from '10.0.3.247' succeeded
+	[16/May/6 13:56:15][AUDIT][4lqrjbph90b1o5cnk8jcuhnoe0][GUI]
+		Logout of 'Harshali'
+	[16/May/10 12:39:31][AUDIT][thph0itp31n03ch6tgch6scsv1][GUI]
+		Login for 'pratik' from '10.0.1.138' succeeded
+	[16/May/11 04:40:23][AUDIT][pahs61mpfrombpf7q7acsnbmp3][GUI]
+		Login for 'nehaa' from '10.0.0.255' succeeded
+	[16/May/11 04:46:44][AUDIT][u0qkua85j5fa9rk2b0m2l2s4m5][GUI]
+		Login for 'nehaa' from '10.0.0.255' succeeded
+	[16/May/19 14:51:46][AUDIT][tfhb6otj4bevhtjkvhc3c3ofr3][GUI]
+		Login for 'admin1' from '::1' succeeded
+	[16/May/19 14:52:54][AUDIT][tfhb6otj4bevhtjkvhc3c3ofr3][GUI]
+		Logout of 'admin1'
+	[16/May/20 04:51:13][AUDIT][iclj104nor10fa3l0d1nq4fu91][GUI]
+		Login for 'admin1' from '::1' succeeded
+	[16/May/20 05:58:13][AUDIT][<nosession>][GUI]
+		Login for 'deepak' from '10.0.0.240' failed
+	[16/May/20 05:58:21][AUDIT][c3vuneki0ot9p8jhb24i3g0nh3][GUI]
+		Login for 'deepak' from '10.0.0.240' succeeded
+	[16/May/20 05:59:39][AUDIT][c3vuneki0ot9p8jhb24i3g0nh3][GUI]
+		Custom field 'Automation_file' was created
+	[16/May/20 05:59:40][AUDIT][c3vuneki0ot9p8jhb24i3g0nh3][GUI]
+		Custom field 'Automation_file' was assigned to Test Project 'Burnett & Bradley'
+	[16/May/23 04:06:42][AUDIT][f7io8biu7j14g601lov0pheui3][GUI]
+		Login for 'admin1' from '::1' succeeded
+	[16/May/23 04:28:05][AUDIT][f7io8biu7j14g601lov0pheui3][GUI]
+		Logout of 'admin1'
+	[16/May/23 04:28:11][AUDIT][f7io8biu7j14g601lov0pheui3][GUI]
+		Login for 'admin1' from '::1' succeeded
+	[16/May/24 12:59:53][AUDIT][7rshcpk7h5g5fri9m7aqdobbf0][GUI]
+		Login for 'admin1' from '::1' succeeded
+	[16/May/24 13:01:23][AUDIT][7rshcpk7h5g5fri9m7aqdobbf0][GUI]
+		User 'aameer' was created
+	[16/May/24 13:01:39][AUDIT][7rshcpk7h5g5fri9m7aqdobbf0][GUI]
+		Logout of 'admin1'
+	[16/May/24 13:01:47][AUDIT][7rshcpk7h5g5fri9m7aqdobbf0][GUI]
+		Login for 'aameer' from '::1' succeeded
+	[16/May/24 13:01:51][AUDIT][7rshcpk7h5g5fri9m7aqdobbf0][GUI]
+		Logout of 'aameer'
+	[16/May/24 13:31:46][AUDIT][<nosession>][GUI]
+		Password reset requested for 'aameer'
+	[16/May/24 13:32:57][AUDIT][7rshcpk7h5g5fri9m7aqdobbf0][GUI]
+		Login for 'aameer' from '::1' succeeded
+	[16/May/24 13:42:50][AUDIT][7rshcpk7h5g5fri9m7aqdobbf0][GUI]
+		Logout of 'aameer'
+	[16/May/24 13:43:05][AUDIT][<nosession>][GUI]
+		Password reset requested for 'aameer'
+	[16/May/24 13:44:41][AUDIT][7rshcpk7h5g5fri9m7aqdobbf0][GUI]
+		Login for 'aameer' from '::1' succeeded
+	[16/May/24 13:45:12][AUDIT][7rshcpk7h5g5fri9m7aqdobbf0][GUI]
+		Password of user 'aameer' was saved
+	[16/May/24 13:45:18][AUDIT][7rshcpk7h5g5fri9m7aqdobbf0][GUI]
+		Logout of 'aameer'
+	[16/May/24 13:45:24][AUDIT][<nosession>][GUI]
+		Login for 'aameer' from '::1' failed
+	[16/May/24 13:45:31][AUDIT][7rshcpk7h5g5fri9m7aqdobbf0][GUI]
+		Login for 'aameer' from '::1' succeeded
+	[16/May/24 13:48:41][AUDIT][7rshcpk7h5g5fri9m7aqdobbf0][GUI]
+		Logout of 'aameer'

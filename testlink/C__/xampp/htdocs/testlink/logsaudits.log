@@ -1,0 +1,20 @@
+	[16/May/12 08:54:23][AUDIT][bbntbbnsffvso0841pveua2p53][GUI]
+		Login for 'admin1' from '127.0.0.1' succeeded
+	[16/May/12 10:56:12][AUDIT][kddr0svag16344ub7qmd2d4vv1][GUI]
+		Login for 'admin1' from '127.0.0.1' succeeded
+	[16/May/12 14:09:16][AUDIT][kddr0svag16344ub7qmd2d4vv1][GUI]
+		Logout of 'admin1'
+	[16/May/13 05:16:56][AUDIT][2ts282sdepni1626ooc4oibvl7][GUI]
+		Login for 'admin1' from '127.0.0.1' succeeded
+	[16/May/16 04:45:33][AUDIT][h3vm2dsdustleakn0ijpcov801][GUI]
+		Login for 'admin1' from '127.0.0.1' succeeded
+	[16/May/16 09:14:05][AUDIT][upp13dtk4rtr9tkbec2f50b3h1][GUI]
+		Login for 'admin1' from '10.0.0.144' succeeded
+	[16/May/16 09:14:45][AUDIT][upp13dtk4rtr9tkbec2f50b3h1][GUI]
+		Logout of 'admin1'
+	[16/May/16 09:29:10][AUDIT][<nosession>][GUI]
+		Login for 'deepak' from '10.0.0.240' failed
+	[16/May/16 09:29:22][AUDIT][t7mfc7kfl99l4oqobg4v95idc4][GUI]
+		Login for 'deepak' from '10.0.0.240' succeeded
+	[16/May/17 04:02:15][AUDIT][u7i9kdo6e9lbkkhu0nf0vrbbp4][GUI]
+		Login for 'admin1' from '127.0.0.1' succeeded
