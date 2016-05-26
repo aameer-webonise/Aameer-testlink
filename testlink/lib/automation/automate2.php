@@ -4,9 +4,9 @@
 		<title>Trigger Automation</title>
 		<script src="/testlink/third_party/jquery/jquery-2.0.3.min.js"></script>
 		<link rel="stylesheet" href="/testlink/gui/themes/default/css/testlink.css"/>
-		<link rel="stylesheet" href="./css/dropDownStyle.css"/>
+		<link rel="stylesheet" href="./css/dropDownStyle2.css"/>
 		<link rel="stylesheet" href="./css/treeStyle2.css"/>
-		<script src="./javascript/automation2.js"></script>
+		<script src="./javascript/automation4.js"></script>
 		<?php
 			require_once("../../config.inc.php");
 			require_once("../functions/common.php");
@@ -41,6 +41,7 @@
 		?>
 		<h1 class="title">Select Test Cases To Automate</h1>
 		<form action="triggerAutomation.php" method="post">
+		<div class="parent">
 		<input type="text" name="projectName" value="<?php echo $projectName;?>" readonly>
 		<input type="hidden" value="<?php echo $project_prefix;?>" name="project_prefix">
 		<input type="hidden" id="browser_list" name="browser_list" value="NA">
@@ -56,6 +57,7 @@
 			$ID = $myrow['id'];
 			$name= $myrow['name'];
 			$sql='select id, name from nodes_hierarchy where parent_id='.$ID.' and id in (select parent_id from nodes_hierarchy where id in (select id from tcversions where execution_type=2))';
+			//$sql='select n2.id as tcID, n2.name as tcName ,n1.name as tsName from nodes_hierarchy n1 inner join nodes_hierarchy n2 on n2.parent_id=n1.id inner join nodes_hierarchy n3 on n3.parent_id=n2.id inner join tcversions tc on n3.id=tc.id where n1.node_type_id=2 and tc.execution_type=2 and n1.parent_id='.$tproject_id;
 			$data=$db->exec_query($sql);
 			if($data->_numOfRows>0)
 			{
@@ -67,7 +69,7 @@
 		</label>
 		
 		<span id="<?php echo $ID;?>" class="testSuiteName" style="cursor: pointer;"><?php echo $name;?></span>
-		
+		<input type="text" name="suiteName[]" id="namech-<?php echo $ID?>" class="suite" value="<?php echo $name;?>">
 		<li><ul class="testcaseList" id="tc<?php echo $ID;?>" class="treeUl">
 		<?php
 		while($row=$db->fetch_array($data))
@@ -79,7 +81,7 @@
 			$fileNames=$db->exec_query($sql);
 			$fileRow=$db->fetch_array($fileNames);
 		?>
-		<input type="hidden" name="id[]" class="files" id="files<?php echo $row['id'];?>" value="<?php echo $fileRow['value'];?>"></li>
+		<input type="text" name="id[]" class="files" id="files<?php echo $row['id'];?>" value="<?php echo $fileRow['value'];?>"></li>
 		<?php
 		}
 		?>
@@ -114,6 +116,7 @@
 			</div>
 		</div>
 		<input type="submit" value="Continue" class="continue">
+		</div>
 		</form>
 	</body>
 </html>

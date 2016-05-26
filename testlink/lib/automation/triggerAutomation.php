@@ -5,13 +5,14 @@ $projectName=$_POST['projectName'];
 $projectPrefix=$_POST['project_prefix'];
 $browserList=$_POST['browser_list'];
 $area=$_POST['environmentSelector'];
-echo $projectName.'--->'.$projectPrefix;
-echo '<br/>'.$browserList;
-echo '<br/>'.$area.'<br/>';
+//echo $projectName.'--->'.$projectPrefix;
+//echo '<br/>'.$browserList;
+//echo '<br/>'.$area.'<br/>';
 $ids= $_POST['id'];
-print_r($ids);
-
-exit();
+$suite=$_POST['suiteName'];
+//print_r($ids);
+//print_r($suite);
+//exit();
 $mail = new PHPMailer;
 $mail->isSMTP();
 $mail->SMTPSecure = 'ssl';
@@ -23,8 +24,8 @@ $mail->Password = 'weboqa6186';
 $mail->setFrom('aameer.ausekar@gmail.com');
 $mail->addAddress('email@weboapps.com');
 //$mail->addAddress('ausekar9@gmail.com');
-$mail->Subject = 'Trigger '.$projectPrefix;
-$mail->Body = 'Trigger Automation of Project '.$projectName;
+$mail->Subject = 'Trigger '.$projectName.' '.$suite[0];
+$mail->Body = 'Trigger '.$projectName.' '.$suite[0];
 if (!$mail->send()) {
     echo "ERROR: " . $mail->ErrorInfo;
 } else {

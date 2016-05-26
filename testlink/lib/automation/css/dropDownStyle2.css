@@ -17,7 +17,7 @@
     }
     #checkboxes label {
         display: block;
-		background-color:red;
+		background-color:white;
 		}
     #checkboxes label:hover {
         background-color: #1e90ff;
