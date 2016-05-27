@@ -8,7 +8,7 @@ $area=$_POST['environmentSelector'];
 //echo $projectName.'--->'.$projectPrefix;
 //echo '<br/>'.$browserList;
 //echo '<br/>'.$area.'<br/>';
-$ids= $_POST['id'];
+//$ids= $_POST['id'];
 $suite=$_POST['suiteName'];
 //print_r($ids);
 //print_r($suite);
