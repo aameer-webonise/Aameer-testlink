@@ -8,42 +8,42 @@
 		<link rel="stylesheet" href="./css/treeStyle2.css"/>
 		<script src="./javascript/automation.js"></script>
 		<?php
-			require_once("../../config.inc.php");
-			require_once("../functions/common.php");
-			require_once("../functions/xml.inc.php");
-			testlinkInitPage($db);
-			$templateCfg = templateConfiguration();
-			$args = init_args();
-			$projectName= $args->tproject_name;
-			$tproject_id= $args->tproject_id;
+		require_once ("../../config.inc.php");
+		require_once ("../functions/common.php");
+		require_once ("../functions/xml.inc.php");
+		testlinkInitPage($db);
+		$templateCfg = templateConfiguration();
+		$args = init_args();
+		$projectName = $args -> tproject_name;
+		$tproject_id = $args -> tproject_id;
 		?>
 	</head>
 	<body>
 		<?php
-			$sql='select prefix from testprojects where id='.$tproject_id;
-			$result=$db->exec_query($sql);
-			$myrow = $db->fetch_array($result);
-			$project_prefix=$myrow['prefix'];
+		$sql = 'select prefix from testprojects where id=' . $tproject_id;
+		$result = $db -> exec_query($sql);
+		$myrow = $db -> fetch_array($result);
+		$project_prefix = $myrow['prefix'];
 
-			$sql='select id, name from nodes_hierarchy where node_type_id=2 and parent_id='.$tproject_id;
-			$result = $db->exec_query($sql);
-			function init_args()
-			{
-			  $_REQUEST = strings_stripSlashes($_REQUEST);
-				
-			  $args = new stdClass();
+		$sql = 'select id, name from nodes_hierarchy where node_type_id=2 and (parent_id=' . $tproject_id . ' or parent_id in (select id from nodes_hierarchy where node_type_id=2 and parent_id=' . $tproject_id . '))';
+		//$sql='select id, name from nodes_hierarchy where node_type_id=2 and parent_id='.$tproject_id;
+		$result = $db -> exec_query($sql);
+		function init_args() {
+			$_REQUEST = strings_stripSlashes($_REQUEST);
 
-			  $args->tproject_name = $_SESSION['testprojectName'];
-			  $args->tproject_id= $_SESSION['testprojectID'];
+			$args = new stdClass();
 
-			  return $args;
-			}
+			$args -> tproject_name = $_SESSION['testprojectName'];
+			$args -> tproject_id = $_SESSION['testprojectID'];
+
+			return $args;
+		}
 		?>
 		<h1 class="title">Select Test Cases To Automate</h1>
 		<form action="triggerAutomation.php" method="post">
 		<div class="parent">
-		<input type="text" name="projectName" value="<?php echo $projectName;?>" readonly>
-		<input type="hidden" value="<?php echo $project_prefix;?>" name="project_prefix">
+		<input type="text" name="projectName" value="<?php echo $projectName; ?>" readonly>
+		<input type="hidden" value="<?php echo $project_prefix; ?>" name="project_prefix">
 		<input type="hidden" id="browser_list" name="browser_list" value="NA">
 		<input type="submit" value="Start Project Automation">
 		<div class="x-tl-panel testcaseTree">
@@ -62,33 +62,33 @@
 			if($data->_numOfRows>0)
 			{
 		?>
-		<img src="/testlink/gui/drag_and_drop/images/dhtmlgoodies_plus.gif" id="<?php echo $ID;?>" class="testSuiteName">
+		<img src="/testlink/gui/drag_and_drop/images/dhtmlgoodies_plus.gif" id="<?php echo $ID; ?>" class="testSuiteName">
 		<label><input type="hidden" value="+" id="status<?php echo $ID?>">
 			<img src="/testlink/gui/drag_and_drop/images/dhtmlgoodies_folder.gif">
-			<input type="checkbox" class="suiteCheckbox" id="ch-<?php echo $ID;?>">
-			<span style="cursor: pointer;"><?php echo $name;?></span>
+			<input type="checkbox" class="suiteCheckbox" id="ch-<?php echo $ID; ?>">
+			<span style="cursor: pointer;"><?php echo $name; ?></span>
 		</label>
 		
 		
-		<input type="hidden" name="suiteName[]" id="namech-<?php echo $ID?>" class="suite" value="<?php echo $name;?>">
-		<li><ul class="testcaseList" id="tc<?php echo $ID;?>" class="treeUl">
+		<input type="hidden" name="suiteName[]" id="namech-<?php echo $ID?>" class="suite" value="<?php echo $name; ?>">
+		<li><ul class="testcaseList" id="tc<?php echo $ID; ?>" class="treeUl">
 		<?php
 		while($row=$db->fetch_array($data))
 		{
 		?>
-		<li><label><input type="checkbox" class="checkbox-ch-<?php echo $ID;?> tcCheckbox" name="testcase" value="<?php echo $row['name'];?>" id="<?php echo $row['id'];?>"><?php echo $row['name'];?></label>
+		<li><label><input type="checkbox" class="checkbox-ch-<?php echo $ID; ?> tcCheckbox" name="testcase" value="<?php echo $row['name']; ?>" id="<?php echo $row['id']; ?>"><?php echo $row['name']; ?></label>
 		<?php
-			$sql='select value from cfield_design_values inner join nodes_hierarchy on node_id=id where node_type_id=4 and parent_id='.$row['id'];
-			$fileNames=$db->exec_query($sql);
-			$fileRow=$db->fetch_array($fileNames);
+		$sql = 'select value from cfield_design_values inner join nodes_hierarchy on node_id=id where node_type_id=4 and parent_id=' . $row['id'];
+		$fileNames = $db -> exec_query($sql);
+		$fileRow = $db -> fetch_array($fileNames);
 		?>
-		<input type="hidden" name="id[]" class="files" id="files<?php echo $row['id'];?>" value="<?php echo $fileRow['value'];?>"></li>
+		<input type="hidden" name="id[]" class="files" id="files<?php echo $row['id']; ?>" value="<?php echo $fileRow['value']; ?>"></li>
 		<?php
 		}
 		?>
 		</ul></li>
 		<?php
-			}
+		}
 		}
 		?>
 		</ul></div></div></div>
