@@ -63,10 +63,7 @@ window.onload=function()
   {include file="inc_msg_from_array.tpl" array_of_msg=$gui->securityNotes arg_css_class="warning"}
 {/if}
 
-{* ----- Right Column ------------- *}
-{include file="mainPageRight.tpl"}
+{include file="mainTabPage.tpl"}
 
-{* ----- Left Column -------------- *}
-{include file="mainPageLeft.tpl"}
 </body>
 </html>
