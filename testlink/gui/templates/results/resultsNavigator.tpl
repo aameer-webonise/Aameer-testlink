@@ -61,6 +61,7 @@ function pre_submit()
 
 <div style="margin:3px; padding: 15px 0px" >
 {if $gui->do_report.status_ok}
+<a href="lib/functions/testcaseReport.php" target="workframe">Testcase Report</a><br/>
   {foreach from=$gui->menuItems item=menu}
     <span>
       <a href="{$menu.href}format={$gui->selectedReportType}&amp;tplan_id={$gui->tplan_id}
