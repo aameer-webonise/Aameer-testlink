@@ -4,40 +4,37 @@
 		<title>Trigger Automation</title>
 		<script src="/testlink/third_party/jquery/jquery-2.0.3.min.js"></script>
 		<link rel="stylesheet" href="/testlink/gui/themes/default/css/testlink.css"/>
-		<link rel="stylesheet" href="./css/dropDownStyle2.css"/>
-		<link rel="stylesheet" href="./css/treeStyle2.css"/>
-		<script src="./javascript/automation.js"></script>
+		<!--<link rel="stylesheet" href="./css/dropDownStyle2.css"/>-->
+		<link rel="stylesheet" href="./css/treeStyle.css"/>
+		<script src="./javascript/automation1.js"></script>
 		<?php
-		require_once ("../../config.inc.php");
-		require_once ("../functions/common.php");
-		require_once ("../functions/xml.inc.php");
-		testlinkInitPage($db);
-		$templateCfg = templateConfiguration();
-		$args = init_args();
-		$projectName = $args -> tproject_name;
-		$tproject_id = $args -> tproject_id;
+			require_once ("../../config.inc.php");
+			require_once ("../functions/common.php");
+			require_once ("../functions/xml.inc.php");
+			testlinkInitPage($db);
+			$templateCfg = templateConfiguration();
+			$args = init_args();
+			$projectName = $args -> tproject_name;
+			$tproject_id = $args -> tproject_id;
 		?>
 	</head>
 	<body>
 		<?php
-		$sql = 'select prefix from testprojects where id=' . $tproject_id;
-		$result = $db -> exec_query($sql);
-		$myrow = $db -> fetch_array($result);
-		$project_prefix = $myrow['prefix'];
-
-		$sql = 'select id, name from nodes_hierarchy where node_type_id=2 and (parent_id=' . $tproject_id . ' or parent_id in (select id from nodes_hierarchy where node_type_id=2 and parent_id=' . $tproject_id . '))';
-		//$sql='select id, name from nodes_hierarchy where node_type_id=2 and parent_id='.$tproject_id;
-		$result = $db -> exec_query($sql);
-		function init_args() {
-			$_REQUEST = strings_stripSlashes($_REQUEST);
-
-			$args = new stdClass();
-
-			$args -> tproject_name = $_SESSION['testprojectName'];
-			$args -> tproject_id = $_SESSION['testprojectID'];
-
-			return $args;
-		}
+			$sql = 'select prefix from testprojects where id=' . $tproject_id;
+			$result = $db -> exec_query($sql);
+			$myrow = $db -> fetch_array($result);
+			$project_prefix = $myrow['prefix'];
+	
+			$sql = 'select id, name from nodes_hierarchy where node_type_id=2 and (parent_id=' . $tproject_id . ' or parent_id in (select id from nodes_hierarchy where node_type_id=2 and parent_id=' . $tproject_id . '))';
+			//$sql='select id, name from nodes_hierarchy where node_type_id=2 and parent_id='.$tproject_id;
+			$result = $db -> exec_query($sql);
+			function init_args() {
+				$_REQUEST = strings_stripSlashes($_REQUEST);
+				$args = new stdClass();
+				$args -> tproject_name = $_SESSION['testprojectName'];
+				$args -> tproject_id = $_SESSION['testprojectID'];
+				return $args;
+			}
 		?>
 		<h1 class="title">Select Test Cases To Automate</h1>
 		<form action="triggerAutomation.php" method="post">
@@ -52,15 +49,15 @@
 		<div class="x-tl-panel-body" id="ext-gen5" style="padding: 3px; background: rgb(200, 220, 232);">
 		<ul class="treeUl">
 		<?php 
-		while($myrow = $db->fetch_array($result))
-		{
-			$ID = $myrow['id'];
-			$name= $myrow['name'];
-			$sql='select id, name from nodes_hierarchy where parent_id='.$ID.' and id in (select parent_id from nodes_hierarchy where id in (select id from tcversions where execution_type=2))';
-			//$sql='select n2.id as tcID, n2.name as tcName ,n1.name as tsName from nodes_hierarchy n1 inner join nodes_hierarchy n2 on n2.parent_id=n1.id inner join nodes_hierarchy n3 on n3.parent_id=n2.id inner join tcversions tc on n3.id=tc.id where n1.node_type_id=2 and tc.execution_type=2 and n1.parent_id='.$tproject_id;
-			$data=$db->exec_query($sql);
-			if($data->_numOfRows>0)
+			while($myrow = $db->fetch_array($result))
 			{
+				$ID = $myrow['id'];
+				$name= $myrow['name'];
+				$sql='select id, name from nodes_hierarchy where parent_id='.$ID.' and id in (select parent_id from nodes_hierarchy where id in (select id from tcversions where execution_type=2))';
+				//$sql='select n2.id as tcID, n2.name as tcName ,n1.name as tsName from nodes_hierarchy n1 inner join nodes_hierarchy n2 on n2.parent_id=n1.id inner join nodes_hierarchy n3 on n3.parent_id=n2.id inner join tcversions tc on n3.id=tc.id where n1.node_type_id=2 and tc.execution_type=2 and n1.parent_id='.$tproject_id;
+				$data=$db->exec_query($sql);
+				if($data->_numOfRows>0)
+				{
 		?>
 		<img src="/testlink/gui/drag_and_drop/images/dhtmlgoodies_plus.gif" id="<?php echo $ID; ?>" class="testSuiteName">
 		<label><input type="hidden" value="+" id="status<?php echo $ID?>">
@@ -68,8 +65,6 @@
 			<input type="checkbox" class="suiteCheckbox" id="ch-<?php echo $ID; ?>">
 			<span style="cursor: pointer;"><?php echo $name; ?></span>
 		</label>
-		
-		
 		<input type="hidden" name="suiteName[]" id="namech-<?php echo $ID?>" class="suite" value="<?php echo $name; ?>">
 		<li><ul class="testcaseList" id="tc<?php echo $ID; ?>" class="treeUl">
 		<?php
@@ -102,8 +97,15 @@
 			</select>
 		</div>
 		</div>
-		
 		<div class="multiselect">
+			<select id="browser" name="browser">
+				<option selected hidden>Choose Browser</option>
+				<option>Chrome</option>
+				<option>Fire Fox</option>
+			</select>
+		</div>
+		
+	<!--	<div class="multiselect">
 			<div class="selectBox">
 				<select>
 					<option>Select Browsers</option>
@@ -116,8 +118,11 @@
 				<label for="safari"><input type="checkbox" class="dropdownCheckBox" id="safari" value="Safari"/>Safari</label>
 			</div>
 		</div>
+	-->
+	
 		<input type="submit" value="Continue" class="continue">
 		</div>
+		
 		</form>
 	</body>
 </html>

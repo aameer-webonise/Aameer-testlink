@@ -1,0 +1,23 @@
+.treeUl .testcaseList{
+	list-style-type:none;
+}
+.testcaseList{
+	display: none;
+	padding-left:80px;
+}
+
+.treeUl{
+	 list-style-type:none;
+	 padding-left:80px;
+}
+.testcaseTree{
+	margin-top:0;
+	font-size:15px;
+}
+.x-tl-panel-body{
+	height:300px;
+	overflow-y:auto;
+}
+.x-tl-panel-body{
+	margin-top:0px;
+}
