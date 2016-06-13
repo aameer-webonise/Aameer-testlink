@@ -8,6 +8,9 @@
 		<?php
 		require_once ("../../config.inc.php");
 		require_once ("common.php");
+		define('MANUAL', '1');
+		define('AUTOMATED', '2');
+		define('AUTOMATABLE', '3');
 		function init_args() {
 				$_REQUEST = strings_stripSlashes($_REQUEST);
 				$args = new stdClass();
@@ -21,33 +24,28 @@
 		$tproject_id = $args -> tproject_id;
 		$tproject_mgr = new testproject($db);
 		$no_of_tc=$tproject_mgr->count_testcases($tproject_id);
-		$sql='select count(*) as num from nodes_hierarchy where parent_id in (select id from nodes_hierarchy where node_type_id=2 and (parent_id=3535 or parent_id in (select id from nodes_hierarchy where node_type_id=2 and parent_id=3535))) and id in (select parent_id from nodes_hierarchy where id in (select id from tcversions where execution_type=2))';
-		$data=$db->exec_query($sql);
-		if($data->_numOfRows>0)
-		{
-			$row=$db->fetch_array($data);
-			$noOfAutomatedTC=$row['num'];
+		
+		$noOfAutomatedTC=countTestcase(AUTOMATED,$db);
+		$noOfAutomableTC=countTestcase(AUTOMATABLE,$db);
+		$noOfManualTC=countTestcase(MANUAL,$db);
+		
+		$perc_automated=  calculatePercentage($noOfAutomatedTC,$no_of_tc);
+		$perc_automable=  calculatePercentage($noOfAutomableTC,$no_of_tc);
+		$perc_manual=  calculatePercentage($noOfManualTC,$no_of_tc);
+		function countTestcase($executionType,&$db){
+			$sql='select count(*) as num from nodes_hierarchy where parent_id in (select id from nodes_hierarchy where node_type_id=2 and (parent_id=3535 or parent_id in (select id from nodes_hierarchy where node_type_id=2 and parent_id=3535))) and id in (select parent_id from nodes_hierarchy where id in (select id from tcversions where execution_type='.$executionType.'))';
+			$data=$db->exec_query($sql);
+			if($data->_numOfRows>0)
+			{
+				$row=$db->fetch_array($data);
+				$count=$row['num'];
+			}
+			return $count;
 		}
 		
-		$sql='select count(*) as num from nodes_hierarchy where parent_id in (select id from nodes_hierarchy where node_type_id=2 and (parent_id=3535 or parent_id in (select id from nodes_hierarchy where node_type_id=2 and parent_id=3535))) and id in (select parent_id from nodes_hierarchy where id in (select id from tcversions where execution_type=3))';
-		$data=$db->exec_query($sql);
-		if($data->_numOfRows>0)
-		{
-			$row=$db->fetch_array($data);
-			$noOfAutomableTC=$row['num'];
+		function calculatePercentage($value,$total){
+			return number_format(($value/$total)*100, 2, '.', '');
 		}
-		
-		$sql='select count(*) as num from nodes_hierarchy where parent_id in (select id from nodes_hierarchy where node_type_id=2 and (parent_id=3535 or parent_id in (select id from nodes_hierarchy where node_type_id=2 and parent_id=3535))) and id in (select parent_id from nodes_hierarchy where id in (select id from tcversions where execution_type=1))';
-		$data=$db->exec_query($sql);
-		if($data->_numOfRows>0)
-		{
-			$row=$db->fetch_array($data);
-			$noOfManualTC=$row['num'];
-		}
-		
-		$perc_automated=  number_format(($noOfAutomatedTC/$no_of_tc)*100, 2, '.', '');
-		$perc_automable=  number_format(($noOfAutomableTC/$no_of_tc)*100, 2, '.', '');
-		$perc_manual=  number_format(($noOfManualTC/$no_of_tc)*100, 2, '.', '');
 		?>
 	</head>
 	<body>
