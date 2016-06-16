@@ -15,6 +15,7 @@ Purpose: smarty template - view test case in test specification
 {$deleteStepAction="lib/testcases/tcEdit.php?show_mode=$showMode&doAction=doDeleteStep&step_id="}
 
 {include file="inc_head.tpl" openHead='yes'}
+
 <script language="JavaScript" src="gui/javascript/expandAndCollapseFunctions.js" type="text/javascript"></script>
 {include file="inc_del_onclick.tpl"}
 

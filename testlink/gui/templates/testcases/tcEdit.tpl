@@ -17,7 +17,9 @@ Purpose: smarty template - edit test specification: test case
 <script language="JavaScript" src="gui/javascript/expandAndCollapseFunctions.js" type="text/javascript"></script>
 <script language="javascript" src="gui/javascript/ext_extensions.js" type="text/javascript"></script>
 <script language="javascript" src="gui/javascript/tcase_utils.js" type="text/javascript"></script>
+<script src="/testlink/third_party/jquery/jquery-2.0.3.min.js"></script>
 
+<link rel="stylesheet" href="/testlink/gui/themes/default/css/popup.css"/>
 {$opt_cfg=$gui->opt_cfg}
 <script type="text/javascript" language="JavaScript">
 var {$opt_cfg->js_ot_name} = new OptionTransfer("{$opt_cfg->from->name}","{$opt_cfg->to->name}");
@@ -27,6 +29,17 @@ var {$opt_cfg->js_ot_name} = new OptionTransfer("{$opt_cfg->from->name}","{$opt_
 {$opt_cfg->js_ot_name}.saveAddedRightOptions("{$opt_cfg->js_ot_name}_addedRight");
 {$opt_cfg->js_ot_name}.saveNewLeftOptions("{$opt_cfg->js_ot_name}_newLeft");
 {$opt_cfg->js_ot_name}.saveNewRightOptions("{$opt_cfg->js_ot_name}_newRight");
+</script>
+<script>
+	function showPopUp(){
+		var modal = document.getElementById('myModal');
+		modal.style.display = "block";
+	}
+	function closePopUp(){
+		var modal = document.getElementById('myModal');
+		modal.style.display = "none";
+	}
+	
 </script>
 
 <script type="text/javascript">
@@ -78,7 +91,15 @@ function validateForm(the_form)
       return false;
     }
   }
-  return Ext.ux.requireSessionAndSubmit(the_form);
+  
+ if($("#priority").attr("value")=='none'){
+ 	showPopUp();
+ 	return false;
+ }
+ else{
+ 	  return Ext.ux.requireSessionAndSubmit(the_form);
+ }
+
 }
 </script>
 
@@ -93,7 +114,15 @@ function validateForm(the_form)
 
 <body onLoad="{$opt_cfg->js_ot_name}.init(document.forms[0]);focusInputField('testcase_name')">
 {config_load file="input_dimensions.conf" section="tcNew"}
-
+    <!-- The Modal -->
+			<div id="myModal" class="modal">
+			  <!-- Modal content -->
+			  <div class="modal-content">
+			    <span class="close" onclick="closePopUp();">x</span>
+			    <p>Please select at least one priority for testcase</p>
+			    <input type="button" value="OK" class="okBtn">
+			  </div>
+			</div> 
 <h1 class="title">{$labels.title_edit_tc}{$smarty.const.TITLE_SEP}{$gui->tc.name|escape}
   {$smarty.const.TITLE_SEP_TYPE3}{$labels.version} {$gui->tc.version}</h1> 
 

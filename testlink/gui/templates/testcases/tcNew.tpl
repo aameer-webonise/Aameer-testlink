@@ -15,6 +15,9 @@ Purpose: smarty template - create new testcase
 <script language="JavaScript" src="gui/javascript/OptionTransfer.js" type="text/javascript"></script>
 <script language="JavaScript" src="gui/javascript/expandAndCollapseFunctions.js" type="text/javascript"></script>
 <script language="javascript" src="gui/javascript/tcase_utils.js" type="text/javascript"></script>
+<script src="/testlink/third_party/jquery/jquery-2.0.3.min.js"></script>
+
+<link rel="stylesheet" href="/testlink/gui/themes/default/css/popup.css"/>
 
 {$opt_cfg=$gui->opt_cfg}
 <script language="JavaScript" type="text/javascript">
@@ -25,6 +28,42 @@ var {$opt_cfg->js_ot_name} = new OptionTransfer("{$opt_cfg->from->name}","{$opt_
 {$opt_cfg->js_ot_name}.saveAddedRightOptions("{$opt_cfg->js_ot_name}_addedRight");
 {$opt_cfg->js_ot_name}.saveNewLeftOptions("{$opt_cfg->js_ot_name}_newLeft");
 {$opt_cfg->js_ot_name}.saveNewRightOptions("{$opt_cfg->js_ot_name}_newRight");
+</script>
+
+
+<script type="text/javascript">
+	function display(){
+		var modal = document.getElementById('myModal');
+		modal.style.display = "block";
+	}
+	function closePopUp(){
+		 var modal = document.getElementById('myModal');
+		 modal.style.display = "none";
+	}
+</script>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+		
+		$(".okBtn").click(function(){
+			var priorityList="";
+			if($("#POPUPRegression").is(":checked")){
+				priorityList+="Regression,";
+				$("#Regression").prop("checked",true).change();
+			}
+			if($("#POPUPSmoke").is(":checked")){
+				priorityList+="Smoke,";
+				$("#Smoke").prop("checked",true).change();
+			}
+			if($("#POPUPFunctional").is(":checked")){
+				priorityList+="Functional,";
+				$("#Functional").prop("checked",true).change();
+			}
+			$("#priority").attr("value",priorityList);
+			closePopUp();
+			$("#tc_new").submit();
+		});
+	});
 </script>
 
 <script type="text/javascript">
@@ -63,7 +102,10 @@ function validateForm(f)
 	    return false;
 		}
 	}
-
+if($("#priority").attr("value")=="none"){
+		display();
+		return false;
+	}
   return true;
 }
 </script>
@@ -152,5 +194,18 @@ function validateForm(f)
 	{/if}
 {/if}
 
+<!-- The Modal -->
+			<div id="myModal" class="modal">
+			  <!-- Modal content -->
+			  <div class="modal-content">
+			    <span class="close" onclick="closePopUp();">x</span>
+			    <p>Do you want to mark this testcase as Regression or Smoke?</p>
+			    <form name="priorityForm">
+				<label><input type="checkbox" name="priorityButton" id="POPUPRegression" value="Regression" > Regression</label><br>
+				<label><input type="checkbox" name="priorityButton" id="POPUPSmoke" value="Smoke"> Smoke</label><br>
+				<label><input type="checkbox" name="priorityButton" id="POPUPFunctional" value="Functional" checked> Functional</label><br>
+				<input type="button" value="OK" class="okBtn">
+			  </div>
+			</div>
 </body>
 </html>

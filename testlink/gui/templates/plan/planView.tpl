@@ -157,13 +157,17 @@ $(document).ready(function() {
           <img style="border:none;cursor: pointer;" alt="{$labels.import_testplan_links}" 
                title="{$labels.import_testplan_links}"  src="{$tlImages.import}"/>
           </a>     
-
-          {if $testplan.rights.testplan_user_role_assignment}
+		
+		<a href="/testlink/gui/templates/plan/linkToTestPlan.php?Name={$testplan.name}&tpID={$testplan.id}"> 
+            <img style="border:none;cursor: pointer;" alt="linkTCtoTP" 
+                 title="linkTCtoTP"  src="gui/themes/default/images/link.png"/>
+        </a>   
+         <!-- {if $testplan.rights.testplan_user_role_assignment}
             <a href="{$assignRolesAction}{$testplan.id}"> 
             <img style="border:none;cursor: pointer;" alt="{$labels.assign_roles}" 
                  title="{$labels.assign_roles}"  src="{$tlImages.user}"/>
             </a>     
-          {/if}
+          {/if}-->
           <a href="{$gotoExecuteAction}{$testplan.id}"> 
           <img style="border:none;cursor: pointer;" alt="{$labels.execution}" 
                title="{$labels.execution}"  src="{$tlImages.execution}"/>

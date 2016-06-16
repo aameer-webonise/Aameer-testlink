@@ -234,7 +234,7 @@ class testcaseCommands
                      'status' => $argsObj->tc_status,
                      'estimatedExecDuration' => $argsObj->estimated_execution_duration);
 
-    $tcase = $this->tcaseMgr->create($argsObj->container_id,$argsObj->name,$argsObj->summary,$argsObj->preconditions,
+    $tcase = $this->tcaseMgr->create($argsObj->container_id,$argsObj->name,$argsObj->summary,$argsObj->preconditions,$argsObj->priorityNumber,
                                      $argsObj->tcaseSteps,$argsObj->user_id,$argsObj->assigned_keywords_list,
                                      $new_order,testcase::AUTOMATIC_ID,
                                      $argsObj->exec_type,$argsObj->importance,$options);
@@ -337,11 +337,12 @@ class testcaseCommands
                      'estimatedExecDuration' => $argsObj->estimated_execution_duration);
     
     $ret = $this->tcaseMgr->update($argsObj->tcase_id, $argsObj->tcversion_id, $argsObj->name, 
-                                   $argsObj->summary, $argsObj->preconditions, $argsObj->tcaseSteps, 
+                                   $argsObj->summary, $argsObj->preconditions,$argsObj->priorityNumber,$argsObj->tcaseSteps, 
                                    $argsObj->user_id, $argsObj->assigned_keywords_list,
-                                   testcase::DEFAULT_ORDER, $argsObj->exec_type, 
+                                   testcase::DEFAULT_ORDER, $argsObj->exec_type,
                                    $argsObj->importance,$options);
-
+	//var_dump("prio--".$argsObj->priorityNumber);
+	//exit();
     $this->show($argsObj,$request,$ret);
     return $guiObj;
   }  
@@ -1017,6 +1018,27 @@ class testcaseCommands
     return $guiObj;
   }
 
+function setPriority(&$argsObj,$request){
+	$guiObj = $this->initGuiBean($argsObj);
+    $guiObj->user_feedback = '';
+    $guiObj->priority = $argsObj->priorityNumber;
+    //var_dump("inside setPriority--".$argsObj->priorityNumber);
+	//var_dump("<br/>guiObj->priority=". $guiObj->priority);
+	//exit();
+    $guiObj->tcversion_id = $argsObj->tcversion_id;
+
+    $this->initTestCaseBasicInfo($argsObj,$guiObj);
+
+    $this->tcaseMgr->setPriority($argsObj->tcversion_id,$argsObj->priorityNumber);
+    $this->tcaseMgr->update_last_modified($argsObj->tcversion_id,$argsObj->user_id);
+
+    // set up for rendering
+    $guiObj->template = "archiveData.php?version_id={$guiObj->tcversion_id}&" . 
+                        "edit=testcase&id={$guiObj->tcase_id}&show_mode={$guiObj->show_mode}";
+
+    $guiObj->user_feedback = '';
+    return $guiObj;
+}
   /**
    *
    *

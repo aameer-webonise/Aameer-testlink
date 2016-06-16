@@ -34,7 +34,7 @@ $tsuite_mgr = new testsuite($db);
 $args = init_args($cfg,$optionTransferName,$tcase_mgr);
 require_once(require_web_editor($cfg->webEditorCfg['type']));
 
-
+//$tcase_mgr->setTestCaseID($args->tcase_id);
 $templateCfg = templateConfiguration('tcEdit');
 
 $commandMgr = new testcaseCommands($db,$args->user,$args->tproject_id);
@@ -58,7 +58,7 @@ if($args->do_activate_this)
 
 $doRender = false;
 $pfn = $args->doAction;
-
+//var_dump($pfn);
 $testCaseEditorKeys = null;
 switch($args->doAction)
 {
@@ -120,6 +120,7 @@ switch($args->doAction)
   case "setImportance":
   case "setStatus":
   case "setExecutionType":
+  case "setPriority":
   case "setEstimatedExecDuration":
   case "removeKeyword":
     $op = $commandMgr->$pfn($args,$_REQUEST);
@@ -370,7 +371,7 @@ function init_args(&$cfgObj,$otName,&$tcaseMgr)
                              $_REQUEST['relation_source_tcase_id'] : 0);
   }
   
-
+  //$tcaseMgr->setTestCaseID($args->tcase_id);
   $args->tcversion_id = isset($_REQUEST['tcversion_id']) ? intval($_REQUEST['tcversion_id']) : 0;
   $args->name = isset($_REQUEST['testcase_name']) ? $_REQUEST['testcase_name'] : null;
 
@@ -384,13 +385,28 @@ function init_args(&$cfgObj,$otName,&$tcaseMgr)
   $args->old_container_id = isset($_REQUEST['old_container']) ? intval($_REQUEST['old_container']) : 0;
   $args->has_been_executed = isset($_REQUEST['has_been_executed']) ? intval($_REQUEST['has_been_executed']) : 0;
   $args->exec_type = isset($_REQUEST['exec_type']) ? $_REQUEST['exec_type'] : TESTCASE_EXECUTION_TYPE_MANUAL;
+  
+  $args->priorityList=$_REQUEST['priority'];//Aameer
+  $value=0;
+  if (strpos($args->priorityList, 'Regression,') !== false) {
+    	$value=10*$value+1;
+	}
+  if (strpos($args->priorityList, 'Smoke,') !== false) {
+    	$value=10*$value+2;
+	}
+  if (strpos($args->priorityList, 'Functional,') !== false) {
+    	$value=10*$value+3;
+	}
+  $args->priorityNumber=$value;
+  //var_dump("priority---".$args->priorityNumber);
+  //exit();
   $args->importance = isset($_REQUEST['importance']) ? $_REQUEST['importance'] : $tc_importance_default;
   $args->status = isset($_REQUEST['status']) ? $_REQUEST['status'] : 1; // sorry for the magic
 
   $args->estimatedExecDuration = isset($_REQUEST['estimated_execution_duration']) ? 
                                  $_REQUEST['estimated_execution_duration'] : null;
 
-  
+  $args->aameer='ausekar';
   $args->doAction = isset($_REQUEST['doAction']) ? $_REQUEST['doAction'] : '';
 
   $key2loop = array('edit_tc' => 'edit', 'delete_tc' => 'delete','do_delete' => 'doDelete',
@@ -629,14 +645,19 @@ function initializeGui(&$dbHandler,&$argsObj,$cfgObj,&$tcaseMgr)
   $guiObj->btn_reorder_testcases = lang_get('btn_reorder_testcases_externalid');
   $guiObj->import_limit = TL_REPOSITORY_MAXFILESIZE;
   $guiObj->msg = '';
-
+  $guiObj->lab="webonise";
+ //Aameer
   $guiObj->loadOnCancelURL = $_SESSION['basehref'] . 
                              "/lib/testcases/archiveData.php?edit=testcase&id=" . $argsObj->tcase_id .
                              "&show_mode={$argsObj->show_mode}";
   
   $guiObj->fileUploadURL = $_SESSION['basehref'] . $tcaseMgr->getFileUploadRelativeURL($argsObj);
 
-   
+  $sql="select priority_type from tcversions where id in (select id from nodes_hierarchy where parent_id=".$argsObj->tcase_id.")";
+  $result = $dbHandler->exec_query($sql);
+  $myrow = $dbHandler-> fetch_array($result);
+  $guiObj->selectedPriority = $myrow['priority_type'];
+  
   if($argsObj->container_id > 0)
   {
     $pnode_info = $tcaseMgr->tree_manager->get_node_hierarchy_info($argsObj->container_id);
@@ -780,6 +801,7 @@ function renderGui(&$argsObj,$guiObj,$opObj,$templateCfg,$cfgObj,$editorKeys)
         case "setImportance":
         case "setStatus":
         case "setExecutionType":
+		case "setPriority":
         case "setEstimatedExecDuration":
         case "doAddRelation":
         case "doDeleteRelation":

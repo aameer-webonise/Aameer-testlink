@@ -52,7 +52,7 @@ class testcase extends tlObjectWithAttachments
   var $db;
   var $tree_manager;
   var $tproject_mgr;
-
+  var $TestcaseID;
   var $node_types_descr_id;
   var $node_types_id_descr;
   var $my_node_type;
@@ -110,7 +110,10 @@ class testcase extends tlObjectWithAttachments
     parent::__construct($this->db,"nodes_hierarchy");
   }
 
-
+//aameer
+function setTestCaseID($tcID){
+	$this->TestcaseID=$tcID;
+}
   /**
    *
    */
@@ -249,7 +252,7 @@ class testcase extends tlObjectWithAttachments
    *
    * @internal revisions
    */
-  function create($parent_id,$name,$summary,$preconditions,$steps,$author_id,
+  function create($parent_id,$name,$summary,$preconditions,$priority,$steps,$author_id,
                   $keywords_id='',$tc_order=self::DEFAULT_ORDER,$id=self::AUTOMATIC_ID,
                   $execution_type = TESTCASE_EXECUTION_TYPE_MANUAL,
                   $importance=2,$options=null)
@@ -301,6 +304,7 @@ class testcase extends tlObjectWithAttachments
       $ix->steps = $steps;
       $ix->authorID = $author_id;
       $ix->executionType = $execution_type;
+	  $ix->priority=$priority;
       $ix->importance = $importance;
       $ix->status = $my['options']['status'];
       $ix->estimatedExecDuration = $my['options']['estimatedExecDuration'];
@@ -619,13 +623,13 @@ class testcase extends tlObjectWithAttachments
 
     $sql = "/* $debugMsg */ INSERT INTO {$this->tables['tcversions']} " .
            " (id,tc_external_id,version,summary,preconditions," . 
-           "  author_id,creation_ts,execution_type,importance ";
+           "  author_id,creation_ts,execution_type,importance,priority_type ";
 
     $sqlValues = " VALUES({$tcase_version_id},{$item->externalID},{$item->version},'" .
                  $this->db->prepare_string($item->summary) . "','" . 
                  $this->db->prepare_string($item->preconditions) . "'," . 
                  $this->db->prepare_int($item->authorID) . "," . $this->db->db_now() . 
-                 ", {$item->executionType},{$item->importance} ";
+                 ", {$item->executionType},{$item->importance},{$item->priority} ";
 
             
     if( !is_null($item->status) )
@@ -844,9 +848,11 @@ class testcase extends tlObjectWithAttachments
 
     $idCard = new stdClass();
     $idCard->tcase_id = intval($idSet[0]);
+    $this->TestcaseID=$idCard->tcase_id;
     $idCard->tcversion_id = $version_id;
     $idCard->tproject_id = $identity->tproject_id;
-
+	$guiObj->tcv=$version_id;//aameer
+	
     $gui = $this->initShowGui($guiObj,$grants,$idSet[0],$idCard);
     $gui->tcase_id = $idCard->tcase_id;
     $gui->tcversion_id = $idCard->tcversion_id;
@@ -1008,7 +1014,7 @@ class testcase extends tlObjectWithAttachments
    *
    *
    */
-  function update($id,$tcversion_id,$name,$summary,$preconditions,$steps,
+  function update($id,$tcversion_id,$name,$summary,$preconditions,$priority,$steps,
                   $user_id,$keywords_id='',$tc_order=self::DEFAULT_ORDER,
                   $execution_type=TESTCASE_EXECUTION_TYPE_MANUAL,$importance=2,
                   $attr=null,$opt=null)
@@ -1076,6 +1082,7 @@ class testcase extends tlObjectWithAttachments
                " updater_id=" . $this->db->prepare_int($user_id) . ", " .
                " modification_ts = " . $this->db->db_now() . "," .
                " execution_type=" . $this->db->prepare_int($execution_type) . ", " . 
+               "priority_type=".$this->db->prepare_int($priority). ", " .
                " importance=" . $this->db->prepare_int($importance) . "," .
                " preconditions='" . $this->db->prepare_string($preconditions) . "' ";
 
@@ -6172,6 +6179,20 @@ class testcase extends tlObjectWithAttachments
     return array($value,$execType,$sql);
   }
 
+  function setPriority($tcversionID,$value)
+  {
+  	//var_dump("<br/>inside--".$value);
+    $debugMsg = 'Class:' . __CLASS__ . ' - Method: ' . __FUNCTION__;
+    $priority = intval($value);
+	//var_dump("<br/>inside--".$priority);
+	//exit();
+    $sql = "/* $debugMsg */ " . 
+           " UPDATE {$this->tables['tcversions']} " .
+           " SET priority_type=" . $this->db->prepare_int($priority) .  
+           " WHERE id = " . $this->db->prepare_int($tcversionID); 
+    $this->db->exec_query($sql);
+    return array($value,$priority,$sql);
+  }
 
   /**
    *
@@ -6652,6 +6673,15 @@ class testcase extends tlObjectWithAttachments
    */
   private function initShowGuiActions(&$gui)
   {
+  	 $sql="select priority_type from tcversions where id in (select id from nodes_hierarchy where parent_id=".$this->TestcaseID.")";
+ 	 $result = $this->db->exec_query($sql);
+ 	 $myrow = $this->db-> fetch_array($result);
+ 	 $gui->selectedPriority = $myrow['priority_type'];
+	 
+	 
+	 //var_dump($this->$TestcaseID);
+	 //exit();
+  	 $gui->coder=$this->TestcaseID;
   
     $gui->deleteStepAction = "lib/testcases/tcEdit.php?tproject_id=$gui->tproject_id&show_mode=$gui->show_mode" . 
                              "&doAction=doDeleteStep&step_id=";

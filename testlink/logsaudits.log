@@ -2812,3 +2812,5 @@
 		Login for 'aameer' from '::1' succeeded
 	[16/May/24 13:48:41][AUDIT][7rshcpk7h5g5fri9m7aqdobbf0][GUI]
 		Logout of 'aameer'
+	[16/Jun/16 10:50:36][AUDIT][1lme5lf8qp4jkta9ohb7akcdk6][GUI]
+		Password reset requested for 'webonise'
