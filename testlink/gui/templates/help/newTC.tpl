@@ -1,0 +1,9 @@
+<html>
+	<head>
+		<title>Help</title>
+	</head>
+	<body>
+		<h1>aameer</h1>
+		<h1>{$gui->aameer}</h1>
+	</body>
+</html>

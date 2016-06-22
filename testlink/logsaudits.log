@@ -2814,3 +2814,41 @@
 		Logout of 'aameer'
 	[16/Jun/16 10:50:36][AUDIT][1lme5lf8qp4jkta9ohb7akcdk6][GUI]
 		Password reset requested for 'webonise'
+	[16/Jun/17 04:32:29][AUDIT][38v87qgddf129njbvbs5ku0l36][GUI]
+		Login for 'admin1' from '::1' succeeded
+	[16/Jun/17 10:18:59][AUDIT][38v87qgddf129njbvbs5ku0l36][GUI]
+		Logout of 'admin1'
+	[16/Jun/17 10:21:50][AUDIT][38v87qgddf129njbvbs5ku0l36][GUI]
+		Login for 'admin1' from '::1' succeeded
+	[16/Jun/17 11:51:56][AUDIT][v1i12npu0mkheo6k57q19cj8r6][GUI]
+		Login for 'admin1' from '10.0.0.244' succeeded
+	[16/Jun/20 04:20:35][AUDIT][n21v3jm3r8e74jikfogn2mi5i2][GUI]
+		Login for 'admin1' from '::1' succeeded
+	[16/Jun/20 05:58:09][AUDIT][v1i12npu0mkheo6k57q19cj8r6][GUI]
+		Login for 'admin1' from '10.0.0.244' succeeded
+	[16/Jun/20 07:37:24][AUDIT][v1i12npu0mkheo6k57q19cj8r6][GUI]
+		Custom field 'Automation_xml' was saved
+	[16/Jun/20 07:45:35][AUDIT][lqil4ek4llng4c0ba7og6ehpb7][GUI]
+		Login for 'mayank' from '10.0.0.153' succeeded
+	[16/Jun/20 12:41:32][AUDIT][v2ujqq2n92n7tss52jhbdr63t3][GUI]
+		Login for 'admin1' from '10.0.0.244' succeeded
+	[16/Jun/21 04:26:07][AUDIT][r93pog3rm451suiorfkgbqivt4][GUI]
+		Login for 'admin1' from '::1' succeeded
+	[16/Jun/22 02:58:45][AUDIT][43nmgs27b7mht2r9uo957rtma5][GUI]
+		Login for 'admin1' from '::1' succeeded
+	[16/Jun/22 05:06:35][AUDIT][43nmgs27b7mht2r9uo957rtma5][GUI]
+		Logout of 'admin1'
+	[16/Jun/22 05:07:04][AUDIT][43nmgs27b7mht2r9uo957rtma5][GUI]
+		Login for 'admin1' from '::1' succeeded
+	[16/Jun/22 06:29:53][AUDIT][v2ujqq2n92n7tss52jhbdr63t3][GUI]
+		Login for 'admin1' from '10.0.0.244' succeeded
+	[16/Jun/22 08:27:09][AUDIT][4nppb71hui8gqaru8rr0nb3g91][GUI]
+		Login for 'anirban' from '10.0.1.135' succeeded
+	[16/Jun/22 10:25:19][AUDIT][43nmgs27b7mht2r9uo957rtma5][GUI]
+		User 'automation' was created
+	[16/Jun/22 11:36:21][AUDIT][43nmgs27b7mht2r9uo957rtma5][GUI]
+		Login for 'admin1' from '::1' succeeded
+	[16/Jun/22 11:46:27][AUDIT][3cunhhpm3p7e0ikfi1eh84udr1][GUI]
+		Login for 'admin1' from '::1' succeeded
+	[16/Jun/22 14:11:06][AUDIT][43nmgs27b7mht2r9uo957rtma5][GUI]
+		Logout of 'admin1'

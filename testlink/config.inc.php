@@ -741,7 +741,7 @@ $tlCfg->document_generator->tc_version_enabled = FALSE;
 // ENABLED -> enable XML-RPC calls to external test automation server
 //            new buttons will be displayed on execution pages
 // DISABLED -> disable
-$tlCfg->exec_cfg->enable_test_automation = DISABLED;
+$tlCfg->exec_cfg->enable_test_automation = ENABLED;
 
 
 // ASCending   -> last execution at bottom

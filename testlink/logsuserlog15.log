@@ -10290,3 +10290,161 @@ Undefined property: stdClass::$steps_results_layout - in C:\xampp\htdocs\testlin
 [<<][56ef8c83dc428515182815][DEFAULT][/testlink/lib/plan/planAddTC.php][16/Mar/21 05:54:11][16/Mar/21 05:54:11][took 0.07 secs]
 [>>][56ef8c83ed598675286954][DEFAULT][/testlink/lib/plan/planAddTC.php][16/Mar/21 05:54:11]
 [<<][56ef8c83ed598675286954][DEFAULT][/testlink/lib/plan/planAddTC.php][16/Mar/21 05:54:11][16/Mar/21 05:54:12][took 0.130001 secs]
+	[16/Jun/22 08:27:09][AUDIT][4nppb71hui8gqaru8rr0nb3g91][GUI]
+		Login for 'anirban' from '10.0.1.135' succeeded
+[<<][576a4bddd97ae296909802][DEFAULT][/testlink/login.php][16/Jun/22 08:27:09][16/Jun/22 08:27:10][took 0.111236 secs]
+[<<][576a4bde5d21e674189614][DEFAULT][/testlink/index.php][16/Jun/22 08:27:10][16/Jun/22 08:27:10][took 0.05225 secs]
+[>>][576a4bde6b6d1938840003][DEFAULT][/testlink/index.php][16/Jun/22 08:27:10]
+[<<][576a4bde6b6d1938840003][DEFAULT][/testlink/index.php][16/Jun/22 08:27:10][16/Jun/22 08:27:10][took 0.004189 secs]
+[<<][576a4bdea5e56092052942][DEFAULT][/testlink/lib/general/navBar.php][16/Jun/22 08:27:10][16/Jun/22 08:27:10][took 0.060028 secs]
+[>>][576a4bdeb63dd252284694][DEFAULT][/testlink/lib/general/navBar.php][16/Jun/22 08:27:10]
+[<<][576a4bdeb63dd252284694][DEFAULT][/testlink/lib/general/navBar.php][16/Jun/22 08:27:10][16/Jun/22 08:27:10][took 0.018156 secs]
+[<<][576a4bdea9b62672773082][DEFAULT][/testlink/lib/general/mainPage.php][16/Jun/22 08:27:10][16/Jun/22 08:27:10][took 0.08549 secs]
+[>>][576a4bdec0439379132463][DEFAULT][/testlink/lib/general/mainPage.php][16/Jun/22 08:27:10]
+	[16/Jun/22 08:27:12][WARNING][4nppb71hui8gqaru8rr0nb3g91][GUI]
+		E_NOTICE
+Undefined index: testPlan - in C:\xampp\htdocs\testlink\gui\templates_c\0ff472626f6ea5e81123b1abd53dd28d61cf8f10.file.menu.tpl.php - Line 187
+[<<][576a4bdec0439379132463][DEFAULT][/testlink/lib/general/mainPage.php][16/Jun/22 08:27:10][16/Jun/22 08:27:12][took 1.366777 secs]
+[<<][576a4c184ed64880843107][DEFAULT][/testlink/lib/general/navBar.php][16/Jun/22 08:28:08][16/Jun/22 08:28:08][took 0.05013 secs]
+[>>][576a4c185cd06148313030][DEFAULT][/testlink/lib/general/navBar.php][16/Jun/22 08:28:08]
+[<<][576a4c185cd06148313030][DEFAULT][/testlink/lib/general/navBar.php][16/Jun/22 08:28:08][16/Jun/22 08:28:08][took 0.018525 secs]
+[<<][576a4c18916e5034337309][DEFAULT][/testlink/lib/general/mainPage.php][16/Jun/22 08:28:08][16/Jun/22 08:28:08][took 0.045472 secs]
+[>>][576a4c189e41c101971190][DEFAULT][/testlink/lib/general/mainPage.php][16/Jun/22 08:28:08]
+	[16/Jun/22 08:28:10][WARNING][4nppb71hui8gqaru8rr0nb3g91][GUI]
+		E_NOTICE
+Undefined index: testPlan - in C:\xampp\htdocs\testlink\gui\templates_c\0ff472626f6ea5e81123b1abd53dd28d61cf8f10.file.menu.tpl.php - Line 187
+	[16/Jun/22 08:28:10][WARNING][4nppb71hui8gqaru8rr0nb3g91][GUI]
+		E_NOTICE
+Undefined index: testExecution - in C:\xampp\htdocs\testlink\gui\templates_c\0ff472626f6ea5e81123b1abd53dd28d61cf8f10.file.menu.tpl.php - Line 205
+	[16/Jun/22 08:28:10][WARNING][4nppb71hui8gqaru8rr0nb3g91][GUI]
+		E_NOTICE
+Undefined index: testPlanContents - in C:\xampp\htdocs\testlink\gui\templates_c\0ff472626f6ea5e81123b1abd53dd28d61cf8f10.file.menu.tpl.php - Line 223
+[<<][576a4c189e41c101971190][DEFAULT][/testlink/lib/general/mainPage.php][16/Jun/22 08:28:08][16/Jun/22 08:28:10][took 1.688439 secs]
+[<<][576a4c32107eb183322341][DEFAULT][/testlink/lib/general/frmWorkArea.php][16/Jun/22 08:28:34][16/Jun/22 08:28:34][took 0.036681 secs]
+[>>][576a4c321ad99198443977][DEFAULT][/testlink/lib/general/frmWorkArea.php][16/Jun/22 08:28:34]
+[<<][576a4c321ad99198443977][DEFAULT][/testlink/lib/general/frmWorkArea.php][16/Jun/22 08:28:34][16/Jun/22 08:28:34][took 0.034457 secs]
+[<<][576a4c3238ffc988772319][DEFAULT][/testlink/lib/results/resultsNavigator.php][16/Jun/22 08:28:34][16/Jun/22 08:28:34][took 0.052919 secs]
+[>>][576a4c32478e3468592201][DEFAULT][/testlink/lib/results/resultsNavigator.php][16/Jun/22 08:28:34]
+[<<][576a4c32478e3468592201][DEFAULT][/testlink/lib/results/resultsNavigator.php][16/Jun/22 08:28:34][16/Jun/22 08:28:34][took 0.069858 secs]
+[<<][576a4c323b3a0383295716][DEFAULT][/testlink/lib/general/staticPage.php][16/Jun/22 08:28:34][16/Jun/22 08:28:34][took 0.136946 secs]
+[>>][576a4c325e54b823804313][DEFAULT][/testlink/lib/general/staticPage.php][16/Jun/22 08:28:34]
+[<<][576a4c325e54b823804313][DEFAULT][/testlink/lib/general/staticPage.php][16/Jun/22 08:28:34][16/Jun/22 08:28:34][took 0.004807 secs]
+[<<][576a4c329eb00961727765][DEFAULT][/testlink/lib/general/staticPage.php][16/Jun/22 08:28:34][16/Jun/22 08:28:34][took 0.04361 secs]
+[>>][576a4c32ab089603352548][DEFAULT][/testlink/lib/general/staticPage.php][16/Jun/22 08:28:34]
+[<<][576a4c32ab089603352548][DEFAULT][/testlink/lib/general/staticPage.php][16/Jun/22 08:28:34][16/Jun/22 08:28:34][took 0.005027 secs]
+[<<][576a4c346ba46886595778][DEFAULT][/testlink/index.php][16/Jun/22 08:28:36][16/Jun/22 08:28:36][took 0.039578 secs]
+[>>][576a4c3476909701645305][DEFAULT][/testlink/index.php][16/Jun/22 08:28:36]
+[<<][576a4c3476909701645305][DEFAULT][/testlink/index.php][16/Jun/22 08:28:36][16/Jun/22 08:28:36][took 0.003551 secs]
+[<<][576a4c352ee2c410806041][DEFAULT][/testlink/lib/general/mainPage.php][16/Jun/22 08:28:37][16/Jun/22 08:28:37][took 0.043809 secs]
+[>>][576a4c353adca681965439][DEFAULT][/testlink/lib/general/mainPage.php][16/Jun/22 08:28:37]
+[<<][576a4c39c8cd2750076282][DEFAULT][/testlink/lib/general/navBar.php][16/Jun/22 08:28:41][16/Jun/22 08:28:41][took 0.041155 secs]
+[>>][576a4c39d41cf112379683][DEFAULT][/testlink/lib/general/navBar.php][16/Jun/22 08:28:41]
+[<<][576a4c39d41cf112379683][DEFAULT][/testlink/lib/general/navBar.php][16/Jun/22 08:28:41][16/Jun/22 08:28:41][took 0.017858 secs]
+[<<][576a4c39c8cdb693388580][DEFAULT][/testlink/lib/general/mainPage.php][16/Jun/22 08:28:41][16/Jun/22 08:28:41][took 0.083042 secs]
+[>>][576a4c39de562169169368][DEFAULT][/testlink/lib/general/mainPage.php][16/Jun/22 08:28:41]
+	[16/Jun/22 08:28:43][WARNING][4nppb71hui8gqaru8rr0nb3g91][GUI]
+		E_NOTICE
+Undefined index: testPlan - in C:\xampp\htdocs\testlink\gui\templates_c\0ff472626f6ea5e81123b1abd53dd28d61cf8f10.file.menu.tpl.php - Line 187
+	[16/Jun/22 08:28:43][WARNING][4nppb71hui8gqaru8rr0nb3g91][GUI]
+		E_NOTICE
+Undefined index: testExecution - in C:\xampp\htdocs\testlink\gui\templates_c\0ff472626f6ea5e81123b1abd53dd28d61cf8f10.file.menu.tpl.php - Line 205
+	[16/Jun/22 08:28:43][WARNING][4nppb71hui8gqaru8rr0nb3g91][GUI]
+		E_NOTICE
+Undefined index: testPlanContents - in C:\xampp\htdocs\testlink\gui\templates_c\0ff472626f6ea5e81123b1abd53dd28d61cf8f10.file.menu.tpl.php - Line 223
+[<<][576a4c39de562169169368][DEFAULT][/testlink/lib/general/mainPage.php][16/Jun/22 08:28:41][16/Jun/22 08:28:43][took 1.474007 secs]
+[<<][576a4c8bb0b22455097521][DEFAULT][/testlink/index.php][16/Jun/22 08:30:03][16/Jun/22 08:30:03][took 0.054262 secs]
+[>>][576a4c8bbfd5c972882204][DEFAULT][/testlink/index.php][16/Jun/22 08:30:03]
+[<<][576a4c8bbfd5c972882204][DEFAULT][/testlink/index.php][16/Jun/22 08:30:03][16/Jun/22 08:30:03][took 0.003589 secs]
+[<<][576a4c8c77b97284356624][DEFAULT][/testlink/lib/general/navBar.php][16/Jun/22 08:30:04][16/Jun/22 08:30:04][took 0.040931 secs]
+[>>][576a4c8c82fa2054149319][DEFAULT][/testlink/lib/general/navBar.php][16/Jun/22 08:30:04]
+[<<][576a4c8c82fa2054149319][DEFAULT][/testlink/lib/general/navBar.php][16/Jun/22 08:30:04][16/Jun/22 08:30:04][took 0.016051 secs]
+[<<][576a4c8c7bfbd948913304][DEFAULT][/testlink/lib/general/mainPage.php][16/Jun/22 08:30:04][16/Jun/22 08:30:04][took 0.061067 secs]
+[>>][576a4c8c8c319189129549][DEFAULT][/testlink/lib/general/mainPage.php][16/Jun/22 08:30:04]
+	[16/Jun/22 08:30:05][WARNING][4nppb71hui8gqaru8rr0nb3g91][GUI]
+		E_NOTICE
+Undefined index: testPlan - in C:\xampp\htdocs\testlink\gui\templates_c\0ff472626f6ea5e81123b1abd53dd28d61cf8f10.file.menu.tpl.php - Line 187
+	[16/Jun/22 08:30:05][WARNING][4nppb71hui8gqaru8rr0nb3g91][GUI]
+		E_NOTICE
+Undefined index: testExecution - in C:\xampp\htdocs\testlink\gui\templates_c\0ff472626f6ea5e81123b1abd53dd28d61cf8f10.file.menu.tpl.php - Line 205
+	[16/Jun/22 08:30:06][WARNING][4nppb71hui8gqaru8rr0nb3g91][GUI]
+		E_NOTICE
+Undefined index: testPlanContents - in C:\xampp\htdocs\testlink\gui\templates_c\0ff472626f6ea5e81123b1abd53dd28d61cf8f10.file.menu.tpl.php - Line 223
+[<<][576a4c8c8c319189129549][DEFAULT][/testlink/lib/general/mainPage.php][16/Jun/22 08:30:04][16/Jun/22 08:30:06][took 1.459897 secs]
+[<<][576a4c9598f97325463226][DEFAULT][/testlink/lib/general/frmWorkArea.php][16/Jun/22 08:30:13][16/Jun/22 08:30:13][took 0.050486 secs]
+[>>][576a4c95a707b752514462][DEFAULT][/testlink/lib/general/frmWorkArea.php][16/Jun/22 08:30:13]
+[<<][576a4c95a707b752514462][DEFAULT][/testlink/lib/general/frmWorkArea.php][16/Jun/22 08:30:13][16/Jun/22 08:30:13][took 0.00406 secs]
+[<<][576a4c95c4c05281654694][DEFAULT][/testlink/lib/plan/planAddTCNavigator.php][16/Jun/22 08:30:13][16/Jun/22 08:30:13][took 0.041932 secs]
+[>>][576a4c95d1287823591594][DEFAULT][/testlink/lib/plan/planAddTCNavigator.php][16/Jun/22 08:30:13]
+[<<][576a4c95d1287823591594][DEFAULT][/testlink/lib/plan/planAddTCNavigator.php][16/Jun/22 08:30:13][16/Jun/22 08:30:14][took 0.153787 secs]
+[<<][576a4c95c7260232008885][DEFAULT][/testlink/lib/results/printDocOptions.php][16/Jun/22 08:30:13][16/Jun/22 08:30:14][took 0.213285 secs]
+[>>][576a4c96091f3720586130][DEFAULT][/testlink/lib/results/printDocOptions.php][16/Jun/22 08:30:14]
+[<<][576a4c96091f3720586130][DEFAULT][/testlink/lib/results/printDocOptions.php][16/Jun/22 08:30:14][16/Jun/22 08:30:14][took 0.104056 secs]
+[<<][576a4c980df0c762970284][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][16/Jun/22 08:30:16][16/Jun/22 08:30:16][took 0.036373 secs]
+[>>][576a4c98180c8097788879][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][16/Jun/22 08:30:16]
+[<<][576a4c98180c8097788879][DEFAULT][/testlink/lib/ajax/gettprojectnodes.php][16/Jun/22 08:30:16][16/Jun/22 08:30:16][took 0.019705 secs]
+[<<][576a4c9f1b7a4962063272][DEFAULT][/testlink/index.php][16/Jun/22 08:30:23][16/Jun/22 08:30:23][took 0.037739 secs]
+[>>][576a4c9f266c9300528773][DEFAULT][/testlink/index.php][16/Jun/22 08:30:23]
+[<<][576a4c9f266c9300528773][DEFAULT][/testlink/index.php][16/Jun/22 08:30:23][16/Jun/22 08:30:23][took 0.003435 secs]
+[<<][576a4c9fcb216580882722][DEFAULT][/testlink/lib/general/navBar.php][16/Jun/22 08:30:23][16/Jun/22 08:30:23][took 0.039507 secs]
+[>>][576a4c9fd7108614187954][DEFAULT][/testlink/lib/general/navBar.php][16/Jun/22 08:30:23]
+[<<][576a4c9fd7108614187954][DEFAULT][/testlink/lib/general/navBar.php][16/Jun/22 08:30:23][16/Jun/22 08:30:23][took 0.016921 secs]
+[<<][576a4c9fce222926723895][DEFAULT][/testlink/lib/general/mainPage.php][16/Jun/22 08:30:23][16/Jun/22 08:30:23][took 0.069946 secs]
+[>>][576a4c9fe0b2c938554060][DEFAULT][/testlink/lib/general/mainPage.php][16/Jun/22 08:30:23]
+	[16/Jun/22 08:30:25][WARNING][4nppb71hui8gqaru8rr0nb3g91][GUI]
+		E_NOTICE
+Undefined index: testPlan - in C:\xampp\htdocs\testlink\gui\templates_c\0ff472626f6ea5e81123b1abd53dd28d61cf8f10.file.menu.tpl.php - Line 187
+	[16/Jun/22 08:30:25][WARNING][4nppb71hui8gqaru8rr0nb3g91][GUI]
+		E_NOTICE
+Undefined index: testExecution - in C:\xampp\htdocs\testlink\gui\templates_c\0ff472626f6ea5e81123b1abd53dd28d61cf8f10.file.menu.tpl.php - Line 205
+	[16/Jun/22 08:30:25][WARNING][4nppb71hui8gqaru8rr0nb3g91][GUI]
+		E_NOTICE
+Undefined index: testPlanContents - in C:\xampp\htdocs\testlink\gui\templates_c\0ff472626f6ea5e81123b1abd53dd28d61cf8f10.file.menu.tpl.php - Line 223
+[<<][576a4c9fe0b2c938554060][DEFAULT][/testlink/lib/general/mainPage.php][16/Jun/22 08:30:23][16/Jun/22 08:30:25][took 1.492459 secs]
+[<<][576a4d3186aaa445017803][DEFAULT][/testlink/lib/testcases/tcSearch.php][16/Jun/22 08:32:49][16/Jun/22 08:32:49][took 0.049549 secs]
+[>>][576a4d319414e516596484][DEFAULT][/testlink/lib/testcases/tcSearch.php][16/Jun/22 08:32:49]
+	[16/Jun/22 08:32:49][WARNING][4nppb71hui8gqaru8rr0nb3g91][GUI]
+		E_NOTICE
+Undefined variable: emptyTestProject - in C:\xampp\htdocs\testlink\lib\testcases\tcSearch.php - Line 267
+[<<][576a4d319414e516596484][DEFAULT][/testlink/lib/testcases/tcSearch.php][16/Jun/22 08:32:49][16/Jun/22 08:32:49][took 0.188919 secs]
+[<<][576a4d356937a889344138][DEFAULT][/testlink/index.php][16/Jun/22 08:32:53][16/Jun/22 08:32:53][took 0.045607 secs]
+[>>][576a4d357616c392153180][DEFAULT][/testlink/index.php][16/Jun/22 08:32:53]
+[<<][576a4d357616c392153180][DEFAULT][/testlink/index.php][16/Jun/22 08:32:53][16/Jun/22 08:32:53][took 0.024627 secs]
+[<<][576a4d3627aae243591145][DEFAULT][/testlink/lib/general/navBar.php][16/Jun/22 08:32:54][16/Jun/22 08:32:54][took 0.055124 secs]
+[>>][576a4d363745b372916622][DEFAULT][/testlink/lib/general/navBar.php][16/Jun/22 08:32:54]
+[<<][576a4d363745b372916622][DEFAULT][/testlink/lib/general/navBar.php][16/Jun/22 08:32:54][16/Jun/22 08:32:54][took 0.016898 secs]
+[<<][576a4d36298ee817261383][DEFAULT][/testlink/lib/general/mainPage.php][16/Jun/22 08:32:54][16/Jun/22 08:32:54][took 0.090062 secs]
+[>>][576a4d3640cce003104217][DEFAULT][/testlink/lib/general/mainPage.php][16/Jun/22 08:32:54]
+	[16/Jun/22 08:32:55][WARNING][4nppb71hui8gqaru8rr0nb3g91][GUI]
+		E_NOTICE
+Undefined index: testPlan - in C:\xampp\htdocs\testlink\gui\templates_c\0ff472626f6ea5e81123b1abd53dd28d61cf8f10.file.menu.tpl.php - Line 187
+	[16/Jun/22 08:32:55][WARNING][4nppb71hui8gqaru8rr0nb3g91][GUI]
+		E_NOTICE
+Undefined index: testExecution - in C:\xampp\htdocs\testlink\gui\templates_c\0ff472626f6ea5e81123b1abd53dd28d61cf8f10.file.menu.tpl.php - Line 205
+	[16/Jun/22 08:32:55][WARNING][4nppb71hui8gqaru8rr0nb3g91][GUI]
+		E_NOTICE
+Undefined index: testPlanContents - in C:\xampp\htdocs\testlink\gui\templates_c\0ff472626f6ea5e81123b1abd53dd28d61cf8f10.file.menu.tpl.php - Line 223
+[<<][576a4d3640cce003104217][DEFAULT][/testlink/lib/general/mainPage.php][16/Jun/22 08:32:54][16/Jun/22 08:32:55][took 1.449944 secs]
+[<<][576a4d3c43a56719759777][DEFAULT][/testlink/lib/requirements/reqOverview.php][16/Jun/22 08:33:00][16/Jun/22 08:33:00][took 0.037423 secs]
+[>>][576a4d3c4e7e6184179105][DEFAULT][/testlink/lib/requirements/reqOverview.php][16/Jun/22 08:33:00]
+[<<][576a4d3c4e7e6184179105][DEFAULT][/testlink/lib/requirements/reqOverview.php][16/Jun/22 08:33:00][16/Jun/22 08:33:00][took 0.166405 secs]
+[<<][576a4d44a369f779937156][DEFAULT][/testlink/lib/requirements/reqView.php][16/Jun/22 08:33:08][16/Jun/22 08:33:08][took 0.046369 secs]
+[>>][576a4d44b0710195988497][DEFAULT][/testlink/lib/requirements/reqView.php][16/Jun/22 08:33:08]
+[<<][576a4d44b0710195988497][DEFAULT][/testlink/lib/requirements/reqView.php][16/Jun/22 08:33:08][16/Jun/22 08:33:09][took 0.650717 secs]
+[<<][576a4d48ca9dc472728615][DEFAULT][/testlink/index.php][16/Jun/22 08:33:12][16/Jun/22 08:33:12][took 0.039255 secs]
+[>>][576a4d48d5726101173225][DEFAULT][/testlink/index.php][16/Jun/22 08:33:12]
+[<<][576a4d48d5726101173225][DEFAULT][/testlink/index.php][16/Jun/22 08:33:12][16/Jun/22 08:33:12][took 0.0037569999999999 secs]
+[<<][576a4d497ef7d653184930][DEFAULT][/testlink/lib/general/navBar.php][16/Jun/22 08:33:13][16/Jun/22 08:33:13][took 0.037281 secs]
+[>>][576a4d4989684182361805][DEFAULT][/testlink/lib/general/navBar.php][16/Jun/22 08:33:13]
+[<<][576a4d4989684182361805][DEFAULT][/testlink/lib/general/navBar.php][16/Jun/22 08:33:13][16/Jun/22 08:33:13][took 0.016889 secs]
+[<<][576a4d497f3a7603087739][DEFAULT][/testlink/lib/general/mainPage.php][16/Jun/22 08:33:13][16/Jun/22 08:33:13][took 0.0749 secs]
+[>>][576a4d4993527070014447][DEFAULT][/testlink/lib/general/mainPage.php][16/Jun/22 08:33:13]
+	[16/Jun/22 08:33:14][WARNING][4nppb71hui8gqaru8rr0nb3g91][GUI]
+		E_NOTICE
+Undefined index: testPlan - in C:\xampp\htdocs\testlink\gui\templates_c\0ff472626f6ea5e81123b1abd53dd28d61cf8f10.file.menu.tpl.php - Line 187
+	[16/Jun/22 08:33:15][WARNING][4nppb71hui8gqaru8rr0nb3g91][GUI]
+		E_NOTICE
+Undefined index: testExecution - in C:\xampp\htdocs\testlink\gui\templates_c\0ff472626f6ea5e81123b1abd53dd28d61cf8f10.file.menu.tpl.php - Line 205
+	[16/Jun/22 08:33:15][WARNING][4nppb71hui8gqaru8rr0nb3g91][GUI]
+		E_NOTICE
+Undefined index: testPlanContents - in C:\xampp\htdocs\testlink\gui\templates_c\0ff472626f6ea5e81123b1abd53dd28d61cf8f10.file.menu.tpl.php - Line 223
+[<<][576a4d4993527070014447][DEFAULT][/testlink/lib/general/mainPage.php][16/Jun/22 08:33:13][16/Jun/22 08:33:15][took 1.548789 secs]

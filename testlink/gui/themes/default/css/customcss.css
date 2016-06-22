@@ -33,6 +33,7 @@ ul.tab li span,ul.tab li a {
     text-decoration: none;
     transition: 0.3s;
     font-size: 17px;
+    position: relative;
 }
 
 
@@ -63,7 +64,7 @@ ul.tab li a:focus, .active {
 }
 
 .menu{
-	position: absolute;
+	position:absolute;
 	background-color: #ccc;
 }
 
@@ -75,4 +76,8 @@ ul.tab li a:focus, .active {
 @keyframes fadeEffect {
     from {opacity: 0;}
     to {opacity: 1;}
+}
+
+.dropdown-toggle{
+	cursor: pointer;
 }

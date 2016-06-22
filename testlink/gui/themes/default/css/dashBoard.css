@@ -1,0 +1,36 @@
+.dashBoard{
+	background:white;
+	cursor: pointer;
+	margin:15px;
+	width: 700px;
+}
+.dashboardHeading{
+	background:white;
+}
+.dashBoardContent{
+	height: 200px;
+	width: 100%;
+}
+.dashBoard th{
+	text-align: left;
+}
+.dashBoardContainer{
+	width: 1000px;
+	background: gray;
+	margin: 30px;
+}
+.clear{
+	float: none;
+	clear: both;
+}
+.testcaseInfo {
+  display: block;
+  height: 100%;
+  overflow-x: scroll;
+  overflow-y: scroll;
+}
+
+tfoot{
+	background: green;
+}
+

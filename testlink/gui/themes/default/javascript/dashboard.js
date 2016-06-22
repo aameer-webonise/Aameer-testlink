@@ -1,0 +1,11 @@
+$(document).ready(function(){
+	$("#minmax").click(function(){
+		$(".dashBoardContent").slideToggle();
+		if($(this).attr("src")=="/testlink/gui/drag_and_drop/images/dhtmlgoodies_plus.gif"){
+			$(this).attr("src","/testlink/gui/drag_and_drop/images/dhtmlgoodies_minus.gif");
+		}
+		else{
+			$(this).attr("src","/testlink/gui/drag_and_drop/images/dhtmlgoodies_plus.gif");
+		}
+	});
+});

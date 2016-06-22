@@ -143,6 +143,49 @@ $gui->docs = config_get('userDocOnDesktop') ? getUserDocumentation() : null;
 
 $secCfg = config_get('config_check_warning_frequence');
 $gui->securityNotes = '';
+
+//$sql='SELECT id,name FROM nodes_hierarchy WHERE node_type_id=2 and ((parent_id='.$testprojectID.' and node_type_id=2) or parent_id in (select id from nodes_hierarchy where parent_id='.$testprojectID.' and node_type_id=2))';
+$sql='SELECT id,name FROM nodes_hierarchy WHERE node_type_id=2 and parent_id='.$testprojectID;
+$result = $db -> exec_query($sql);
+$gui->tableRows=array();
+$i=0;
+$gui->Totalcount=$gui->TotalautomatableCount=$gui->TotalautomatedCount=$gui->TotalmanualCount=0;
+while($myrow = $db->fetch_array($result))
+{	
+	$gui->tableRows[$i]=array();
+	$gui->tableRows[$i]['testSuit']=$myrow['name'];
+	
+	$gui->tableRows[$i]['count']=countTestcases($db,$myrow['id']);
+	$gui->Totalcount+=$gui->tableRows[$i]['count'];
+	
+	$gui->tableRows[$i]['automatableCount']=countTestcases($db,$myrow['id'],'3');
+	$gui->TotalautomatableCount+=$gui->tableRows[$i]['automatableCount'];
+	
+	$gui->tableRows[$i]['automatedCount']=countTestcases($db,$myrow['id'],'2');
+	$gui->TotalautomatedCount+=$gui->tableRows[$i]['automatedCount'];
+	
+	$gui->tableRows[$i]['manualCount']=countTestcases($db,$myrow['id'],'1');
+	$gui->TotalmanualCount+=$gui->tableRows[$i]['manualCount'];
+	
+	if($gui->tableRows[$i]['automatableCount']==0 && $gui->tableRows[$i]['automatedCount']==0){
+		$gui->tableRows[$i]['automatedPercentage']=0;
+	}
+	else{
+		$gui->tableRows[$i]['automatedPercentage']=round(($gui->tableRows[$i]['automatedCount']/($gui->tableRows[$i]['automatedCount']+$gui->tableRows[$i]['automatableCount']))*100);
+	}
+	
+	$i++;
+}
+$curl = curl_init();
+curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
+curl_setopt($curl, CURLOPT_BINARYTRANSFER, true);
+curl_setopt($curl, CURLOPT_URL,'http://10.0.0.100/C:/Users/Admin/.jenkins/workspace/USA_Basketball/USAB_Automation/target/surefire-reports.html');
+$result=curl_exec($curl);
+curl_close($curl);
+$gui->some=$result;
+
+//$gui->some=array("aameer","ausekar"); 
+//aameer ausekar
 if( (strcmp($secCfg, 'ALWAYS') == 0) || 
       (strcmp($secCfg, 'ONCE_FOR_SESSION') == 0 && !isset($_SESSION['getSecurityNotesOnMainPageDone'])) )
 {
@@ -161,6 +204,8 @@ $smarty->display('mainPage.tpl');
  * Get User Documentation 
  * based on contribution by Eugenia Drosdezki
  */
+ 
+
 function getUserDocumentation()
 {
   $target_dir = '..' . DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'docs';

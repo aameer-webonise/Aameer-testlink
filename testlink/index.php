@@ -92,6 +92,8 @@ function initEnv()
   $gui->titleframe = "lib/general/navBar.php?tproject_id={$args->tproject_id}&tplan_id={$args->tplan_id}" .
                      "&updateMainPage=1";
   $gui->mainframe = $args->reqURI;
-
+  $gui->webonise="lab";
+	//var_dump($args->reqURI);
+	//exit();
   return array($args,$gui);
 }

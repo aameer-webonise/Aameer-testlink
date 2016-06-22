@@ -305,7 +305,7 @@ $(document).ready(function(){
 			      <div id="testspecificationTopics" class="tabcontent menu">
 			      <a href="{$gui->launcher}?feature=editTc">
 			        {if $gui->grants.modify_tc eq "yes"}
-			          {lang_get s='href_edit_tc'}
+			          Create Test Cases
 			       {else}
 			          {lang_get s='href_browse_tc'}
 			       {/if}

@@ -6,7 +6,6 @@
 {$cfg_section=$smarty.template|replace:".tpl":""}
 {config_load file="input_dimensions.conf" section=$cfg_section}
 {include file="inc_head.tpl" popup="yes" openHead="yes"}
-
 {include file="inc_ext_js.tpl"}
 <script language="JavaScript" src="{$basehref}gui/niftycube/niftycube.js" type="text/javascript"></script>
 <script type="text/javascript">
@@ -59,11 +58,12 @@ window.onload=function()
 </head>
 
 <body>
+
 {if $gui->securityNotes}
   {include file="inc_msg_from_array.tpl" array_of_msg=$gui->securityNotes arg_css_class="warning"}
 {/if}
-
-{include file="mainTabPage.tpl"}
+{include file="menu.tpl"}
+{include file="mainTabPage2.tpl"}
 
 </body>
 </html>

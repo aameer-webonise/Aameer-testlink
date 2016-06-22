@@ -5745,6 +5745,10 @@ function setTestCaseID($tcID){
    *
    * @used-by execSetResults.php
    */
+   function getHistory($id){
+   	
+   }
+   
   function getExecutionSet($id,$version_id=null,$filters=null,$options=null)
   {
     // need to understand if possibility of choosing order by
@@ -5846,6 +5850,7 @@ function setTestCaseID($tcID){
        " ORDER BY execution_id {$my['options']['exec_id_order']} ";
 
     $recordset = $this->db->fetchArrayRowsIntoMap($sql,'id');
+   // var_dump($recordset['testcase_id']); 
     return($recordset ? $recordset : null);
   }
 

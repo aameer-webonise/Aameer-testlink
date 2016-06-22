@@ -1170,6 +1170,53 @@ function downloadTestPlanToXLS($planName,$content,$fileName){
 }
 
 
+//aameer ausekar
+function countTestcases(&$db,$suiteID,$exe_type=''){
+	/*$sql='select count(*) as num from nodes_hierarchy where parent_id='.$suiteID.' and node_type_id=3';
+	$countResult= $db -> exec_query($sql);
+	$countRow=$db->fetch_array($countResult);
+	$count=$countRow['num'];
+	
+	$sql='select id from nodes_hierarchy where parent_id='.$suiteID.' and node_type_id=2';
+	$result= $db -> exec_query($sql);
+	if($result->_numOfRows>0)
+	{
+		while($SuiteRow=$db->fetch_array($result))
+		{
+			$sql='select count(*) as num from nodes_hierarchy where parent_id='.$SuiteRow['id'].' and node_type_id=3';
+			$countResult= $db -> exec_query($sql);
+			$countRow=$db->fetch_array($countResult);
+			$count+=$countRow['num'];
+		}
+	}
+	
+	return $count;*/
+	
+	$sql='select id from nodes_hierarchy where parent_id='.$suiteID.' and node_type_id=2';
+	$count=0;
+	$result= $db -> exec_query($sql);
+	if($result->_numOfRows>0)
+	{
+		while($SuiteRow=$db->fetch_array($result))
+		{
+			$count+=countTestcases($db,$SuiteRow['id'],$exe_type);
+		}
+	}
+
+	if(strcmp($exe_type,'')!=0)
+	{
+		$sql='select count(*) as num from tcversions where id in (select id from nodes_hierarchy where parent_id in (select id from nodes_hierarchy where parent_id='.$suiteID.' and node_type_id=3) and node_type_id=4) and execution_type='.$exe_type;
+	}	
+	else{
+		$sql='select count(*) as num from nodes_hierarchy where parent_id='.$suiteID.' and node_type_id=3';
+	}
+	//$sql='select count(*) as num from nodes_hierarchy where parent_id='.$suiteID.' and node_type_id=3';
+	$countResult= $db -> exec_query($sql);
+	$countRow=$db->fetch_array($countResult);
+	$count+=$countRow['num'];
+	return $count;
+}
+
 /**
  * 
  *

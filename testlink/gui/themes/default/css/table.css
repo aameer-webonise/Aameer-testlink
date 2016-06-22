@@ -1,0 +1,25 @@
+.table-fixed thead {
+  width: 97%;
+}
+.table-fixed tbody {
+  height: 230px;
+  overflow-y: auto;
+  width: 100%;
+}
+.table-fixed thead, .table-fixed tbody, .table-fixed tr, .table-fixed td, .table-fixed th {
+  display: block;
+}
+.table-fixed tbody td, .table-fixed thead > tr> th {
+  float: left;
+  border-bottom-width: 0;
+}
+.tableHeading{
+margin:0;
+background:	transparent url(../images/white-top-bottom.gif) repeat-x 0 -1px;
+}
+.panel-heading{
+cursor:pointer;
+}
+tfoot{
+	background: green;
+}

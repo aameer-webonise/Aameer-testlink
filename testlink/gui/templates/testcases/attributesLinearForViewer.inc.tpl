@@ -63,11 +63,7 @@ var priorityList=$("#priority").attr("value");
 	$(".okBtn").click(function(){
 		closePopUp();
 	});	
-		
-		
-	$("#some").click(function(){
-		document.write(priorityList);
-	});
+
 });
 </script>
 <script>
@@ -97,7 +93,7 @@ $(document).ready(function(){
 
 <legend></legend>
 <h1>attributeLinear_viewer</h1>
-
+<!--<a href="/testlink/lib/help/help.php">Help</a>-->
 <form style="display:inline;" 
       id="statusForm_{$args_testcase.id}" name="statusForm_{$args_testcase.id}"  
       method="post" action="lib/testcases/tcEdit.php">
@@ -160,7 +156,7 @@ $(document).ready(function(){
 	            <label for="Functional"><input type="checkbox" class="dropdownCheckBox" id="Functional" value="Functional"/>Functional</label>
         </div>
     </div>
-	<input type="button" id="some" value="click">
+
 
   {else}
     {$gui->execution_types[$args_testcase.execution_type]}

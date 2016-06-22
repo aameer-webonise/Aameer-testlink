@@ -18,7 +18,7 @@
 
 <frameset rows="70,*" frameborder="0" framespacing="0">
 	<frame src="{$gui->titleframe}" name="titlebar" scrolling="no" noresize="noresize" />
-	<frame src="{$gui->mainframe}" scrolling='auto' name='mainframe' />
+	<frame src="{$gui->mainframe}" scrolling='auto' name='mainframe'/>
 	<noframes>
 		<body>TestLink required a frames supporting browser.</body>
 	</noframes>

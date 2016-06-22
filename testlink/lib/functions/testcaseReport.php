@@ -25,23 +25,13 @@
 		$tproject_mgr = new testproject($db);
 		$no_of_tc=$tproject_mgr->count_testcases($tproject_id);
 		
-		$noOfAutomatedTC=countTestcase(AUTOMATED,$db);
-		$noOfAutomableTC=countTestcase(AUTOMATABLE,$db);
-		$noOfManualTC=countTestcase(MANUAL,$db);
+		$noOfAutomatedTC=countTestcases($db,$args->tproject_id,AUTOMATED);
+		$noOfAutomableTC=countTestcases($db,$args->tproject_id,AUTOMATABLE);
+		$noOfManualTC=countTestcases($db,$args->tproject_id,MANUAL);
 		
 		$perc_automated=  calculatePercentage($noOfAutomatedTC,$no_of_tc);
 		$perc_automable=  calculatePercentage($noOfAutomableTC,$no_of_tc);
 		$perc_manual=  calculatePercentage($noOfManualTC,$no_of_tc);
-		function countTestcase($executionType,&$db){
-			$sql='select count(*) as num from nodes_hierarchy where parent_id in (select id from nodes_hierarchy where node_type_id=2 and (parent_id=3535 or parent_id in (select id from nodes_hierarchy where node_type_id=2 and parent_id=3535))) and id in (select parent_id from nodes_hierarchy where id in (select id from tcversions where execution_type='.$executionType.'))';
-			$data=$db->exec_query($sql);
-			if($data->_numOfRows>0)
-			{
-				$row=$db->fetch_array($data);
-				$count=$row['num'];
-			}
-			return $count;
-		}
 		
 		function calculatePercentage($value,$total){
 			return number_format(($value/$total)*100, 2, '.', '');
@@ -65,7 +55,7 @@
 							</tr>
 						</tbody>
 					</table>
-					<table class="testcasesReport">
+					<table class="simple_tableruler testcasesReport">
 						<tbody>
 						<tr>
 							<th></th>
@@ -87,11 +77,14 @@
 							<td><?php echo $noOfManualTC; ?></td>
 							<td><?php echo $perc_manual."%";?></td>
 						</tr>
-						<tr>
-							<td>Total Testcases</td>
-							<td><?php echo $no_of_tc; ?></td>
-						</tr>
+						
 						</tbody>
+						<tfoot>
+							<tr>
+								<td>Total Testcases</td>
+								<td colspan="2"><?php echo $no_of_tc; ?></td>
+							</tr>
+						</tfoot>
 					</table>
 				</div>
 			</div>

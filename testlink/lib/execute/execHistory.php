@@ -54,6 +54,7 @@ foreach($testPlanSet as $rx)
     $args->user->hasRight($db,'exec_edit_notes',$gui->tproject_id,$rx['id']);
 }
 $gui->execSet = $tcase_mgr->getExecutionSet($args->tcase_id,null,$filters);
+$gui->history=$tcase_mgr->getHistory($args->tcase_id);
 
 $gui->warning_msg = (!is_null($gui->execSet)) ? '' : lang_get('tcase_never_executed');
 $gui->user_is_admin = ($args->user->globalRole->name=='admin') ? true : false;
@@ -116,7 +117,7 @@ function init_args()
 
   // not a very good solution but a Quick & Dirty Fix
   $args->user = $_SESSION['currentUser'];
-
+//  var_dump( $args->tcase_id);
   return $args;
 }
 
