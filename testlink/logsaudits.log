@@ -2852,3 +2852,13 @@
 		Login for 'admin1' from '::1' succeeded
 	[16/Jun/22 14:11:06][AUDIT][43nmgs27b7mht2r9uo957rtma5][GUI]
 		Logout of 'admin1'
+	[16/Jun/23 03:43:07][AUDIT][i1fjemv39oodsf99jmcfau0847][GUI]
+		Login for 'admin1' from '::1' succeeded
+	[16/Jun/27 06:13:25][AUDIT][v2ujqq2n92n7tss52jhbdr63t3][GUI]
+		Login for 'admin1' from '10.0.0.244' succeeded
+	[16/Jun/27 06:17:24][AUDIT][6feons8ks5dgbnbiod1pngoen3][GUI]
+		Login for 'admin1' from '::1' succeeded
+	[16/Jun/27 06:49:09][AUDIT][hvcnkh1vv3cm3en29pq0nuclr7][GUI]
+		Login for 'admin1' from '10.0.0.153' succeeded
+	[16/Jun/27 06:52:07][AUDIT][hvcnkh1vv3cm3en29pq0nuclr7][GUI]
+		Logout of 'admin1'

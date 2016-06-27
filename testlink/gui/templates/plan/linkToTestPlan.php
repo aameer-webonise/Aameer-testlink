@@ -19,9 +19,42 @@
 			$tproject_id = $args -> tproject_id;
 			$tpID=$_GET["tpID"];
 			$tpName=$_GET["Name"];
+			
+			if(!empty($_POST)){
+				$tcversion=$_POST["tcversions"];
+				$tcversionCount=count($tcversion);
+				$flag=true;
+				if($tcversionCount>0){
+					 for($index=0;$index<$tcversionCount;$index++){
+						 $sql="insert into testplan_tcversions (testplan_id,tcversion_id,platform_id) values('".$tpID."','".$tcversion[$index]."',1)";
+						 $result=$db->exec_query($sql);
+						 if(!result){
+						 	$flag=FALSE;
+							 break;
+						 }
+					 }
+					 if($flag){
+						 $message= "Testcases Added to $tpName Test Plan";
+						 $color="white";
+					 }
+					 else{
+					 	$message= "Problem";
+						  $color="red";
+					 }
+				
+				 }
+				 else{
+					 $message= "testcase not selected";
+					 $color="red";
+				 }
+				 
+				 ?>
+				 <h1><span style="color: <?php echo $color;?>"><?php echo $message;?></span></h1>
+				 <?php
+			}
+			
 			//var_dump($tpID);
 			//var_dump($tpName);
-			
 		?>
 	</head>
 	<body>
@@ -45,10 +78,14 @@
 				$args -> tproject_id = $_SESSION['testprojectID'];
 				return $args;
 			}
+			function addToTestPlan(){
+				
+			}
 		?>
 		
-		
-		<form action="/testlink/gui/templates/plan/addToTestPlan2.php?tpName=<?php echo $tpName?>&tpID=<?php echo $tpID; ?>" method="post">
+		<!--<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>-->
+		<!--<form action="/testlink/gui/templates/plan/addToTestPlan2.php?tpName=<?php echo $tpName?>&tpID=<?php echo $tpID; ?>" method="post">-->
+		<form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>?Name=<?php echo $tpName?>&tpID=<?php echo $tpID; ?>" method="post">
 		<div class="parent">
 		<input type="hidden" value="<?php echo $project_prefix; ?>" name="project_prefix">
 		<input type="hidden" id="browser_list" name="browser_list" value="NA">
@@ -103,22 +140,6 @@
 		?>
 		</ul></div></div></div>
 		</div>
-	
-	<!--	<div>
-			<span>Select Test Plan</span>
-			<select name="testPlan" class="testPlan">
-				<option selected hidden>--Select Test Plan--</option>
-			<?php 
-			while($testPlan = $db -> fetch_array($testPlanResult)){
-			?>
-				<option id="<?php echo $testPlan['id']; ?>"><?php echo $testPlan['name']; ?></option>
-			<?php
-			}
-			?>
-			</select>
-			
-			<input type="text" name="testplanID" value="none" id="testplanID">
-	</div>-->
 		<input type="submit" value="Add Testcases">
 		
 		

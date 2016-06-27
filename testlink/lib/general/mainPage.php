@@ -173,16 +173,17 @@ while($myrow = $db->fetch_array($result))
 	else{
 		$gui->tableRows[$i]['automatedPercentage']=round(($gui->tableRows[$i]['automatedCount']/($gui->tableRows[$i]['automatedCount']+$gui->tableRows[$i]['automatableCount']))*100);
 	}
-	
 	$i++;
 }
-$curl = curl_init();
+$gui->totalAutomatedPer=round(($gui->TotalautomatedCount/($gui->TotalautomatableCount+$gui->TotalautomatedCount))*100);
+
+/*$curl = curl_init();
 curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
 curl_setopt($curl, CURLOPT_BINARYTRANSFER, true);
 curl_setopt($curl, CURLOPT_URL,'http://10.0.0.100/C:/Users/Admin/.jenkins/workspace/USA_Basketball/USAB_Automation/target/surefire-reports.html');
 $result=curl_exec($curl);
 curl_close($curl);
-$gui->some=$result;
+$gui->some=$result;*/
 
 //$gui->some=array("aameer","ausekar"); 
 //aameer ausekar

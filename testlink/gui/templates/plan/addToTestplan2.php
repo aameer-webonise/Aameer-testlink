@@ -10,7 +10,7 @@ $tcversionCount=count($tcversion);
 $flag=true;
  if($tcversionCount>0){
 	 for($index=0;$index<$tcversionCount;$index++){
-		 $sql="insert into testplan_tcversions (testplan_id,tcversion_id) values('".$tpID."','".$tcversion[$index]."')";
+		 $sql="insert into testplan_tcversions (testplan_id,tcversion_id,platform_id) values('".$tpID."','".$tcversion[$index]."',1)";
 		 $result=$db->exec_query($sql);
 		 if(!result){
 		 	$flag=FALSE;

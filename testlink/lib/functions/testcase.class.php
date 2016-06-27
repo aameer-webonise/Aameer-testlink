@@ -5850,7 +5850,7 @@ function setTestCaseID($tcID){
        " ORDER BY execution_id {$my['options']['exec_id_order']} ";
 
     $recordset = $this->db->fetchArrayRowsIntoMap($sql,'id');
-   // var_dump($recordset['testcase_id']); 
+    //var_dump($sql); 
     return($recordset ? $recordset : null);
   }
 

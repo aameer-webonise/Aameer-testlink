@@ -2,3 +2,6 @@
 	cursor: pointer;
 	background-color: #ddd;
 }
+#myNavbar ul li{
+	font-size: 17px;
+}

@@ -23,3 +23,13 @@ cursor:pointer;
 tfoot{
 	background: green;
 }
+
+.max{
+	overflow:hidden;
+}
+.tableFooter{
+	background: green;
+}
+.dragParent{
+	height: 1000px;
+}
